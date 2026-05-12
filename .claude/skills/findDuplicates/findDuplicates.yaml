@@ -1,0 +1,28 @@
+name: findDuplicates
+description: 檢查 Wiki 目錄中的重複檔案，並生成詳細報告
+version: 1.0
+
+usage: |
+  使用 /findDuplicates 來檢查重複檔案
+  
+  輸出內容：
+  - 重複檔名清單（按重複數量排序）
+  - 每個檔名的所有位置
+  - 統計資訊（總檔案數、重複數等）
+  - 詳細報告 (duplicate_check_report.json)
+
+features:
+  - 快速掃描所有 .md 檔案
+  - 按重複數量排序顯示
+  - 生成 JSON 格式的詳細報告
+  - 自動去除重複檔案的工具推薦
+
+examples:
+  - /findDuplicates
+  - 執行後會掃描 wiki 目錄並列出所有重複檔名
+
+tags:
+  - wiki
+  - quality-check
+  - maintenance
+  - duplicate-detection

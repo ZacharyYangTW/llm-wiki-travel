@@ -1,0 +1,28 @@
+---
+title: Terrence新家
+slug: terrence
+location: 大埤鄉
+country: 台灣
+city: 雲林縣
+category: 景點
+tags: ["景點"]
+coordinates: [120.4471198, 23.7051476]
+md5:
+created_at: 2026-05-10T18:26:57.346750Z
+processed: false
+graph-excluded: false
+source_url: raw/travel/Zachary's World Trip.kml
+source_type: kml-placemark
+---
+
+# Terrence新家
+
+## 基本資訊
+
+**位置：** 大埤鄉
+**縣市：** 雲林縣
+**座標：** 120.4471198, 23.7051476
+
+## 描述
+
+虎尾-Terrence新家 光明路73巷25號

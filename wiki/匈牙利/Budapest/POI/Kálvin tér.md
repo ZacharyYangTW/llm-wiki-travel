@@ -1,0 +1,30 @@
+---
+title: Kálvin tér
+slug: klvin-tr
+location: POI
+country: 匈牙利
+division: Budapest
+city: POI
+category: 景點
+tags: ["景點"]
+coordinates: [19.0617541, 47.4895396]
+md5:
+created_at: 2026-05-10T20:39:36.374569Z
+processed: false
+graph-excluded: false
+source_url: raw/travel/Zachary's World Trip.kml
+source_type: kml-placemark
+---
+
+# Kálvin tér
+
+## 基本資訊
+
+**位置：** POI
+**地區：** Budapest
+**國家：** 匈牙利
+**座標：** 19.0617541, 47.4895396
+
+## 描述
+
+Kálvin tér

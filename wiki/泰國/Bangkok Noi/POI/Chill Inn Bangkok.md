@@ -1,0 +1,29 @@
+---
+title: Chill Inn Bangkok
+slug: chill-inn-bangkok
+location: POI
+country: 泰國
+province: Bangkok Noi
+city: POI
+category: 景點
+tags: ["景點"]
+coordinates: [100.5852051, 13.7196922]
+md5:
+created_at: 2026-05-10T19:33:49.339266Z
+processed: false
+graph-excluded: false
+source_url: raw/travel/Zachary's World Trip.kml
+source_type: kml-placemark
+---
+
+# Chill Inn Bangkok
+
+## 基本資訊
+
+**位置：** POI
+**府：** Bangkok Noi
+**座標：** 100.5852051, 13.7196922
+
+## 描述
+
+Chill Inn Bangkok<br>202511

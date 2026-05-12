@@ -1,0 +1,28 @@
+---
+title: 7-ELEVEN 銅鑼圈門市
+slug: 7-eleven-
+location: 龍潭區
+country: 台灣
+city: 桃園市
+category: 景點
+tags: ["景點"]
+coordinates: [121.2068094, 24.8331845]
+md5:
+created_at: 2026-05-10T18:26:51.672596Z
+processed: false
+graph-excluded: false
+source_url: raw/travel/Zachary's World Trip.kml
+source_type: kml-placemark
+---
+
+# 7-ELEVEN 銅鑼圈門市
+
+## 基本資訊
+
+**位置：** 龍潭區
+**縣市：** 桃園市
+**座標：** 121.2068094, 24.8331845
+
+## 描述
+
+day 1
