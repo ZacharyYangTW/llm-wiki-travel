@@ -1,0 +1,1276 @@
+{
+  "corrections": [
+    {
+      "filename": "128清燉牛羊肉拉麵店",
+      "type": "coordinate_based",
+      "correct_location": "台灣\\花蓮縣\\花蓮市\\128清燉牛羊肉拉麵店.md",
+      "coords": [
+        121.630981,
+        23.993675
+      ],
+      "closest_city": "花蓮市",
+      "distance": 0.031691923040432786,
+      "all_locations": [
+        "台灣\\花蓮縣\\花蓮市\\128清燉牛羊肉拉麵店.md",
+        "中國\\福建省\\莆田\\128清燉牛羊肉拉麵店.md"
+      ]
+    },
+    {
+      "filename": "193早餐",
+      "type": "coordinate_based",
+      "correct_location": "台灣\\花蓮縣\\花蓮市\\193早餐.md",
+      "coords": [
+        121.6034962,
+        23.9754189
+      ],
+      "closest_city": "花蓮市",
+      "distance": 0.01209732580572835,
+      "all_locations": [
+        "台灣\\花蓮縣\\花蓮市\\193早餐.md",
+        "中國\\福建省\\莆田\\193早餐.md"
+      ]
+    },
+    {
+      "filename": "200 Granville Square",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Washington\\POI\\200 Granville Square.md",
+      "delete": [
+        "加拿大\\British Columbia\\POI\\200 Granville Square.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "22 Nguyễn Thái Bình",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Mondulkiri\\POI\\22 Nguyễn Thái Bình.md",
+      "delete": [
+        "越南\\Ho Chi Minh City\\POI\\22 Nguyễn Thái Bình.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "7-ELEVEn",
+      "type": "coordinate_based",
+      "correct_location": "日本\\北海道\\札幌市\\7-ELEVEn.md",
+      "coords": [
+        140.7261339,
+        41.7737161
+      ],
+      "closest_city": "札幌市",
+      "distance": 1.4318894010112713,
+      "all_locations": [
+        "日本\\青森県\\深浦町\\7-ELEVEn.md",
+        "日本\\北海道\\札幌市\\7-ELEVEn.md"
+      ]
+    },
+    {
+      "filename": "700 Pike St",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Washington\\POI\\700 Pike St.md",
+      "delete": [
+        "加拿大\\British Columbia\\POI\\700 Pike St.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "9-Pound Cannon",
+      "type": "same_city_duplicate",
+      "keep": "新加坡\\Singapore\\POI\\9-Pound Cannon.md",
+      "delete": [
+        "新加坡\\Central\\POI\\9-Pound Cannon.md",
+        "馬來西亞\\Johor\\POI\\9-Pound Cannon.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "928 Beatty St",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Washington\\POI\\928 Beatty St.md",
+      "delete": [
+        "加拿大\\British Columbia\\POI\\928 Beatty St.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "AEON BiG Puchong utama",
+      "type": "same_city_duplicate",
+      "keep": "馬來西亞\\Putrajaya\\POI\\AEON BiG Puchong utama.md",
+      "delete": [
+        "馬來西亞\\Kuala Lumpur\\POI\\AEON BiG Puchong utama.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "AEROHUB EAST",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\AEROHUB EAST.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\AEROHUB EAST.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "AH Helmstraat",
+      "type": "same_city_duplicate",
+      "keep": "盧森堡\\Luxembourg City\\POI\\AH Helmstraat.md",
+      "delete": [
+        "法國\\Grand Est\\POI\\AH Helmstraat.md",
+        "荷蘭\\Limburg\\POI\\AH Helmstraat.md",
+        "比利時\\Limburg\\POI\\AH Helmstraat.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "ASI Ticket Counter #1 - Mahabalipuram UNESCO Monumemt - Shore Temple Complex",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\ASI Ticket Counter #1 - Mahabalipuram UNESCO Monumemt - Shore Temple Complex.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\ASI Ticket Counter #1 - Mahabalipuram UNESCO Monumemt - Shore Temple Complex.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Abholstation der Österreichischen Post AG 郵局",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Bavaria\\POI\\Abholstation der Österreichischen Post AG 郵局.md",
+      "delete": [
+        "奧地利\\Salzburg\\POI\\Abholstation der Österreichischen Post AG 郵局.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Aeon Citimart",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Mondulkiri\\POI\\Aeon Citimart.md",
+      "delete": [
+        "越南\\Ho Chi Minh City\\POI\\Aeon Citimart.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Albert 超市",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Saxony\\POI\\Albert 超市.md",
+      "delete": [
+        "捷克\\Prague\\POI\\Albert 超市.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Allhaming Süd 休息站",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Bavaria\\POI\\Allhaming Süd 休息站.md",
+      "delete": [
+        "捷克\\South Bohemia\\POI\\Allhaming Süd 休息站.md",
+        "奧地利\\Upper Austria\\POI\\Allhaming Süd 休息站.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Alliance Seafood",
+      "type": "same_city_duplicate",
+      "keep": "新加坡\\Singapore\\POI\\Alliance Seafood.md",
+      "delete": [
+        "新加坡\\Central\\POI\\Alliance Seafood.md",
+        "馬來西亞\\Johor\\POI\\Alliance Seafood.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Angkor Palace Resort & Spa",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Battambang\\POI\\Angkor Palace Resort & Spa.md",
+      "delete": [
+        "泰國\\Buriram\\POI\\Angkor Palace Resort & Spa.md",
+        "越南\\Tay Ninh\\POI\\Angkor Palace Resort & Spa.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Angkor Thom",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Battambang\\POI\\Angkor Thom.md",
+      "delete": [
+        "泰國\\Buriram\\POI\\Angkor Thom.md",
+        "越南\\Tay Ninh\\POI\\Angkor Thom.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Anna Nagar Tower",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Anna Nagar Tower.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Anna Nagar Tower.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Arc'teryx Brand Store Vancouver",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Washington\\POI\\Arc'teryx Brand Store Vancouver.md",
+      "delete": [
+        "加拿大\\British Columbia\\POI\\Arc'teryx Brand Store Vancouver.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Arignar Anna Alandur Metro",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Arignar Anna Alandur Metro.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Arignar Anna Alandur Metro.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Arlon 中轉站",
+      "type": "same_city_duplicate",
+      "keep": "盧森堡\\Differdange\\POI\\Arlon 中轉站.md",
+      "delete": [
+        "法國\\Grand Est\\POI\\Arlon 中轉站.md",
+        "比利時\\Liege\\POI\\Arlon 中轉站.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Arulmigu Sri Parthasarathyswamy Temple",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Arulmigu Sri Parthasarathyswamy Temple.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Arulmigu Sri Parthasarathyswamy Temple.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Asian Temple",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Saxony\\POI\\Asian Temple.md",
+      "delete": [
+        "捷克\\Prague\\POI\\Asian Temple.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Asiatique Ferris Wheel",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\Asiatique Ferris Wheel.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\Asiatique Ferris Wheel.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Asiatique Pier",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\Asiatique Pier.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\Asiatique Pier.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Assi Ghat Varanasi",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Uttar Pradesh\\POI\\Assi Ghat Varanasi.md",
+      "delete": [
+        "印度\\Bihar\\POI\\Assi Ghat Varanasi.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "At the Soup - Soup Bar",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Saarland\\POI\\At the Soup - Soup Bar.md",
+      "delete": [
+        "盧森堡\\Luxembourg City\\POI\\At the Soup - Soup Bar.md",
+        "法國\\Grand Est\\POI\\At the Soup - Soup Bar.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Australia Post",
+      "type": "same_city_duplicate",
+      "keep": "澳洲\\Tasmania\\POI\\Australia Post.md",
+      "delete": [
+        "澳洲\\New South Wales\\POI\\Australia Post.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "BILLA AG",
+      "type": "same_city_duplicate",
+      "keep": "捷克\\South Moravia\\POI\\BILLA AG.md",
+      "delete": [
+        "奧地利\\Vienna\\POI\\BILLA AG.md",
+        "匈牙利\\Vas\\POI\\BILLA AG.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "BL28 華藍浦火車站",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\BL28 華藍浦火車站.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\BL28 華藍浦火車站.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "BTS Thong Lor Station",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\BTS Thong Lor Station.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\BTS Thong Lor Station.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bai Dinh Garden Resort & Spa Ninh Binh",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Nakhon Phanom\\POI\\Bai Dinh Garden Resort & Spa Ninh Binh.md",
+      "delete": [
+        "越南\\Nam Dinh\\POI\\Bai Dinh Garden Resort & Spa Ninh Binh.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Balkan Grill Walter (Bosna Grill)",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Bavaria\\POI\\Balkan Grill Walter (Bosna Grill).md",
+      "delete": [
+        "奧地利\\Salzburg\\POI\\Balkan Grill Walter (Bosna Grill).md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bang Krachao Pier",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\Bang Krachao Pier.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\Bang Krachao Pier.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bang Phai",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Bangkok Noi\\POI\\Bang Phai.md",
+      "delete": [
+        "泰國\\Bangkok\\POI\\Bang Phai.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bangunan Perdana Putra",
+      "type": "same_city_duplicate",
+      "keep": "馬來西亞\\Putrajaya\\POI\\Bangunan Perdana Putra.md",
+      "delete": [
+        "馬來西亞\\Kuala Lumpur\\POI\\Bangunan Perdana Putra.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Banteay Kdei",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Battambang\\POI\\Banteay Kdei.md",
+      "delete": [
+        "泰國\\Buriram\\POI\\Banteay Kdei.md",
+        "越南\\Tay Ninh\\POI\\Banteay Kdei.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Banteay Srei",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Siem Reap\\POI\\Banteay Srei.md",
+      "delete": [
+        "泰國\\Surin\\POI\\Banteay Srei.md",
+        "越南\\Tay Ninh\\POI\\Banteay Srei.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Baresto Cafe Mall Nagoya Hill",
+      "type": "same_city_duplicate",
+      "keep": "印尼\\Batam\\POI\\Baresto Cafe Mall Nagoya Hill.md",
+      "delete": [
+        "馬來西亞\\Johor\\POI\\Baresto Cafe Mall Nagoya Hill.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Barista",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Barista.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Barista.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Basha Halwawala",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Basha Halwawala.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Basha Halwawala.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bayshore Bicycle Rentals",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Washington\\POI\\Bayshore Bicycle Rentals.md",
+      "delete": [
+        "加拿大\\British Columbia\\POI\\Bayshore Bicycle Rentals.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bell Tower",
+      "type": "same_city_duplicate",
+      "keep": "泰國\\Nakhon Phanom\\POI\\Bell Tower.md",
+      "delete": [
+        "越南\\Nam Dinh\\POI\\Bell Tower.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Ben Thanh Station",
+      "type": "same_city_duplicate",
+      "keep": "柬埔寨\\Mondulkiri\\POI\\Ben Thanh Station.md",
+      "delete": [
+        "越南\\Ho Chi Minh City\\POI\\Ben Thanh Station.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Best Buy",
+      "type": "same_city_duplicate",
+      "keep": "美國\\Texas\\POI\\Best Buy.md",
+      "delete": [
+        "美國\\Louisiana\\POI\\Best Buy.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Billa 超市",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Saxony\\POI\\Billa 超市.md",
+      "delete": [
+        "捷克\\Prague\\POI\\Billa 超市.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Blk 649A",
+      "type": "same_city_duplicate",
+      "keep": "新加坡\\Singapore\\POI\\Blk 649A.md",
+      "delete": [
+        "新加坡\\West\\POI\\Blk 649A.md",
+        "馬來西亞\\Johor\\POI\\Blk 649A.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bombay Lassi",
+      "type": "same_city_duplicate",
+      "keep": "印度\\Tamil Nadu\\POI\\Bombay Lassi.md",
+      "delete": [
+        "印度\\Puducherry\\POI\\Bombay Lassi.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Book Store Dominicanen 天堂書店",
+      "type": "same_city_duplicate",
+      "keep": "盧森堡\\Luxembourg City\\POI\\Book Store Dominicanen 天堂書店.md",
+      "delete": [
+        "法國\\Grand Est\\POI\\Book Store Dominicanen 天堂書店.md",
+        "荷蘭\\Limburg\\POI\\Book Store Dominicanen 天堂書店.md",
+        "比利時\\Limburg\\POI\\Book Store Dominicanen 天堂書店.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Botanicus 波丹妮",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Saxony\\POI\\Botanicus 波丹妮.md",
+      "delete": [
+        "捷克\\South Bohemia\\POI\\Botanicus 波丹妮.md",
+        "奧地利\\Upper Austria\\POI\\Botanicus 波丹妮.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Brussels Park",
+      "type": "same_city_duplicate",
+      "keep": "法國\\Hauts-de-France\\POI\\Brussels Park.md",
+      "delete": [
+        "荷蘭\\South Holland\\POI\\Brussels Park.md",
+        "比利時\\Brussels\\POI\\Brussels Park.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bruxelles Central 布魯塞爾中央車站",
+      "type": "same_city_duplicate",
+      "keep": "法國\\Hauts-de-France\\POI\\Bruxelles Central 布魯塞爾中央車站.md",
+      "delete": [
+        "荷蘭\\South Holland\\POI\\Bruxelles Central 布魯塞爾中央車站.md",
+        "比利時\\Brussels\\POI\\Bruxelles Central 布魯塞爾中央車站.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bräugasthof",
+      "type": "same_city_duplicate",
+      "keep": "德國\\Bavaria\\POI\\Bräugasthof.md",
+      "delete": [
+        "奧地利\\Salzburg\\POI\\Bräugasthof.md"
+      ],
+      "city": "POI"
+    },
+    {
+      "filename": "Bugis Junction",
+      "type": "same_city_duplicate",
+      "keep": "新加坡\\Singapore\\POI\\Bugis Junction.md",
+      "delete": [
+        "新加坡\\Central\\POI\\Bugis Junction.md",
+        "馬來西亞\\Johor\\POI\\Bugis Junction.md"
+      ],
+      "city": "POI"
+    }
+  ],
+  "uncertain": [
+    {
+      "filename": "123精緻炒飯",
+      "coords": [
+        120.2171535,
+        22.9955807
+      ],
+      "locations": [
+        "台灣\\台南市\\東區\\123精緻炒飯.md",
+        "中國\\福建省\\泉州\\123精緻炒飯.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "13號橋樑",
+      "coords": [
+        120.79836,
+        23.53737
+      ],
+      "locations": [
+        "台灣\\南投縣\\信義鄉\\13號橋樑.md",
+        "中國\\福建省\\泉州\\13號橋樑.md"
+      ],
+      "closest_city": "台中市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "168機車出租行",
+      "coords": [
+        120.4416135,
+        23.4784765
+      ],
+      "locations": [
+        "台灣\\嘉義市\\東區\\168機車出租行.md",
+        "中國\\福建省\\泉州\\168機車出租行.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "1913 松汀站市場",
+      "coords": [
+        126.7922715,
+        35.1370296
+      ],
+      "locations": [
+        "韓國\\Gwangju\\POI\\1913 松汀站市場.md",
+        "日本\\長崎県\\対馬市\\1913 松汀站市場.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "43年陽春麵",
+      "coords": [
+        120.2313773,
+        23.0214001
+      ],
+      "locations": [
+        "台灣\\台南市\\北區\\43年陽春麵.md",
+        "中國\\福建省\\泉州\\43年陽春麵.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "48高地瞭望台",
+      "coords": [
+        121.6348724,
+        24.022286
+      ],
+      "locations": [
+        "台灣\\花蓮縣\\新城鄉\\48高地瞭望台.md",
+        "中國\\福建省\\莆田\\48高地瞭望台.md"
+      ],
+      "closest_city": "花蓮市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "50-14",
+      "coords": [
+        126.9837369,
+        37.5634096
+      ],
+      "locations": [
+        "韓國\\Seoul\\POI\\50-14.md",
+        "日本\\長崎県\\対馬市\\50-14.md",
+        "中國\\遼寧省\\丹東\\50-14.md"
+      ],
+      "closest_city": "首爾",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "5053路 智光商職",
+      "coords": [
+        121.5139979,
+        24.9956778
+      ],
+      "locations": [
+        "台灣\\台北市\\中正區\\5053路 智光商職.md",
+        "台灣\\新北市\\永和區\\5053路 智光商職.md"
+      ],
+      "closest_city": "台北市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "50嵐",
+      "coords": [
+        121.52938,
+        25.0312691
+      ],
+      "locations": [
+        "台灣\\台北市\\大安區\\50嵐.md",
+        "台灣\\台北市\\文山區\\50嵐.md"
+      ],
+      "closest_city": "台北市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "5顏6色紀念品.異國商品",
+      "coords": [
+        120.8006592,
+        21.9441696
+      ],
+      "locations": [
+        "台灣\\屏東縣\\滿州鄉\\5顏6色紀念品.異國商品.md",
+        "中國\\福建省\\泉州\\5顏6色紀念品.異國商品.md"
+      ],
+      "closest_city": "高雄市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-11恆好門市",
+      "coords": [
+        120.7458599,
+        21.9951404
+      ],
+      "locations": [
+        "台灣\\屏東縣\\枋山鄉\\7-11恆好門市.md",
+        "中國\\福建省\\泉州\\7-11恆好門市.md"
+      ],
+      "closest_city": "高雄市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN",
+      "coords": [
+        115.747879,
+        -32.053218
+      ],
+      "locations": [
+        "澳洲\\Western Australia\\POI\\7-ELEVEN.md",
+        "泰國\\Samut Songkhram\\POI\\7-ELEVEN.md",
+        "泰國\\Chiang Rai\\POI\\7-ELEVEN.md",
+        "泰國\\Bangkok\\POI\\7-ELEVEN.md",
+        "美國\\Massachusetts\\POI\\7-ELEVEN.md",
+        "韓國\\Ulsan\\POI\\7-ELEVEN.md",
+        "韓國\\South Chungcheong\\POI\\7-ELEVEN.md",
+        "韓國\\Seoul\\POI\\7-ELEVEN.md",
+        "韓國\\Gangwon\\POI\\7-ELEVEN.md",
+        "韓國\\Daegu\\POI\\7-ELEVEN.md",
+        "加拿大\\Quebec\\POI\\7-ELEVEN.md",
+        "台灣\\嘉義縣\\太保市\\7-ELEVEN.md",
+        "台灣\\屏東縣\\滿州鄉\\7-ELEVEN.md",
+        "台灣\\雲林縣\\大埤鄉\\7-ELEVEN.md",
+        "台灣\\花蓮縣\\花蓮市\\7-ELEVEN.md",
+        "台灣\\花蓮縣\\萬榮鄉\\7-ELEVEN.md",
+        "台灣\\花蓮縣\\鳳林鎮\\7-ELEVEN.md",
+        "台灣\\新竹縣\\湖口鄉\\7-ELEVEN.md",
+        "台灣\\新竹縣\\竹東鎮\\7-ELEVEN.md",
+        "台灣\\宜蘭縣\\壯圍鄉\\7-ELEVEN.md",
+        "台灣\\宜蘭縣\\礁溪鄉\\7-ELEVEN.md",
+        "台灣\\宜蘭縣\\羅東鎮\\7-ELEVEN.md",
+        "台灣\\台東縣\\卑南鄉\\7-ELEVEN.md",
+        "台灣\\台東縣\\台東市\\7-ELEVEN.md",
+        "台灣\\台東縣\\海端鄉\\7-ELEVEN.md",
+        "台灣\\台東縣\\綠島鄉\\7-ELEVEN.md",
+        "台灣\\台東縣\\金峰鄉\\7-ELEVEN.md",
+        "台灣\\台東縣\\長濱鄉\\7-ELEVEN.md",
+        "台灣\\新竹市\\東區\\7-ELEVEN.md",
+        "台灣\\南投縣\\信義鄉\\7-ELEVEN.md",
+        "台灣\\嘉義市\\東區\\7-ELEVEN.md",
+        "台灣\\台南市\\中西區\\7-ELEVEN.md",
+        "台灣\\台南市\\六甲區\\7-ELEVEN.md",
+        "台灣\\台南市\\大內區\\7-ELEVEN.md",
+        "台灣\\台北市\\中山區\\7-ELEVEN.md",
+        "台灣\\台北市\\中正區\\7-ELEVEN.md",
+        "台灣\\台北市\\北投區\\7-ELEVEN.md",
+        "台灣\\台北市\\文山區\\7-ELEVEN.md",
+        "台灣\\新北市\\新店區\\7-ELEVEN.md",
+        "台灣\\新北市\\深坑區\\7-ELEVEN.md",
+        "日本\\長野県\\松本市\\7-ELEVEN.md",
+        "日本\\鳥取県\\境港市\\7-ELEVEN.md",
+        "日本\\香川県\\高松市\\7-ELEVEN.md",
+        "日本\\徳島県\\鳴門市\\7-ELEVEN.md",
+        "日本\\佐賀県\\唐津市\\7-ELEVEN.md",
+        "日本\\長崎県\\対馬市\\7-ELEVEN.md",
+        "日本\\北海道\\室蘭市\\7-ELEVEN.md",
+        "日本\\北海道\\網走市\\7-ELEVEN.md",
+        "日本\\北海道\\釧路市\\7-ELEVEN.md",
+        "日本\\大阪府\\泉佐野市\\7-ELEVEN.md",
+        "中國\\雲南省\\西雙版納\\7-ELEVEN.md",
+        "中國\\福建省\\泉州\\7-ELEVEN.md",
+        "中國\\福建省\\廈門\\7-ELEVEN.md",
+        "中國\\福建省\\莆田\\7-ELEVEN.md",
+        "中國\\遼寧省\\丹東\\7-ELEVEN.md",
+        "中國\\北京市\\北京\\7-ELEVEN.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "7-ELEVEN 利嘉門市",
+      "coords": [
+        121.0549581,
+        22.7643342
+      ],
+      "locations": [
+        "台灣\\台東縣\\卑南鄉\\7-ELEVEN 利嘉門市.md",
+        "中國\\福建省\\泉州\\7-ELEVEN 利嘉門市.md"
+      ],
+      "closest_city": "高雄市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 旗山門市",
+      "coords": [
+        120.4821033,
+        22.8869931
+      ],
+      "locations": [
+        "台灣\\台南市\\左鎮區\\7-ELEVEN 旗山門市.md",
+        "中國\\福建省\\泉州\\7-ELEVEN 旗山門市.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 楓港門市(台1終點)",
+      "coords": [
+        120.691556,
+        22.1949782
+      ],
+      "locations": [
+        "台灣\\屏東縣\\春日鄉\\7-ELEVEN 楓港門市(台1終點).md",
+        "中國\\福建省\\泉州\\7-ELEVEN 楓港門市(台1終點).md"
+      ],
+      "closest_city": "高雄市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 牛墟門市",
+      "coords": [
+        120.2882103,
+        23.139066
+      ],
+      "locations": [
+        "台灣\\台南市\\麻豆區\\7-ELEVEN 牛墟門市.md",
+        "中國\\福建省\\泉州\\7-ELEVEN 牛墟門市.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 玉富門市",
+      "coords": [
+        121.3124812,
+        23.3315466
+      ],
+      "locations": [
+        "台灣\\台東縣\\長濱鄉\\7-ELEVEN 玉富門市.md",
+        "中國\\福建省\\莆田\\7-ELEVEN 玉富門市.md"
+      ],
+      "closest_city": "花蓮市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 石棹門市",
+      "coords": [
+        120.6971432,
+        23.4727591
+      ],
+      "locations": [
+        "台灣\\嘉義縣\\竹內鄉\\7-ELEVEN 石棹門市.md",
+        "中國\\福建省\\泉州\\7-ELEVEN 石棹門市.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 金倫門市",
+      "coords": [
+        120.9637335,
+        22.5313916
+      ],
+      "locations": [
+        "台灣\\台東縣\\達仁鄉\\7-ELEVEN 金倫門市.md",
+        "中國\\福建省\\泉州\\7-ELEVEN 金倫門市.md"
+      ],
+      "closest_city": "高雄市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 金甲后門市",
+      "coords": [
+        120.6342313,
+        24.344885
+      ],
+      "locations": [
+        "台灣\\台中市\\外埔區\\7-ELEVEN 金甲后門市.md",
+        "中國\\福建省\\莆田\\7-ELEVEN 金甲后門市.md"
+      ],
+      "closest_city": "台中市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEN 馬太鞍門市",
+      "coords": [
+        121.4189322,
+        23.6568707
+      ],
+      "locations": [
+        "台灣\\花蓮縣\\玉里鎮\\7-ELEVEN 馬太鞍門市.md",
+        "中國\\福建省\\莆田\\7-ELEVEN 馬太鞍門市.md"
+      ],
+      "closest_city": "花蓮市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELEVEn 象上門市",
+      "coords": [
+        120.8593517,
+        24.5789871
+      ],
+      "locations": [
+        "台灣\\苗栗縣\\苗栗市\\7-ELEVEn 象上門市.md",
+        "中國\\福建省\\莆田\\7-ELEVEn 象上門市.md"
+      ],
+      "closest_city": "台中市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-ELVEEN",
+      "coords": [
+        120.487189,
+        24.161266
+      ],
+      "locations": [
+        "台灣\\彰化縣\\福興鄉\\7-ELVEEN.md",
+        "中國\\福建省\\莆田\\7-ELVEEN.md"
+      ],
+      "closest_city": "台中市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "7-Eleven",
+      "coords": [
+        100.7505008,
+        13.6942817
+      ],
+      "locations": [
+        "泰國\\Samut Prakan\\POI\\7-Eleven.md",
+        "泰國\\Chiang Mai\\POI\\7-Eleven.md",
+        "泰國\\Bangkok Noi\\POI\\7-Eleven.md",
+        "美國\\Washington\\POI\\7-Eleven.md",
+        "韓國\\Gwangju\\POI\\7-Eleven.md",
+        "韓國\\Busan\\POI\\7-Eleven.md",
+        "新加坡\\Singapore\\POI\\7-Eleven.md",
+        "新加坡\\Central\\POI\\7-Eleven.md",
+        "加拿大\\British Columbia\\POI\\7-Eleven.md",
+        "日本\\兵庫県\\姫路市\\7-Eleven.md",
+        "日本\\宮崎県\\宮崎市\\7-Eleven.md",
+        "日本\\広島県\\廿日市市\\7-Eleven.md",
+        "日本\\島根県\\出雲市\\7-Eleven.md",
+        "日本\\愛媛県\\松山市\\7-Eleven.md",
+        "日本\\高知県\\高知市\\7-Eleven.md",
+        "日本\\宮城県\\仙台市\\7-Eleven.md",
+        "日本\\茨城県\\水戸市\\7-Eleven.md",
+        "日本\\福島県\\喜多方市\\7-Eleven.md",
+        "日本\\福岡県\\八女市\\7-Eleven.md",
+        "日本\\沖縄県\\那覇市\\7-Eleven.md",
+        "日本\\東京都\\台東区\\7-Eleven.md",
+        "中國\\澳門\\7-Eleven.md",
+        "馬來西亞\\Johor\\POI\\7-Eleven.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "809親子農場",
+      "coords": [
+        120.360252,
+        23.074172
+      ],
+      "locations": [
+        "台灣\\台南市\\官田區\\809親子農場.md",
+        "中國\\福建省\\泉州\\809親子農場.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "85度C咖啡蛋糕飲料麵包-永康永明店",
+      "coords": [
+        120.2599534,
+        23.0251426
+      ],
+      "locations": [
+        "台灣\\台南市\\安定區\\85度C咖啡蛋糕飲料麵包-永康永明店.md",
+        "中國\\福建省\\泉州\\85度C咖啡蛋糕飲料麵包-永康永明店.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "900度串燒工坊",
+      "coords": [
+        120.1787818,
+        22.9923232
+      ],
+      "locations": [
+        "台灣\\台南市\\中西區\\900度串燒工坊.md",
+        "中國\\福建省\\泉州\\900度串燒工坊.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Abercrombie & Fitch",
+      "coords": [
+        2.30787599999996,
+        48.86924
+      ],
+      "locations": [
+        "法國\\Île-de-France\\POI\\Abercrombie & Fitch.md",
+        "美國\\Texas\\POI\\Abercrombie & Fitch.md",
+        "新加坡\\Singapore\\POI\\Abercrombie & Fitch.md",
+        "新加坡\\Central\\POI\\Abercrombie & Fitch.md",
+        "中國\\香港\\Abercrombie & Fitch.md",
+        "馬來西亞\\Johor\\POI\\Abercrombie & Fitch.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "Agricultural & Marine Products Wholesale Market",
+      "coords": [
+        129.342945,
+        35.539753
+      ],
+      "locations": [
+        "韓國\\Ulsan\\POI\\Agricultural & Marine Products Wholesale Market.md",
+        "日本\\佐賀県\\唐津市\\Agricultural & Marine Products Wholesale Market.md",
+        "中國\\遼寧省\\丹東\\Agricultural & Marine Products Wholesale Market.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Alaesjang 公車站",
+      "coords": [
+        127.493242,
+        34.946534
+      ],
+      "locations": [
+        "韓國\\Gwangju\\POI\\Alaesjang 公車站.md",
+        "日本\\長崎県\\対馬市\\Alaesjang 公車站.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Aliz艾樂滋親子餐廳",
+      "coords": [
+        120.1717095,
+        22.9898873
+      ],
+      "locations": [
+        "台灣\\台南市\\中西區\\Aliz艾樂滋親子餐廳.md",
+        "中國\\福建省\\泉州\\Aliz艾樂滋親子餐廳.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Amnam-dong Community Service Center",
+      "coords": [
+        129.0210485,
+        35.0792474
+      ],
+      "locations": [
+        "韓國\\Busan\\POI\\Amnam-dong Community Service Center.md",
+        "日本\\長崎県\\対馬市\\Amnam-dong Community Service Center.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Andong Terminal 安東客運站",
+      "coords": [
+        128.675812,
+        36.574167
+      ],
+      "locations": [
+        "韓國\\North Gyeongsang\\POI\\Andong Terminal 安東客運站.md",
+        "日本\\長崎県\\対馬市\\Andong Terminal 安東客運站.md",
+        "中國\\遼寧省\\丹東\\Andong Terminal 安東客運站.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Angelinus Coffee",
+      "coords": [
+        129.0363121,
+        35.0981739
+      ],
+      "locations": [
+        "韓國\\Busan\\POI\\Angelinus Coffee.md",
+        "日本\\長崎県\\対馬市\\Angelinus Coffee.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "BIFF 廣場",
+      "coords": [
+        129.029212,
+        35.098243
+      ],
+      "locations": [
+        "韓國\\Busan\\POI\\BIFF 廣場.md",
+        "日本\\長崎県\\対馬市\\BIFF 廣場.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "BRT 往嘉義台鐵後站",
+      "coords": [
+        120.3226256,
+        23.4591086
+      ],
+      "locations": [
+        "台灣\\嘉義市\\西區\\BRT 往嘉義台鐵後站.md",
+        "中國\\福建省\\泉州\\BRT 往嘉義台鐵後站.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Baan Khun Krub",
+      "coords": [
+        98.9902595999999,
+        18.7891261
+      ],
+      "locations": [
+        "泰國\\Chiang Mai\\POI\\Baan Khun Krub.md",
+        "中國\\雲南省\\西雙版納\\Baan Khun Krub.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "Bagmulgwan 博物館站",
+      "coords": [
+        128.871864,
+        35.240054
+      ],
+      "locations": [
+        "韓國\\South Gyeongsang\\POI\\Bagmulgwan 博物館站.md",
+        "日本\\長崎県\\対馬市\\Bagmulgwan 博物館站.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Ballantine Business Hotel",
+      "coords": [
+        126.8847253,
+        35.1604554
+      ],
+      "locations": [
+        "韓國\\Gwangju\\POI\\Ballantine Business Hotel.md",
+        "日本\\長崎県\\対馬市\\Ballantine Business Hotel.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "Big King 東南亞百貨進口批發超市 台南店",
+      "coords": [
+        120.2131706,
+        23.0009694
+      ],
+      "locations": [
+        "台灣\\台南市\\北區\\Big King 東南亞百貨進口批發超市 台南店.md",
+        "中國\\福建省\\泉州\\Big King 東南亞百貨進口批發超市 台南店.md"
+      ],
+      "closest_city": "台南市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Biwon Hotel Seoul",
+      "coords": [
+        126.998246,
+        37.575576
+      ],
+      "locations": [
+        "韓國\\Seoul\\POI\\Biwon Hotel Seoul.md",
+        "日本\\長崎県\\対馬市\\Biwon Hotel Seoul.md",
+        "中國\\遼寧省\\丹東\\Biwon Hotel Seoul.md"
+      ],
+      "closest_city": "首爾",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Bruce Coffee自家焙煎咖啡",
+      "coords": [
+        120.4878967,
+        24.1476138
+      ],
+      "locations": [
+        "台灣\\彰化縣\\福興鄉\\Bruce Coffee自家焙煎咖啡.md",
+        "中國\\福建省\\莆田\\Bruce Coffee自家焙煎咖啡.md"
+      ],
+      "closest_city": "台中市",
+      "reason": "目錄名稱不符合座標最近城市"
+    },
+    {
+      "filename": "Buffet Sen Tây Hồ",
+      "coords": [
+        105.815624,
+        21.074009
+      ],
+      "locations": [
+        "越南\\Hanoi\\Buffet Sen Tây Hồ.md",
+        "越南\\Hanoi\\POI\\Buffet Sen Tây Hồ.md"
+      ],
+      "reason": "無法確定正確位置"
+    },
+    {
+      "filename": "Bungle Bungle steamed ribs",
+      "coords": [
+        128.605111,
+        35.8709638
+      ],
+      "locations": [
+        "韓國\\Daegu\\POI\\Bungle Bungle steamed ribs.md",
+        "日本\\長崎県\\対馬市\\Bungle Bungle steamed ribs.md",
+        "中國\\遼寧省\\丹東\\Bungle Bungle steamed ribs.md"
+      ],
+      "closest_city": "釜山",
+      "reason": "目錄名稱不符合座標最近城市"
+    }
+  ],
+  "to_delete": [
+    "加拿大\\British Columbia\\POI\\200 Granville Square.md",
+    "越南\\Ho Chi Minh City\\POI\\22 Nguyễn Thái Bình.md",
+    "加拿大\\British Columbia\\POI\\700 Pike St.md",
+    "新加坡\\Central\\POI\\9-Pound Cannon.md",
+    "馬來西亞\\Johor\\POI\\9-Pound Cannon.md",
+    "加拿大\\British Columbia\\POI\\928 Beatty St.md",
+    "馬來西亞\\Kuala Lumpur\\POI\\AEON BiG Puchong utama.md",
+    "印度\\Puducherry\\POI\\AEROHUB EAST.md",
+    "法國\\Grand Est\\POI\\AH Helmstraat.md",
+    "荷蘭\\Limburg\\POI\\AH Helmstraat.md",
+    "比利時\\Limburg\\POI\\AH Helmstraat.md",
+    "印度\\Puducherry\\POI\\ASI Ticket Counter #1 - Mahabalipuram UNESCO Monumemt - Shore Temple Complex.md",
+    "奧地利\\Salzburg\\POI\\Abholstation der Österreichischen Post AG 郵局.md",
+    "越南\\Ho Chi Minh City\\POI\\Aeon Citimart.md",
+    "捷克\\Prague\\POI\\Albert 超市.md",
+    "捷克\\South Bohemia\\POI\\Allhaming Süd 休息站.md",
+    "奧地利\\Upper Austria\\POI\\Allhaming Süd 休息站.md",
+    "新加坡\\Central\\POI\\Alliance Seafood.md",
+    "馬來西亞\\Johor\\POI\\Alliance Seafood.md",
+    "泰國\\Buriram\\POI\\Angkor Palace Resort & Spa.md",
+    "越南\\Tay Ninh\\POI\\Angkor Palace Resort & Spa.md",
+    "泰國\\Buriram\\POI\\Angkor Thom.md",
+    "越南\\Tay Ninh\\POI\\Angkor Thom.md",
+    "印度\\Puducherry\\POI\\Anna Nagar Tower.md",
+    "加拿大\\British Columbia\\POI\\Arc'teryx Brand Store Vancouver.md",
+    "印度\\Puducherry\\POI\\Arignar Anna Alandur Metro.md",
+    "法國\\Grand Est\\POI\\Arlon 中轉站.md",
+    "比利時\\Liege\\POI\\Arlon 中轉站.md",
+    "印度\\Puducherry\\POI\\Arulmigu Sri Parthasarathyswamy Temple.md",
+    "捷克\\Prague\\POI\\Asian Temple.md",
+    "泰國\\Bangkok\\POI\\Asiatique Ferris Wheel.md",
+    "泰國\\Bangkok\\POI\\Asiatique Pier.md",
+    "印度\\Bihar\\POI\\Assi Ghat Varanasi.md",
+    "盧森堡\\Luxembourg City\\POI\\At the Soup - Soup Bar.md",
+    "法國\\Grand Est\\POI\\At the Soup - Soup Bar.md",
+    "澳洲\\New South Wales\\POI\\Australia Post.md",
+    "奧地利\\Vienna\\POI\\BILLA AG.md",
+    "匈牙利\\Vas\\POI\\BILLA AG.md",
+    "泰國\\Bangkok\\POI\\BL28 華藍浦火車站.md",
+    "泰國\\Bangkok\\POI\\BTS Thong Lor Station.md",
+    "越南\\Nam Dinh\\POI\\Bai Dinh Garden Resort & Spa Ninh Binh.md",
+    "奧地利\\Salzburg\\POI\\Balkan Grill Walter (Bosna Grill).md",
+    "泰國\\Bangkok\\POI\\Bang Krachao Pier.md",
+    "泰國\\Bangkok\\POI\\Bang Phai.md",
+    "馬來西亞\\Kuala Lumpur\\POI\\Bangunan Perdana Putra.md",
+    "泰國\\Buriram\\POI\\Banteay Kdei.md",
+    "越南\\Tay Ninh\\POI\\Banteay Kdei.md",
+    "泰國\\Surin\\POI\\Banteay Srei.md",
+    "越南\\Tay Ninh\\POI\\Banteay Srei.md",
+    "馬來西亞\\Johor\\POI\\Baresto Cafe Mall Nagoya Hill.md",
+    "印度\\Puducherry\\POI\\Barista.md",
+    "印度\\Puducherry\\POI\\Basha Halwawala.md",
+    "加拿大\\British Columbia\\POI\\Bayshore Bicycle Rentals.md",
+    "越南\\Nam Dinh\\POI\\Bell Tower.md",
+    "越南\\Ho Chi Minh City\\POI\\Ben Thanh Station.md",
+    "美國\\Louisiana\\POI\\Best Buy.md",
+    "捷克\\Prague\\POI\\Billa 超市.md",
+    "新加坡\\West\\POI\\Blk 649A.md",
+    "馬來西亞\\Johor\\POI\\Blk 649A.md",
+    "印度\\Puducherry\\POI\\Bombay Lassi.md",
+    "法國\\Grand Est\\POI\\Book Store Dominicanen 天堂書店.md",
+    "荷蘭\\Limburg\\POI\\Book Store Dominicanen 天堂書店.md",
+    "比利時\\Limburg\\POI\\Book Store Dominicanen 天堂書店.md",
+    "捷克\\South Bohemia\\POI\\Botanicus 波丹妮.md",
+    "奧地利\\Upper Austria\\POI\\Botanicus 波丹妮.md",
+    "荷蘭\\South Holland\\POI\\Brussels Park.md",
+    "比利時\\Brussels\\POI\\Brussels Park.md",
+    "荷蘭\\South Holland\\POI\\Bruxelles Central 布魯塞爾中央車站.md",
+    "比利時\\Brussels\\POI\\Bruxelles Central 布魯塞爾中央車站.md",
+    "奧地利\\Salzburg\\POI\\Bräugasthof.md",
+    "新加坡\\Central\\POI\\Bugis Junction.md",
+    "馬來西亞\\Johor\\POI\\Bugis Junction.md"
+  ],
+  "summary": {
+    "total_duplicates": 2276,
+    "correctable": 56,
+    "uncertain_count": 44,
+    "to_delete_count": 72
+  }
+}

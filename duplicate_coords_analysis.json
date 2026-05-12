@@ -1,0 +1,454 @@
+{
+  "total_duplicates": 7972,
+  "duplicates_with_coords": 2276,
+  "samples": {
+    "Manu National Park": [
+      {
+        "path": "巴西\\Pará\\POI\\Manu National Park.md",
+        "coords": [
+          -71.7230362,
+          -12.0406493
+        ],
+        "content": "---\ntitle: Manu National Park\nslug: manu-national-park\nlocation: POI\ncountry: 巴西\ndivision: Pará\ncity"
+      },
+      {
+        "path": "秘魯\\Cusco\\POI\\Manu National Park.md",
+        "coords": [
+          -71.7230362,
+          -12.0406493
+        ],
+        "content": "---\ntitle: Manu National Park\nslug: manu-national-park\nlocation: POI\ncountry: 秘魯\ndivision: Cusco\ncit"
+      }
+    ],
+    "Downtown Apartments": [
+      {
+        "path": "德國\\Saxony\\POI\\Downtown Apartments.md",
+        "coords": [
+          14.3147811,
+          48.8117486
+        ],
+        "content": "---\ntitle: Downtown Apartments\nslug: downtown-apartments\nlocation: POI\ncountry: 德國\ndivision: Saxony\n"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\Downtown Apartments.md",
+        "coords": [
+          14.3147811,
+          48.8117486
+        ],
+        "content": "---\ntitle: Downtown Apartments\nslug: downtown-apartments\nlocation: POI\ncountry: 捷克\ndivision: South B"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\Downtown Apartments.md",
+        "coords": [
+          14.3147811,
+          48.8117486
+        ],
+        "content": "---\ntitle: Downtown Apartments\nslug: downtown-apartments\nlocation: POI\ncountry: 奧地利\ndivision: Upper "
+      }
+    ],
+    "Česká pošta": [
+      {
+        "path": "德國\\Saxony\\POI\\Česká pošta.md",
+        "coords": [
+          14.3173495,
+          48.8141135
+        ],
+        "content": "---\ntitle: Česká pošta\nslug: esk-pota\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory:"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\Česká pošta.md",
+        "coords": [
+          14.3173495,
+          48.8141135
+        ],
+        "content": "---\ntitle: Česká pošta\nslug: esk-pota\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\ncity: POI\nca"
+      },
+      {
+        "path": "捷克\\Prague\\POI\\Česká pošta.md",
+        "coords": [
+          14.426616,
+          50.0894552
+        ],
+        "content": "---\ntitle: Česká pošta\nslug: esk-pota\nlocation: POI\ncountry: 捷克\ndivision: Prague\ncity: POI\ncategory:"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\Česká pošta.md",
+        "coords": [
+          14.3173495,
+          48.8141135
+        ],
+        "content": "---\ntitle: Česká pošta\nslug: esk-pota\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\ncity: POI\nc"
+      }
+    ],
+    "Perfect Days Charles Bridge 3": [
+      {
+        "path": "德國\\Saxony\\POI\\Perfect Days Charles Bridge 3.md",
+        "coords": [
+          14.4154691,
+          50.0875669
+        ],
+        "content": "---\ntitle: Perfect Days Charles Bridge 3\nslug: perfect-days-charles-bridge-3\nlocation: POI\ncountry: "
+      },
+      {
+        "path": "捷克\\Prague\\POI\\Perfect Days Charles Bridge 3.md",
+        "coords": [
+          14.4154691,
+          50.0875669
+        ],
+        "content": "---\ntitle: Perfect Days Charles Bridge 3\nslug: perfect-days-charles-bridge-3\nlocation: POI\ncountry: "
+      }
+    ],
+    "WC": [
+      {
+        "path": "德國\\Saxony\\POI\\WC.md",
+        "coords": [
+          14.4039328,
+          50.0917146
+        ],
+        "content": "---\ntitle: WC\nslug: wc\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點\ntags: [\"景點\""
+      },
+      {
+        "path": "捷克\\Prague\\POI\\WC.md",
+        "coords": [
+          14.4039328,
+          50.0917146
+        ],
+        "content": "---\ntitle: WC\nslug: wc\nlocation: POI\ncountry: 捷克\ndivision: Prague\ncity: POI\ncategory: 景點\ntags: [\"景點\""
+      }
+    ],
+    "市內公車2路, 售票亭": [
+      {
+        "path": "德國\\Saxony\\POI\\市內公車2路, 售票亭.md",
+        "coords": [
+          12.8704829,
+          50.2312089
+        ],
+        "content": "---\ntitle: 市內公車2路, 售票亭\nslug: 2-\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點\nta"
+      },
+      {
+        "path": "捷克\\Karlovy Vary\\POI\\市內公車2路, 售票亭.md",
+        "coords": [
+          12.8704829,
+          50.2312089
+        ],
+        "content": "---\ntitle: 市內公車2路, 售票亭\nslug: 2-\nlocation: POI\ncountry: 捷克\ndivision: Karlovy Vary\ncity: POI\ncategory:"
+      }
+    ],
+    "Karlovy Vary – Tržnice": [
+      {
+        "path": "德國\\Saxony\\POI\\Karlovy Vary – Tržnice.md",
+        "coords": [
+          12.8701239,
+          50.2308889
+        ],
+        "content": "---\ntitle: Karlovy Vary – Tržnice\nslug: karlovy-vary--trnice\nlocation: POI\ncountry: 德國\ndivision: Sax"
+      },
+      {
+        "path": "捷克\\Karlovy Vary\\POI\\Karlovy Vary – Tržnice.md",
+        "coords": [
+          12.8701239,
+          50.2308889
+        ],
+        "content": "---\ntitle: Karlovy Vary – Tržnice\nslug: karlovy-vary--trnice\nlocation: POI\ncountry: 捷克\ndivision: Kar"
+      }
+    ],
+    "Flixbus公車上車點": [
+      {
+        "path": "德國\\Saxony\\POI\\Flixbus公車上車點.md",
+        "coords": [
+          12.8639575,
+          50.2299969
+        ],
+        "content": "---\ntitle: Flixbus公車上車點\nslug: flixbus\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory:"
+      },
+      {
+        "path": "捷克\\Karlovy Vary\\POI\\Flixbus公車上車點.md",
+        "coords": [
+          12.8639575,
+          50.2299969
+        ],
+        "content": "---\ntitle: Flixbus公車上車點\nslug: flixbus\nlocation: POI\ncountry: 捷克\ndivision: Karlovy Vary\ncity: POI\ncat"
+      }
+    ],
+    "Divadelní náměstí": [
+      {
+        "path": "德國\\Saxony\\POI\\Divadelní náměstí.md",
+        "coords": [
+          12.8821846,
+          50.2216341
+        ],
+        "content": "---\ntitle: Divadelní náměstí\nslug: divadeln-nmst\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: PO"
+      },
+      {
+        "path": "捷克\\Karlovy Vary\\POI\\Divadelní náměstí.md",
+        "coords": [
+          12.8821846,
+          50.2216341
+        ],
+        "content": "---\ntitle: Divadelní náměstí\nslug: divadeln-nmst\nlocation: POI\ncountry: 捷克\ndivision: Karlovy Vary\nci"
+      }
+    ],
+    "Prague ÚAN Florenc platform 2 RegioJet": [
+      {
+        "path": "德國\\Saxony\\POI\\Prague ÚAN Florenc platform 2 RegioJet.md",
+        "coords": [
+          14.4406705,
+          50.0891021
+        ],
+        "content": "---\ntitle: Prague ÚAN Florenc platform 2 RegioJet\nslug: prague-an-florenc-platform-2-regiojet\nlocati"
+      },
+      {
+        "path": "捷克\\Prague\\POI\\Prague ÚAN Florenc platform 2 RegioJet.md",
+        "coords": [
+          14.4406705,
+          50.0891021
+        ],
+        "content": "---\ntitle: Prague ÚAN Florenc platform 2 RegioJet\nslug: prague-an-florenc-platform-2-regiojet\nlocati"
+      }
+    ],
+    "布拉格瓦茨拉夫·哈維爾國際機場": [
+      {
+        "path": "德國\\Saxony\\POI\\布拉格瓦茨拉夫·哈維爾國際機場.md",
+        "coords": [
+          14.2631811,
+          50.101791
+        ],
+        "content": "---\ntitle: 布拉格瓦茨拉夫·哈維爾國際機場\nslug: \nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點\n"
+      },
+      {
+        "path": "捷克\\Prague\\POI\\布拉格瓦茨拉夫·哈維爾國際機場.md",
+        "coords": [
+          14.2631811,
+          50.101791
+        ],
+        "content": "---\ntitle: 布拉格瓦茨拉夫·哈維爾國際機場\nslug: \nlocation: POI\ncountry: 捷克\ndivision: Prague\ncity: POI\ncategory: 景點\n"
+      }
+    ],
+    "Nádraží Veleslavín (Metro A)": [
+      {
+        "path": "德國\\Saxony\\POI\\Nádraží Veleslavín (Metro A).md",
+        "coords": [
+          14.3469190000001,
+          50.0953722
+        ],
+        "content": "---\ntitle: Nádraží Veleslavín (Metro A)\nslug: ndra-veleslavn-metro-a\nlocation: POI\ncountry: 德國\ndivis"
+      },
+      {
+        "path": "捷克\\Prague\\POI\\Nádraží Veleslavín (Metro A).md",
+        "coords": [
+          14.3469190000001,
+          50.0953722
+        ],
+        "content": "---\ntitle: Nádraží Veleslavín (Metro A)\nslug: ndra-veleslavn-metro-a\nlocation: POI\ncountry: 捷克\ndivis"
+      }
+    ],
+    "Potraviny 超市": [
+      {
+        "path": "德國\\Saxony\\POI\\Potraviny 超市.md",
+        "coords": [
+          14.317581,
+          48.812932
+        ],
+        "content": "---\ntitle: Potraviny 超市\nslug: potraviny-\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncatego"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\Potraviny 超市.md",
+        "coords": [
+          14.317581,
+          48.812932
+        ],
+        "content": "---\ntitle: Potraviny 超市\nslug: potraviny-\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\ncity: POI"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\Potraviny 超市.md",
+        "coords": [
+          14.317581,
+          48.812932
+        ],
+        "content": "---\ntitle: Potraviny 超市\nslug: potraviny-\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\ncity: PO"
+      }
+    ],
+    "Krčma Šatlava 西班牙風餐廳": [
+      {
+        "path": "德國\\Saxony\\POI\\Krčma Šatlava 西班牙風餐廳.md",
+        "coords": [
+          14.3158933,
+          48.8106973
+        ],
+        "content": "---\ntitle: Krčma Šatlava 西班牙風餐廳\nslug: krma-atlava-\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: "
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\Krčma Šatlava 西班牙風餐廳.md",
+        "coords": [
+          14.3158933,
+          48.8106973
+        ],
+        "content": "---\ntitle: Krčma Šatlava 西班牙風餐廳\nslug: krma-atlava-\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\Krčma Šatlava 西班牙風餐廳.md",
+        "coords": [
+          14.3158933,
+          48.8106973
+        ],
+        "content": "---\ntitle: Krčma Šatlava 西班牙風餐廳\nslug: krma-atlava-\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austri"
+      }
+    ],
+    "N°59 換錢所": [
+      {
+        "path": "德國\\Saxony\\POI\\N°59 換錢所.md",
+        "coords": [
+          14.3173099000001,
+          48.8121695
+        ],
+        "content": "---\ntitle: N°59 換錢所\nslug: n59-\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點\ntag"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\N°59 換錢所.md",
+        "coords": [
+          14.3173099000001,
+          48.8121695
+        ],
+        "content": "---\ntitle: N°59 換錢所\nslug: n59-\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\ncity: POI\ncategory:"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\N°59 換錢所.md",
+        "coords": [
+          14.3173099000001,
+          48.8121695
+        ],
+        "content": "---\ntitle: N°59 換錢所\nslug: n59-\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\ncity: POI\ncategory"
+      }
+    ],
+    "Kolektiv": [
+      {
+        "path": "德國\\Saxony\\POI\\Kolektiv.md",
+        "coords": [
+          14.3165475000001,
+          48.8119695
+        ],
+        "content": "---\ntitle: Kolektiv\nslug: kolektiv\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\Kolektiv.md",
+        "coords": [
+          14.3165475000001,
+          48.8119695
+        ],
+        "content": "---\ntitle: Kolektiv\nslug: kolektiv\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\ncity: POI\ncateg"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\Kolektiv.md",
+        "coords": [
+          14.3165475000001,
+          48.8119695
+        ],
+        "content": "---\ntitle: Kolektiv\nslug: kolektiv\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\ncity: POI\ncate"
+      }
+    ],
+    "MLS Crêperie Kájovská 煙囪捲": [
+      {
+        "path": "德國\\Saxony\\POI\\MLS Crêperie Kájovská 煙囪捲.md",
+        "coords": [
+          14.3166550999999,
+          48.8120174
+        ],
+        "content": "---\ntitle: MLS Crêperie Kájovská 煙囪捲\nslug: mls-crperie-kjovsk-\nlocation: POI\ncountry: 德國\ndivision: S"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\MLS Crêperie Kájovská 煙囪捲.md",
+        "coords": [
+          14.3166550999999,
+          48.8120174
+        ],
+        "content": "---\ntitle: MLS Crêperie Kájovská 煙囪捲\nslug: mls-crperie-kjovsk-\nlocation: POI\ncountry: 捷克\ndivision: S"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\MLS Crêperie Kájovská 煙囪捲.md",
+        "coords": [
+          14.3166550999999,
+          48.8120174
+        ],
+        "content": "---\ntitle: MLS Crêperie Kájovská 煙囪捲\nslug: mls-crperie-kjovsk-\nlocation: POI\ncountry: 奧地利\ndivision: "
+      }
+    ],
+    "MLS trdelnik 肉桂捲": [
+      {
+        "path": "德國\\Saxony\\POI\\MLS trdelnik 肉桂捲.md",
+        "coords": [
+          14.3164142,
+          48.8120784
+        ],
+        "content": "---\ntitle: MLS trdelnik 肉桂捲\nslug: mls-trdelnik-\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\MLS trdelnik 肉桂捲.md",
+        "coords": [
+          14.3164142,
+          48.8120784
+        ],
+        "content": "---\ntitle: MLS trdelnik 肉桂捲\nslug: mls-trdelnik-\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\nci"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\MLS trdelnik 肉桂捲.md",
+        "coords": [
+          14.3164142,
+          48.8120784
+        ],
+        "content": "---\ntitle: MLS trdelnik 肉桂捲\nslug: mls-trdelnik-\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\nc"
+      }
+    ],
+    "The Mirror Maze": [
+      {
+        "path": "德國\\Saxony\\POI\\The Mirror Maze.md",
+        "coords": [
+          14.3137575000001,
+          48.810721
+        ],
+        "content": "---\ntitle: The Mirror Maze\nslug: the-mirror-maze\nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: PO"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\The Mirror Maze.md",
+        "coords": [
+          14.3137575000001,
+          48.810721
+        ],
+        "content": "---\ntitle: The Mirror Maze\nslug: the-mirror-maze\nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\nc"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\The Mirror Maze.md",
+        "coords": [
+          14.3137575000001,
+          48.810721
+        ],
+        "content": "---\ntitle: The Mirror Maze\nslug: the-mirror-maze\nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\n"
+      }
+    ],
+    "黑死病紀念柱": [
+      {
+        "path": "德國\\Saxony\\POI\\黑死病紀念柱.md",
+        "coords": [
+          14.3149136,
+          48.8104981
+        ],
+        "content": "---\ntitle: 黑死病紀念柱\nslug: \nlocation: POI\ncountry: 德國\ndivision: Saxony\ncity: POI\ncategory: 景點\ntags: [\"景"
+      },
+      {
+        "path": "捷克\\South Bohemia\\POI\\黑死病紀念柱.md",
+        "coords": [
+          14.3149136,
+          48.8104981
+        ],
+        "content": "---\ntitle: 黑死病紀念柱\nslug: \nlocation: POI\ncountry: 捷克\ndivision: South Bohemia\ncity: POI\ncategory: 景點\nta"
+      },
+      {
+        "path": "奧地利\\Upper Austria\\POI\\黑死病紀念柱.md",
+        "coords": [
+          14.3149136,
+          48.8104981
+        ],
+        "content": "---\ntitle: 黑死病紀念柱\nslug: \nlocation: POI\ncountry: 奧地利\ndivision: Upper Austria\ncity: POI\ncategory: 景點\nt"
+      }
+    ]
+  }
+}

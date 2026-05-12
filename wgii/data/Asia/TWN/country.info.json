@@ -1,0 +1,30 @@
+{
+  "capital_name_chinese": "臺北",
+  "capital_name": "Taipei",
+  "country_type": "Sovereign State",
+  "country_name_chinese": "臺灣",
+  "country_name_chinese_short": "臺灣",
+  "country_name_chinese_UN": "臺灣",
+  "country_name_english_abbreviation": "Taiwan",
+  "country_name_english_formal": "Republic of China (Taiwan)",
+  "country_name_english_UN": "Taiwan",
+  "continent_name": "Asia",
+  "subregion_name": "Eastern Asia",
+  "country_code2": "TW",
+  "country_code3": "TWN",
+  "phone_code": "886",
+  "boundary_source": "taiwan-atlas (Ministry of the Interior)",
+  "boundary_types": [
+    "country.wgs84.geo.json",
+    "country.gcj02.geo.json",
+    "country.bd09.geo.json"
+  ],
+  "territory": {
+    "main_island": "Taiwan (臺灣本島)",
+    "islands": [
+      "Penghu (澎湖群島)",
+      "Kinmen (金門縣)",
+      "Lienchiang (連江縣/馬祖)"
+    ]
+  }
+}

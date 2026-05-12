@@ -1,0 +1,52 @@
+{
+  "name": "wgii",
+  "version": "1.0.0",
+  "description": "World Geographic Information Integration - 世界地理資訊集成",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "wgii": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "sync": "node dist/cli.js sync",
+    "sparse": "node dist/cli.js sparse",
+    "test": "node --test dist/**/*.test.js",
+    "lint": "eslint src/",
+    "clean": "rm -rf dist/",
+    "demo": "npx http-server . -p 8080 --cors"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "log4js": "^6.9.1",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  },
+  "engines": {
+    "node": ">=20.11.1"
+  },
+  "files": [
+    "dist/",
+    "resource/",
+    "config/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/occultskyrong/wgii.git"
+  },
+  "keywords": [
+    "geojson",
+    "geographic",
+    "country",
+    "coordinates",
+    "wgii"
+  ],
+  "license": "ISC"
+}

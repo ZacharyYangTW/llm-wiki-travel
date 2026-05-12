@@ -1,0 +1,23 @@
+高山市 KML POI 列表
+
+從 raw/travel/Zachary's World Trip.kml 提取的高山市景點：
+
+1. Country Hotel Takayama - 高山鄉村飯店
+2. Takayama Nohi Bus Center - 高山濃飛巴士站
+3. 高山 - 高山站
+4. Takayama Hachiman Post Office - 郵局
+5. 飛驒國分寺 - 國分寺
+6. 匠館 - 匠館烤肉串
+7. 右衛門横町 - 右衛門横町旁邊有甜酒，裡面有賣海鹽
+8. Wabisuke - 古里古里串燒，很熱情會講日文的阿婆賣飛驒牛580/串
+9. Takumiya Yasukawa - 肉之匠家，飛驒牛，包子都有賣
+10. 飛驒牛まん本舖 - 網友推薦飛驒牛肉包
+11. Hida Kotte - 飛驒牛壽司，有ABCX四種套餐
+12. 茶乃芽 - 喝咖啡
+13. Valor Takayama Minami - Valor超市
+14. Hidagyu Maruaki - 丸明高級飛驒牛
+15. Nakabashi Bridge - 賞夜櫻的好去處
+16. 全家便利商店 (2個記錄)
+17. 三井日本料理(敦化料理美術館)
+
+總計：約 18-19 個 POI
