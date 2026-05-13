@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-從 KML 中重新提取中國和日本的 POI，重建目錄結構
+從 KML 中重新提取 POI，使用 GeoJSON 精確定位，重建目錄結構
+用法：python rebuild_china_japan_from_kml.py country=japan
 """
 
 import os
@@ -9,8 +10,10 @@ import sys
 import io
 import re
 import json
+import time
 from pathlib import Path
 from datetime import datetime
+from typing import Dict, List, Tuple, Optional
 
 # 修復 Windows 編碼
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -21,9 +24,29 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
-# 路徑設定
-KML_PATH = r"h:\我的雲端硬碟\llm_wiki_travel\raw\travel\Zachary's World Trip.kml"
-WIKI_DIR = r"h:\我的雲端硬碟\llm_wiki_travel\wiki"
+# 導入共通進度回報工具
+from progress_reporter import ProgressReporter
+
+# 導入共通函數庫
+_SCRIPT_DIR = Path(__file__).resolve().parent  # Allfiles/scripts
+_PROJECT_ROOT = _SCRIPT_DIR.parent.parent  # e:\llm_wiki_travel
+sys.path.insert(0, str(_PROJECT_ROOT / ".claude" / "skills" / "COMMON"))
+from geojson_utils import (
+    point_in_polygon,
+    load_geojson_municipalities,
+    find_municipality_by_geojson,
+    parse_kml as parse_kml_util,
+    extract_kml_coords,
+    create_wiki_file,
+)
+
+# 路徑設定（動態計算）
+KML_PATH = str(_PROJECT_ROOT / "Allfiles" / "raw" / "travel" / "Zachary's World Trip_fixed.kml")
+WIKI_DIR = str(_PROJECT_ROOT / "Allfiles" / "wiki")
+
+GEOJSON_PATHS = {
+    'japan': str(_PROJECT_ROOT / "japan-topography" / "data" / "municipality" / "geojson" / "s0001" / "N03-21_210101.json"),
+}
 
 # 中國省份和城市映射
 CITY_TO_PROVINCE = {
@@ -105,51 +128,15 @@ JAPAN_PREFECTURES = {
     "沖縄県": "沖縄",
 }
 
-def parse_kml():
-    """解析 KML 文件"""
-    if not os.path.exists(KML_PATH):
-        print(f"❌ KML 檔案不存在: {KML_PATH}")
-        return []
+# point_in_polygon() 已移到共通庫 geojson_utils.py
 
-    try:
-        parser = ET.XMLParser(recover=True)
-        tree = ET.parse(KML_PATH, parser)
-        root = tree.getroot()
-    except Exception as e:
-        print(f"❌ 無法解析 KML: {e}")
-        return []
+# load_geojson_municipalities() 已移到共通庫 geojson_utils.py
 
-    ns = {"kml": "http://www.opengis.net/kml/2.2"}
-    pois = []
+# find_municipality_by_geojson() 已移到共通庫 geojson_utils.py
 
-    for placemark in root.findall(".//kml:Placemark", ns):
-        name = placemark.findtext(".//kml:name", "", ns)
-        coords_elem = placemark.find(".//kml:Point/kml:coordinates", ns)
-        desc = placemark.findtext(".//kml:description", "", ns)
+# parse_kml() 已用共通庫 parse_kml() 替代
 
-        if coords_elem is not None and coords_elem.text:
-            try:
-                lng, lat = map(float, coords_elem.text.strip().split(',')[:2])
-                pois.append({
-                    'name': name,
-                    'lng': lng,
-                    'lat': lat,
-                    'description': desc
-                })
-            except ValueError:
-                pass
-
-    return pois
-
-def classify_country(lng, lat):
-    """根據座標判斷國家"""
-    # 中國大陸: 73° ~ 135°E, 18° ~ 54°N
-    if 73 <= lng <= 135 and 18 <= lat <= 54:
-        return "中國"
-    # 日本: 130° ~ 145°E, 30° ~ 46°N
-    elif 130 <= lng <= 145 and 30 <= lat <= 46:
-        return "日本"
-    return None
+# classify_country() 已用共通庫 classify_country_by_coords() 替代
 
 def get_province_from_kml_desc(desc, country):
     """從 KML 描述中提取省份資訊"""
@@ -169,123 +156,70 @@ def get_province_from_kml_desc(desc, country):
 
     return None
 
-def create_md_file(country, province, city, poi_name, lng, lat):
-    """創建 POI 的 Markdown 檔案"""
-    # 創建目錄
-    dir_path = Path(WIKI_DIR) / country / province / city
-    dir_path.mkdir(parents=True, exist_ok=True)
-
-    # 創建檔案名（處理特殊字符和換行符）
-    safe_name = re.sub(r'[\n\r\t\\/:*?"<>|]', '', poi_name).strip()
-    file_path = dir_path / f"{safe_name}.md"
-
-    # 檢查是否已存在
-    if file_path.exists():
-        return None
-
-    # 創建 Markdown 內容
-    content = f"""---
-name: {poi_name}
-type: place
-coordinates: [{lng}, {lat}]
-created_at: {datetime.now().isoformat()}
----
-
-# {poi_name}
-
-**座標:** {lat:.4f}, {lng:.4f}
-**國家:** {country}
-**省份/州:** {province}
-**城市:** {city}
-
-## 基本資訊
-
-## 備註
-
-"""
-
-    try:
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(content)
-        return str(file_path)
-    except Exception as e:
-        print(f"❌ 無法創建檔案 {file_path}: {e}")
-        return None
+# create_md_file() 已用共通庫 create_wiki_file() 替代
 
 def main():
-    import time
+    # 解析參數
+    country = 'japan'
+    for arg in sys.argv[1:]:
+        if arg.startswith('country='):
+            country = arg.split('=')[1].lower()
 
-    print("🌍 從 KML 重建中國和日本目錄")
+    if country not in GEOJSON_PATHS:
+        print(f"❌ 不支持的國家: {country}")
+        print(f"支持的國家: {', '.join(GEOJSON_PATHS.keys())}")
+        return
+
+    # 建立 log 檔案
+    log_file = Path(_PROJECT_ROOT) / "Allfiles" / "outputs" / f"rebuild_{country}.log"
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(log_file, 'w', encoding='utf-8') as log:
+        log.write(f"執行時間: {datetime.now().isoformat()}\n")
+        log.write(f"國家: {country}\n")
+        log.write("=" * 60 + "\n\n")
+
     print("=" * 60)
+    print(f"🌍 從 KML 重建 {country.upper()} 目錄（使用 GeoJSON）")
+    print(f"📝 Log: {log_file}")
+    print("=" * 60)
+
+    # 載入 GeoJSON
+    print(f"\n📖 載入 {country} GeoJSON...")
+    municipalities = load_geojson_municipalities(GEOJSON_PATHS[country])
+    if not municipalities:
+        print("❌ 無法載入邊界")
+        return
+    print(f"✓ 載入 {len(municipalities)} 個市區町村邊界")
 
     # 解析 KML
-    print("📖 解析 KML...")
-    pois = parse_kml()
+    print("\n📖 解析 KML...")
+    pois = parse_kml_util(KML_PATH)
     print(f"✓ 載入 {len(pois)} 個 POI")
 
-    # 分類
-    china_count = 0
-    japan_count = 0
-    other_count = 0
-    created_count = 0
+    # 篩選該國家的 POI
+    country_name = "日本" if country == "japan" else country
+    country_pois = []
+    for poi in pois:
+        result = find_municipality_by_geojson((poi['lng'], poi['lat']), municipalities)
+        if result:
+            country_pois.append((poi, result))
 
-    print("\n📍 分類 POI...")
+    print(f"✓ 該國家 POI: {len(country_pois)} 個")
 
-    start_time = time.time()
-    last_report = start_time
+    # 建立檔案
+    print(f"\n📝 建立 {country} 檔案...\n")
 
-    for i, poi in enumerate(pois, 1):
-        # 每 10 秒報告進度
-        current_time = time.time()
-        if current_time - last_report >= 10:
-            elapsed = current_time - start_time
-            rate = i / elapsed if elapsed > 0 else 0
-            remaining = (len(pois) - i) / rate if rate > 0 else 0
-            print(f"⏱️ [{elapsed:6.1f}s] 進度: {i:5d}/{len(pois)} ({i/len(pois)*100:5.1f}%) | " +
-                  f"中{china_count:4d} 日{japan_count:4d} 其他{other_count:4d} | " +
-                  f"已建{created_count:4d} | 預計剩餘: {remaining:.0f}s")
-            sys.stdout.flush()
-            last_report = current_time
+    reporter = ProgressReporter(total=len(country_pois), name=f"{country} wiki 檔案建立")
 
-        country = classify_country(poi['lng'], poi['lat'])
-
-        if country == "中國":
-            china_count += 1
-            # 獲取省份
-            province = get_province_from_kml_desc(poi['description'], country)
-            if province is None:
-                # 預設為未分類
-                province = "未分類"
-                city = "其他"
-            else:
-                city = "其他"
-
-            result = create_md_file(country, province, city, poi['name'], poi['lng'], poi['lat'])
-            if result:
-                created_count += 1
-
-        elif country == "日本":
-            japan_count += 1
-            # 獲取都道府県
-            prefecture = get_province_from_kml_desc(poi['description'], country)
-            if prefecture is None:
-                prefecture = "未分類"
-                city = "其他"
-            else:
-                city = "其他"
-
-            result = create_md_file(country, prefecture, city, poi['name'], poi['lng'], poi['lat'])
-            if result:
-                created_count += 1
-
+    for poi, (prefecture, municipality) in country_pois:
+        result = create_wiki_file(country_name, prefecture, municipality, poi['name'], poi['lng'], poi['lat'], WIKI_DIR)
+        if result:
+            reporter.update(created=1)
         else:
-            other_count += 1
+            reporter.update(failed=1)
 
-    print(f"\n✓ 中國 POI: {china_count}")
-    print(f"✓ 日本 POI: {japan_count}")
-    print(f"✓ 其他國家: {other_count}")
-    print(f"\n✓ 已創建 {created_count} 個檔案")
-    print("=" * 60)
+    reporter.finish()
 
 if __name__ == "__main__":
     main()
