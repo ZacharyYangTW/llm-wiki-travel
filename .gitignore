@@ -29,6 +29,9 @@ Thumbs.db
 *.log
 *.bak
 
+# Raw source data (KML, CSV, etc.)
+raw/
+
 # Large GeoJSON files
 twgeojson/*.json
 !twgeojson/README.md
