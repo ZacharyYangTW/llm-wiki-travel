@@ -91,6 +91,7 @@
   <button onclick="showPage('hungary')">🇭🇺 匈牙利</button>
   <button onclick="showPage('indonesia')">🇮🇩 印尼</button>
   <button onclick="showPage('india')">🇮🇳 印度</button>
+  <button onclick="showPage('china')">🇨🇳 中國</button>
 </nav>
 
 <div id="content-area">
@@ -217,6 +218,47 @@
     </div>
 
     <div class="alert success"><strong>結論：</strong>目錄整理為 Delhi（43）、Maharashtra（8）、Tamil Nadu（37）、Uttar Pradesh（31）、West Bengal（26）五個城市，符合印度主要省邦分布。</div>
+  </div>
+
+
+  <!-- ── 中國 ── -->
+  <div class="page" id="page-china">
+    <div class="page-header">
+      <h1>中國</h1>
+      <div class="date">整理日期：2026-05-14</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-box info"><div class="num">965</div><div class="label">KML POI</div></div>
+      <div class="stat-box ok"><div class="num">944</div><div class="label">Wiki 檔案</div></div>
+      <div class="stat-box warn"><div class="num">-21</div><div class="label">差異</div></div>
+      <div class="stat-box ok"><div class="num">910</div><div class="label">正確</div></div>
+      <div class="stat-box warn"><div class="num">28</div><div class="label">缺少</div></div>
+      <div class="stat-box warn"><div class="num">27</div><div class="label">位置錯誤</div></div>
+    </div>
+
+    <div class="alert warning">
+      <strong>原始問題：</strong>全部 7,295 個 wiki 檔案皆以 <code>省份/其他/POI.md</code> 格式存放（城市層完全失效）。需用 GeoMapData_CN 多邊形邊界重新分類。另有 28 個 KML POI 座標落在 GeoMapData_CN 多邊形外（鼓浪嶼島、橫琴等），無法自動分類。
+    </div>
+
+    <div class="issues">
+      <h3>主要處理步驟</h3>
+      <div class="issue-item"><span class="tag fix">重分類</span><span>執行 <code>reclassify_china.py</code>：讀取每個 md 檔的 frontmatter 座標，透過 GeoMapData_CN GeoJSON（含 WGS84→GCJ02 轉換）自動分類到 省份/城市/ 三層結構，共處理約 7,295 個檔案</span></div>
+      <div class="issue-item"><span class="tag fix">修正</span><span>執行 <code>fix_china_unclassified.py</code>：處理 <code>未分類/其他/</code> 和 <code>福建省/其他/</code> 共 75 個殘留檔案，按座標範圍再分類</span></div>
+      <div class="issue-item"><span class="tag fix">修正</span><span>澳門 76 個檔案依 820000.json 多邊形分配至 7 個堂區：嘉模堂區（20）、路凼填海區（30）、大堂區（8）、風順堂區（4）、花地瑪堂區（3）、花王堂區（3）、聖方濟各堂區（6）</span></div>
+      <div class="issue-item"><span class="tag fix">移動</span><span>東引島、西引島、南竿 共 25 個 POI 移至 <code>wiki/台灣/連江縣/東引鄉/</code> 與 <code>南竿鄉/</code>（WGII 部分將東引計為中國，但屬台灣行政管轄）</span></div>
+      <div class="issue-item"><span class="tag fix">移動</span><span>廈門鼓浪嶼（菽莊花園、廈門鼓浪嶼碼頭、黄荣远堂别墅等）及廈門本島 POI 移至 <code>福建省/廈門市/</code></span></div>
+      <div class="issue-item"><span class="tag del">刪除</span><span>6 個錯誤歸檔至中國的非中國 POI：台東 7-ELEVEN、台北鼎泰豐、台南麥當勞（台灣本島）、澎湖 Starbucks、河內巴陵廣場（越南）、沖繩 Starbucks（日本）</span></div>
+      <div class="issue-item"><span class="tag warn">待處理</span><span>28 個 KML POI 座標落在 GeoMapData_CN 多邊形外（鼓浪嶼島另側、珠海橫琴等），無法自動分配城市，計為「缺少」</span></div>
+      <div class="issue-item"><span class="tag warn">待處理</span><span>27 個 wiki 檔案存在但位置錯誤（歸錯省份/城市），需人工核查，agent_fix 不處理「位置錯誤」類型</span></div>
+      <div class="issue-item"><span class="tag warn">待處理</span><span>2 個橫琴（珠海/澳門特別合作區）POI 暫留 <code>澳門/</code> 根目錄：珠海市口岸局橫琴分局出境窗口、長隆免費專線</span></div>
+    </div>
+
+    <div class="alert info">
+      <strong>地理特殊說明：</strong>GeoMapData_CN 的座標系為 GCJ-02（火星座標），wiki frontmatter 儲存 WGS-84；<code>reclassify_china.py</code> 及 <code>find_china_province</code> 內部自動轉換。澳門省份邊界（820000.json）已涵蓋城市/堂區多邊形，可用於精確分類。
+    </div>
+
+    <div class="alert success"><strong>結論：</strong>中國 wiki 由 7,295 個檔案（全在 其他/ 目錄）整理為 944 個正確分層的 省/市/POI.md 結構。香港 44 個、澳門 76 個各自在正確的區/堂區下。含 29 個省份直轄市，覆蓋北京（169）、廣東（77）、澳門（76）、湖南（47）、雲南（47）等主要地區。</div>
   </div>
 
 </div>
