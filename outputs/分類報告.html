@@ -90,6 +90,7 @@
   <button onclick="showPage('canada')" class="active">🇨🇦 加拿大</button>
   <button onclick="showPage('hungary')">🇭🇺 匈牙利</button>
   <button onclick="showPage('indonesia')">🇮🇩 印尼</button>
+  <button onclick="showPage('india')">🇮🇳 印度</button>
 </nav>
 
 <div id="content-area">
@@ -182,6 +183,40 @@
     <div class="alert info">
       <strong>後續注意：</strong>其他印尼小離島（Bintan 等）也可能有相同問題。若未來有 POI 歸類失敗，請在 <code>_COORD_FALLBACK_RULES</code> 新增座標範圍。群島國家（印尼、菲律賓、紐西蘭）皆可能遇到類似的 wgii 邊界缺漏問題。
     </div>
+  </div>
+
+
+  <!-- ── 印度 ── -->
+  <div class="page" id="page-india">
+    <div class="page-header">
+      <h1>印度</h1>
+      <div class="date">整理日期：2026-05-14</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-box info"><div class="num">148</div><div class="label">KML POI</div></div>
+      <div class="stat-box ok"><div class="num">145</div><div class="label">Wiki 檔案</div></div>
+      <div class="stat-box warn"><div class="num">-3</div><div class="label">差異</div></div>
+    </div>
+
+    <div class="alert warning">
+      <strong>注意：</strong>原始 wiki 有 184 個檔案，45 個為舊命名（wiki 命名與 KML 不符），已刪除。7 個缺少 POI 中，6 個已按座標歸城市補建；1 個 Kolkata Starbucks 因同目錄已有同名檔案，命名衝突無法重複建立。
+    </div>
+
+    <div class="issues">
+      <h3>發現的問題與處理</h3>
+      <div class="issue-item"><span class="tag fix">修正</span><span>Delhi、Maharashtra、Tamil Nadu、Uttar Pradesh、West Bengal 五個 POI/ 多餘子目錄攤平（共 139 個檔案移至城市層）</span></div>
+      <div class="issue-item"><span class="tag del">刪除</span><span>45 個舊命名 wiki 檔案：wiki 名稱與 KML POI 名稱不符（如 <code>Gateway Of India Mumbai</code> vs KML 的 <code>Gateway of India (Colaba)</code>），視為多餘</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>Tamil Nadu/V.H.S..md — 座標 (13.0033, 80.2477) 確認在 Chennai</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>Delhi/Starbucks.md — 座標 (28.5506, 77.1216) 確認在 Delhi</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>West Bengal/Starbucks.md — 座標 (22.5877, 88.4083) 確認在 Kolkata</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>Uttar Pradesh/Burger King.md — 座標 (25.3358, 82.9773) 確認在 Varanasi</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>Uttar Pradesh/尼泊爾神廟 (Nepali Temple  Mini Pashupatinath).md — 座標 (25.3100, 83.0131) 確認在 Varanasi</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>Uttar Pradesh/Spencers Retail  PDR Mall.md — 座標 (25.3094, 83.0032) 確認在 Varanasi</span></div>
+      <div class="issue-item"><span class="tag warn">問題</span><span>KML 有兩個 Kolkata Starbucks（座標略不同），但 wiki 同目錄只能有一個 <code>Starbucks.md</code>，第二個無法建立（差異 -3 中的主因）</span></div>
+    </div>
+
+    <div class="alert success"><strong>結論：</strong>目錄整理為 Delhi（43）、Maharashtra（8）、Tamil Nadu（37）、Uttar Pradesh（31）、West Bengal（26）五個城市，符合印度主要省邦分布。</div>
   </div>
 
 </div>
