@@ -6,85 +6,101 @@
 <title>Wiki 分類報告</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f6fa; color: #2d3436; display: flex; min-height: 100vh; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f6fa; color: #2d3436; display: flex; height: 100vh; overflow: hidden; }
 
   /* Sidebar */
   #sidebar {
     width: 180px; min-width: 180px; background: #2d3436; color: #dfe6e9;
-    position: sticky; top: 0; height: 100vh; overflow-y: auto; padding: 20px 0;
+    display: flex; flex-direction: column; padding: 20px 0;
   }
-  #sidebar h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px;
-    color: #636e72; padding: 0 20px 12px; border-bottom: 1px solid #3d4852; margin-bottom: 8px; }
-  #sidebar a {
-    display: block; padding: 9px 20px; color: #b2bec3; text-decoration: none;
-    font-size: 14px; transition: all .15s;
+  #sidebar h2 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 1px;
+    color: #636e72; padding: 0 20px 12px;
+    border-bottom: 1px solid #3d4852; margin-bottom: 8px;
   }
-  #sidebar a:hover { background: #3d4852; color: #fff; }
-  #sidebar a.active { background: #0984e3; color: #fff; border-left: 3px solid #74b9ff; }
-
-  /* Main */
-  #main { flex: 1; padding: 36px 48px; max-width: 900px; }
-  #main h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
-  #main .subtitle { color: #636e72; font-size: 14px; margin-bottom: 36px; }
-
-  /* Country section */
-  .country-section { margin-bottom: 48px; scroll-margin-top: 20px; }
-  .country-section h2 {
-    font-size: 20px; font-weight: 700; border-left: 4px solid #0984e3;
-    padding-left: 12px; margin-bottom: 16px;
+  #sidebar button {
+    display: block; width: 100%; padding: 10px 20px;
+    background: none; border: none; color: #b2bec3;
+    text-align: left; font-size: 14px; cursor: pointer;
+    transition: all .15s;
+  }
+  #sidebar button:hover { background: #3d4852; color: #fff; }
+  #sidebar button.active {
+    background: #0984e3; color: #fff;
+    border-left: 3px solid #74b9ff;
+    padding-left: 17px;
   }
 
-  /* Stats bar */
-  .stats { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  /* Content area */
+  #content-area {
+    flex: 1; overflow-y: auto; padding: 36px 48px;
+  }
+
+  /* Page */
+  .page { display: none; max-width: 820px; }
+  .page.active { display: block; }
+
+  /* Header */
+  .page-header { margin-bottom: 24px; }
+  .page-header h1 { font-size: 22px; font-weight: 700; border-left: 4px solid #0984e3; padding-left: 12px; }
+  .page-header .date { color: #636e72; font-size: 13px; margin-top: 4px; padding-left: 16px; }
+
+  /* Stats */
+  .stats { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
   .stat-box {
-    background: #fff; border-radius: 8px; padding: 12px 18px;
+    background: #fff; border-radius: 8px; padding: 14px 20px;
     box-shadow: 0 1px 4px rgba(0,0,0,.08); min-width: 110px; text-align: center;
   }
-  .stat-box .num { font-size: 24px; font-weight: 700; }
-  .stat-box .label { font-size: 11px; color: #636e72; margin-top: 2px; }
-  .stat-box.ok .num { color: #00b894; }
+  .stat-box .num { font-size: 26px; font-weight: 700; }
+  .stat-box .label { font-size: 11px; color: #636e72; margin-top: 3px; }
+  .stat-box.ok   .num { color: #00b894; }
   .stat-box.warn .num { color: #e17055; }
   .stat-box.info .num { color: #0984e3; }
 
-  /* Issue list */
-  .issues { background: #fff; border-radius: 8px; padding: 18px 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); margin-bottom: 12px; }
-  .issues h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: #636e72; margin-bottom: 12px; }
-  .issue-item { display: flex; align-items: flex-start; gap: 10px; padding: 7px 0; border-bottom: 1px solid #f0f0f0; font-size: 14px; }
-  .issue-item:last-child { border-bottom: none; }
-  .tag {
-    display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px;
-    font-weight: 600; white-space: nowrap; min-width: 56px; text-align: center;
-  }
-  .tag.fix   { background: #d4edda; color: #155724; }
-  .tag.del   { background: #f8d7da; color: #721c24; }
-  .tag.add   { background: #cce5ff; color: #004085; }
-  .tag.warn  { background: #fff3cd; color: #856404; }
-  .tag.info  { background: #e2e3e5; color: #383d41; }
-
-  /* Alert box */
-  .alert { border-radius: 8px; padding: 14px 18px; margin-bottom: 12px; font-size: 14px; line-height: 1.6; }
+  /* Alert */
+  .alert { border-radius: 8px; padding: 14px 18px; margin-bottom: 14px; font-size: 14px; line-height: 1.65; }
   .alert.warning { background: #fff3cd; border-left: 4px solid #ffc107; }
   .alert.success { background: #d4edda; border-left: 4px solid #28a745; }
   .alert.info    { background: #cce5ff; border-left: 4px solid #0984e3; }
   .alert strong  { font-weight: 600; }
+
+  /* Issues */
+  .issues { background: #fff; border-radius: 8px; padding: 18px 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); margin-bottom: 14px; }
+  .issues h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #636e72; margin-bottom: 12px; }
+  .issue-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f0f0f0; font-size: 14px; line-height: 1.5; }
+  .issue-item:last-child { border-bottom: none; }
+
+  .tag {
+    display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px;
+    font-weight: 700; white-space: nowrap; min-width: 48px; text-align: center; flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .tag.fix  { background: #d4edda; color: #155724; }
+  .tag.del  { background: #f8d7da; color: #721c24; }
+  .tag.add  { background: #cce5ff; color: #004085; }
+  .tag.warn { background: #fff3cd; color: #856404; }
+
+  code { background: #f1f2f6; padding: 1px 5px; border-radius: 3px; font-size: 12px; font-family: monospace; }
 </style>
 </head>
 <body>
 
 <nav id="sidebar">
   <h2>國家</h2>
-  <a href="#canada">🇨🇦 加拿大</a>
-  <a href="#hungary">🇭🇺 匈牙利</a>
-  <a href="#indonesia">🇮🇩 印尼</a>
+  <button onclick="showPage('canada')" class="active">🇨🇦 加拿大</button>
+  <button onclick="showPage('hungary')">🇭🇺 匈牙利</button>
+  <button onclick="showPage('indonesia')">🇮🇩 印尼</button>
 </nav>
 
-<div id="main">
-  <h1>Wiki 分類報告</h1>
-  <p class="subtitle">記錄各國 KML ↔ Wiki 整理過程中發現的問題與處理結果　　最後更新：2026-05-14</p>
+<div id="content-area">
 
   <!-- ── 加拿大 ── -->
-  <section class="country-section" id="canada">
-    <h2>加拿大</h2>
+  <div class="page active" id="page-canada">
+    <div class="page-header">
+      <h1>加拿大</h1>
+      <div class="date">整理日期：2026-05-14</div>
+    </div>
+
     <div class="stats">
       <div class="stat-box info"><div class="num">54</div><div class="label">KML POI</div></div>
       <div class="stat-box ok"><div class="num">52</div><div class="label">Wiki 檔案</div></div>
@@ -92,25 +108,29 @@
     </div>
 
     <div class="alert warning">
-      <strong>注意：</strong>差異 2 個為 McDonald's 與 Peace Arch Provincial Park，已手動確認城市後補建。剩餘 2 個差異（Glacier Bay、阿尔塞克河）確認為非加拿大 POI，已從 wiki 刪除。
+      <strong>注意：</strong>差異 2 個為 McDonald's 與 Peace Arch Provincial Park，已手動確認城市後補建。另有 2 個 wiki 檔案（Glacier Bay、阿尔塞克河）確認非加拿大 POI，從 wiki 刪除。
     </div>
 
     <div class="issues">
       <h3>發現的問題與處理</h3>
       <div class="issue-item"><span class="tag fix">修正</span><span>Alberta/POI/、Northwest Territories/POI/、Yukon/POI/ 三個多餘子目錄攤平（共 18 個檔案移至城市層）</span></div>
       <div class="issue-item"><span class="tag add">新增</span><span>Vancouver/McDonald's.md — 座標 (49.279, -123.116) 確認在溫哥華市區</span></div>
-      <div class="issue-item"><span class="tag add">新增</span><span>新建 Surrey/ 目錄 + Surrey/Peace Arch Provincial Park.md — 位於美加邊境加拿大側</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>新建 Surrey/ 目錄 + Surrey/Peace Arch Provincial Park.md — 位於美加邊境加拿大側（Surrey, BC）</span></div>
       <div class="issue-item"><span class="tag del">刪除</span><span>Vancouver/YVR-YEG-YZH.md — wiki 有但 KML 無對應 POI</span></div>
       <div class="issue-item"><span class="tag del">刪除</span><span>Yukon/Glacier Bay National Park and Preserve.md — 實際位於美國阿拉斯加州，歸檔錯誤</span></div>
-      <div class="issue-item"><span class="tag del">刪除</span><span>Yukon/阿尔塞克河.md — 簡體命名 + 位於美加跨境，歸檔錯誤</span></div>
+      <div class="issue-item"><span class="tag del">刪除</span><span>Yukon/阿尔塞克河.md — 簡體命名且位於美加跨境河，歸檔錯誤</span></div>
     </div>
 
-    <div class="alert success"><strong>結論：</strong>目錄結構已整理為標準兩層結構（城市/POI.md）。城市目錄：Alberta、Northwest Territories、Surrey、Vancouver。</div>
-  </section>
+    <div class="alert success"><strong>結論：</strong>目錄整理為標準兩層結構（城市/POI.md）。最終城市目錄：Alberta、Northwest Territories、Surrey、Vancouver。</div>
+  </div>
 
   <!-- ── 匈牙利 ── -->
-  <section class="country-section" id="hungary">
-    <h2>匈牙利</h2>
+  <div class="page" id="page-hungary">
+    <div class="page-header">
+      <h1>匈牙利</h1>
+      <div class="date">整理日期：2026-05-14</div>
+    </div>
+
     <div class="stats">
       <div class="stat-box info"><div class="num">58</div><div class="label">KML POI</div></div>
       <div class="stat-box ok"><div class="num">57</div><div class="label">Wiki 檔案</div></div>
@@ -118,24 +138,28 @@
     </div>
 
     <div class="alert warning">
-      <strong>城市歸類問題：</strong>原有 "Pest" 目錄，但 Pest 是布達佩斯的一部分，非獨立城市（Budapest = Buda + Pest，1873 年合併）。目錄內混有真正屬於 Budapest 的 POI，以及屬於 Szentendre 小鎮的 POI。
+      <strong>城市歸類問題：</strong>原有 "Pest" 目錄，但 Pest 是布達佩斯的一部分，非獨立城市（Budapest = Buda + Pest，1873 年合併）。目錄內混有屬於 Budapest 的 POI，以及屬於 Szentendre 小鎮的 POI。
     </div>
 
     <div class="issues">
       <h3>發現的問題與處理</h3>
       <div class="issue-item"><span class="tag fix">修正</span><span>Budapest/POI/（47 個）、Pest/POI/（9 個）多餘子目錄全部攤平</span></div>
       <div class="issue-item"><span class="tag fix">修正</span><span>Pest/ 目錄拆分：Budapest-Keleti、Széchenyi fürdő、塞切尼溫泉浴場、布達佩斯李斯特機場、100E公車 → 移入 Budapest/</span></div>
-      <div class="issue-item"><span class="tag add">新增</span><span>建立 Szentendre/ 目錄，Korona Étterem、Szentendre、Szentendre 1 posta、Szentendre main square 移入</span></div>
+      <div class="issue-item"><span class="tag add">新增</span><span>建立 Szentendre/ 目錄，Korona Étterem、Szentendre、Szentendre 1 posta、Szentendre main square 移入（Szentendre 為布達佩斯北方獨立小鎮）</span></div>
       <div class="issue-item"><span class="tag add">新增</span><span>Budapest/McDonald's.md — 座標 (47.510, 19.057) 確認在布達佩斯市區</span></div>
-      <div class="issue-item"><span class="tag del">刪除</span><span>Pest/ 目錄（已拆分完畢，確認為空目錄後刪除）</span></div>
+      <div class="issue-item"><span class="tag del">刪除</span><span>Pest/ 目錄（拆分完畢後確認為空，刪除）</span></div>
     </div>
 
-    <div class="alert success"><strong>結論：</strong>目錄結構整理為 Budapest（52 個）、Szentendre（4 個）兩個城市，符合實際地理分布。</div>
-  </section>
+    <div class="alert success"><strong>結論：</strong>目錄整理為 Budapest（52 個）、Szentendre（4 個）兩個城市，符合實際地理分布。</div>
+  </div>
 
   <!-- ── 印尼 ── -->
-  <section class="country-section" id="indonesia">
-    <h2>印尼</h2>
+  <div class="page" id="page-indonesia">
+    <div class="page-header">
+      <h1>印尼</h1>
+      <div class="date">整理日期：2026-05-14</div>
+    </div>
+
     <div class="stats">
       <div class="stat-box warn"><div class="num">0*</div><div class="label">KML 偵測</div></div>
       <div class="stat-box info"><div class="num">9</div><div class="label">Wiki 檔案</div></div>
@@ -143,40 +167,33 @@
     </div>
 
     <div class="alert warning">
-      <strong>⚠ wgii 邊界資料不完整：</strong>印尼為群島國家，wgii 提供的 IDN 邊界（MultiPolygon，共 13 個多邊形）未涵蓋 <strong>Batam 島（巴淡島）</strong>。Batam 位於緯度約 1.1°N、經度 104.0°E，緊鄰新加坡，屬印尼廖內群島省。所有 Batam POI 的 wgii 判斷結果為 None，導致 KML 計數為 0，9 個 wiki 檔案被錯誤刪除。
+      <strong>⚠ wgii 邊界資料不完整：</strong>印尼為群島國家，wgii 的 IDN 邊界（MultiPolygon，共 13 個多邊形）未涵蓋 <strong>Batam 島（巴淡島）</strong>。Batam 位於約 1.1°N、104.0°E，緊鄰新加坡，屬印尼廖內群島省。全部 Batam POI 的 wgii 判斷回傳 None，導致 KML 計數為 0，9 個 wiki 檔案被錯誤判為「多餘」而刪除。
     </div>
 
     <div class="issues">
       <h3>發現的問題與處理</h3>
       <div class="issue-item"><span class="tag warn">問題</span><span>wgii IDN 邊界未覆蓋 Batam 島，全部 9 個 POI 被判為「無對應國家」</span></div>
-      <div class="issue-item"><span class="tag del">誤刪</span><span>audit fix 誤判 9 個 wiki 檔案為「wiki 有但 KML 無」，執行刪除</span></div>
-      <div class="issue-item"><span class="tag add">還原</span><span>從 KML 重建 9 個 Batam POI 檔案：Majestic Fast Ferry、Nagoya Hill Mall、Nagoya Citywalk、Nagoya Foodcourt、McDonald's Harmoni Batam、Masjid Raya Baitusysyakur、Baresto Cafe Mall、Ultimo Kitchen、Welcome To Batam Monument</span></div>
-      <div class="issue-item"><span class="tag fix">修正</span><span>在 COMMON geojson_utils.py 加入座標範圍 fallback 機制（<code>_COORD_FALLBACK_RULES</code>），Batam 島（lat 0.8~1.4, lng 103.5~104.6）明確歸類為印尼</span></div>
+      <div class="issue-item"><span class="tag del">誤刪</span><span>audit fix 誤判 9 個 wiki 檔案為「wiki 有但 KML 無」並執行刪除</span></div>
+      <div class="issue-item"><span class="tag add">還原</span><span>從 KML 重建 9 個 Batam 檔案：Majestic Fast Ferry、Nagoya Hill Mall、Nagoya Citywalk、Nagoya Foodcourt、McDonald's Harmoni Batam、Masjid Raya Baitusysyakur、Baresto Cafe Mall、Ultimo Kitchen、Welcome To Batam Monument</span></div>
+      <div class="issue-item"><span class="tag fix">修正</span><span>在 COMMON <code>geojson_utils.py</code> 加入座標範圍 fallback 機制（<code>_COORD_FALLBACK_RULES</code>），Batam 島（lat 0.8~1.4, lng 103.5~104.6）明確歸類為印尼</span></div>
       <div class="issue-item"><span class="tag fix">修正</span><span>Batam/POI/ 多餘子目錄攤平</span></div>
     </div>
 
     <div class="alert info">
-      <strong>後續注意：</strong>其他印尼小離島（Bintan 等）也可能有相同問題。若未來有印尼其他地區的 POI 被歸類失敗，請在 <code>_COORD_FALLBACK_RULES</code> 新增對應的座標範圍。wgii 資料為簡化邊界，群島國家（印尼、菲律賓、紐西蘭）皆可能有類似問題。
+      <strong>後續注意：</strong>其他印尼小離島（Bintan 等）也可能有相同問題。若未來有 POI 歸類失敗，請在 <code>_COORD_FALLBACK_RULES</code> 新增座標範圍。群島國家（印尼、菲律賓、紐西蘭）皆可能遇到類似的 wgii 邊界缺漏問題。
     </div>
-  </section>
+  </div>
 
 </div>
 
 <script>
-// Highlight active sidebar link on scroll
-const sections = document.querySelectorAll('.country-section');
-const links = document.querySelectorAll('#sidebar a');
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      links.forEach(l => l.classList.remove('active'));
-      const id = e.target.id;
-      const link = document.querySelector(`#sidebar a[href="#${id}"]`);
-      if (link) link.classList.add('active');
-    }
-  });
-}, { threshold: 0.3 });
-sections.forEach(s => observer.observe(s));
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#sidebar button').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  document.getElementById('content-area').scrollTop = 0;
+  event.currentTarget.classList.add('active');
+}
 </script>
 </body>
 </html>
