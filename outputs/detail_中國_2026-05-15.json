@@ -1,0 +1,508 @@
+{
+  "country": "中國",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 28,
+    "wrong_place": 27,
+    "extra": 0,
+    "folder": 0
+  },
+  "issues": [
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "五通码头",
+      "coord": "(24.5315, 118.1913)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "廈門鼓浪嶼碼頭",
+      "coord": "(24.4463, 118.0733)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "曾厝垵元翔專車回機場大巴售票處",
+      "coord": "(24.4253, 118.1244)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東引欣欣麵包店 123民宿",
+      "coord": "(26.3672, 120.4886)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "台馬之星輪東引服務處",
+      "coord": "(26.3669, 120.4875)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "忠誠門公廁",
+      "coord": "(26.3671, 120.4865)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "燈塔附近廁所",
+      "coord": "(26.3671, 120.5077)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "55據點 背包客棧",
+      "coord": "(26.1427, 119.9128)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "菽莊花園",
+      "coord": "(24.4394, 118.0701)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "黄荣远堂别墅",
+      "coord": "(24.4433, 118.0733)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "好列豆漿",
+      "coord": "(26.3675, 120.4881)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東引亨裕超市",
+      "coord": "(26.3673, 120.4879)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東湧超級市場",
+      "coord": "(26.3676, 120.4880)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "劉家麵館",
+      "coord": "(26.3671, 120.4877)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "忠誠門",
+      "coord": "(26.3670, 120.4867)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東引中柳天后宮",
+      "coord": "(26.3671, 120.4867)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東湧公園 (東湧運動場)",
+      "coord": "(26.3672, 120.4921)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "燕秀潮音",
+      "coord": "(26.3580, 120.4890)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "中柱感恩亭",
+      "coord": "(26.3703, 120.4841)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "西引東澳海灘",
+      "coord": "(26.3762, 120.4822)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "靜伏鱷魚",
+      "coord": "(26.3756, 120.4779)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "朝山觀音拍照點",
+      "coord": "(26.3689, 120.4974)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "一線天",
+      "coord": "(26.3662, 120.5054)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "擂鼓石",
+      "coord": "(26.3658, 120.5089)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "太白天聲",
+      "coord": "(26.3658, 120.5094)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東引島燈塔",
+      "coord": "(26.3654, 120.5105)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "烈女義坑",
+      "coord": "(26.3683, 120.5073)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "安東坑道",
+      "coord": "(26.3650, 120.4963)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "外港客運碼頭",
+      "coord": "",
+      "expected_path": "澳門/花地玛堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\外港客運碼頭.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "路環郵政分局",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\路環郵政分局.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "長隆免費專線",
+      "coord": "",
+      "expected_path": "澳門/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\長隆免費專線.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "媽閣站",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣站.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣站.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "關閘總站",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\關閘總站.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\關閘總站.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "大三巴牌坊",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\大三巴牌坊.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\大三巴牌坊.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "南屏雅敘",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\南屏雅敘.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\南屏雅敘.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "媽閣廟",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣廟.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣廟.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "添好運點心專門店",
+      "coord": "",
+      "expected_path": "香港/油尖旺區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\香港\\深水埗區\\添好運點心專門店.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "議事亭前地",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "肯德基",
+      "coord": "",
+      "expected_path": "北京市/東城區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\黑龍江省\\哈爾濱市\\肯德基.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\甘肅省\\酒泉市\\肯德基.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\湖南省\\張家界市\\肯德基.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\河北省\\承德市\\肯德基.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\北京市\\海淀區\\肯德基.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "聖若瑟修院及聖堂",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\聖若瑟修院及聖堂.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\聖若瑟修院及聖堂.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "議事亭前地17號",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地17號.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地17號.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "東來順",
+      "coord": "",
+      "expected_path": "北京市/海淀區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\北京市\\東城區\\東來順.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "恩尼斯總統前地",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\恩尼斯總統前地.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "路環聖芳濟各聖堂",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\路環聖芳濟各聖堂.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "路環天后古廟",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\路環天后古廟.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "安德魯總店 LORD STOW'S BAKERY (ORIGINAL SHOP)",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\安德魯總店 LORD STOW'S BAKERY (ORIGINAL SHOP).md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "路環碼頭",
+      "coord": "",
+      "expected_path": "澳門/圣方濟各堂區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\聖方濟各堂區\\路環碼頭.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "勝利茶餐室",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\勝利茶餐室.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\勝利茶餐室.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "澳門戀愛巷",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\澳門戀愛巷.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門戀愛巷.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "珠海市口岸局橫琴分局出境窗口",
+      "coord": "",
+      "expected_path": "澳門/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\珠海市口岸局橫琴分局出境窗口.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "澳門關閘",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\澳門關閘.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門關閘.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "蘭州拉麵",
+      "coord": "",
+      "expected_path": "廣東省/韶關市",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\雲南省\\昆明市\\蘭州拉麵.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\廣州市\\蘭州拉麵.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "蘭州拉麵",
+      "coord": "",
+      "expected_path": "廣東省/中山市",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\雲南省\\昆明市\\蘭州拉麵.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\廣州市\\蘭州拉麵.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "7-Eleven",
+      "coord": "",
+      "expected_path": "廣東省/珠海市",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\嘉模堂區\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\吉林省\\其他\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\上海市\\其他\\7-Eleven.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "新添利咖啡美食",
+      "coord": "",
+      "expected_path": "廣東省/None",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\新添利咖啡美食.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    }
+  ]
+}
