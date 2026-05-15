@@ -2,111 +2,11 @@
   "country": "印尼",
   "date": "2026-05-15",
   "summary": {
-    "missing": 11,
+    "missing": 0,
     "unclassifiable": 0,
     "wrong_place": 0,
     "extra": 0,
     "folder": 0
   },
-  "issues": [
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "St John's Island Pier",
-      "coord": "(1.2223, 103.8487)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Seringat Island Pier and Toilets",
-      "coord": "(1.2281, 103.8505)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "St John's Island 1st toilet",
-      "coord": "(1.2219, 103.8466)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Kusu Island Pier",
-      "coord": "(1.2236, 103.8587)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Southernmost Point of Continental Asia",
-      "coord": "(1.2481, 103.8214)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Skyline Luge",
-      "coord": "(1.2520, 103.8169)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "聖淘沙魚尾獅塔",
-      "coord": "(1.2534, 103.8189)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Seringat Island Beach",
-      "coord": "(1.2316, 103.8554)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Lazarus Island Beach",
-      "coord": "(1.2269, 103.8534)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "St John - Lazarus Bridge",
-      "coord": "(1.2218, 103.8518)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Gogreen @ St John's Island",
-      "coord": "(1.2208, 103.8506)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    }
-  ]
+  "issues": []
 }
