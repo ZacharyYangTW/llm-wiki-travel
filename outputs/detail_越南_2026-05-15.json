@@ -1,0 +1,1246 @@
+{
+  "country": "越南",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 112,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 18,
+    "folder": 7
+  },
+  "issues": [
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "新山一國際機場",
+      "coord": "(10.8185, 106.6588)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Town House 23 Saigon Hotel",
+      "coord": "(10.7693, 106.6974)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "檳城市場公車站",
+      "coord": "(10.7708, 106.6985)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "西贡中心邮局",
+      "coord": "(10.7798, 106.6999)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Bai Dinh Garden Resort & Spa Ninh Binh",
+      "coord": "(20.2787, 105.8585)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cây xăng gia sinh",
+      "coord": "(20.2853, 105.8623)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "長安名勝區陸龍灣機車停車場 moto bike parking",
+      "coord": "(20.2534, 105.9186)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cửa Hàng Xăng Dầu Kiên Linh",
+      "coord": "(20.2456, 105.8328)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "拜頂寺機車停車場 Bãi đỗ xe chùa Bái Đính",
+      "coord": "(20.2735, 105.8556)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Piano Hotel",
+      "coord": "(10.7677, 106.6986)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Trường Cđkt Cao Thắng - Đối Diện 86 - Nam Kỳ Khởi Nghĩa",
+      "coord": "(10.7714, 106.7009)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Nhà Ga Ngầm Ba Son - Tôn Đức Thắng",
+      "coord": "(10.7816, 106.7080)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Nhà Ga An Phú - Xa Lộ Hà Nội",
+      "coord": "(10.8021, 106.7423)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Ben Thanh Station",
+      "coord": "(10.7708, 106.6975)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Nhà Ga Ngầm Nhà Hát Thành Phố",
+      "coord": "(10.7762, 106.7030)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Siêu thị Thế giới di động",
+      "coord": "(10.7692, 106.6950)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Dntn Vàng Hà Tâm",
+      "coord": "(10.7722, 106.6974)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "West Entrance Ben Thanh Market",
+      "coord": "(10.7723, 106.6976)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "CGV Liberty Citypoint",
+      "coord": "(10.7746, 106.7007)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Starbucks Rex",
+      "coord": "(10.7756, 106.7005)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "西贡王公圣母教堂",
+      "coord": "(10.7798, 106.6990)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Tomidaya Ramen Noodle",
+      "coord": "(10.7796, 106.7050)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "健之家專業腳底按摩 Kien Chi Gia Professional Foot Massage",
+      "coord": "(10.7735, 106.7021)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Saigon Centre",
+      "coord": "(10.7737, 106.7009)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Takashimaya Vietnam",
+      "coord": "(10.7731, 106.7005)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Vincom Center B Shopping Mall",
+      "coord": "(10.7782, 106.7016)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "范五老街",
+      "coord": "(10.7673, 106.6937)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "TNK Travel",
+      "coord": "(10.7676, 106.6940)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Ichiba Sushi Vietnam",
+      "coord": "(10.7693, 106.6913)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Saigon Heritage Spa & Massage club",
+      "coord": "(10.7769, 106.7045)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Temple Leaf Spa",
+      "coord": "(10.7781, 106.7035)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Chanh Bistro Rooftop Saigon",
+      "coord": "(10.7714, 106.7040)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Tòa nhà tài chính Bitexco",
+      "coord": "(10.7720, 106.7044)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Ho Chi Minh City Hall",
+      "coord": "(10.7765, 106.7010)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Parkson",
+      "coord": "(10.7773, 106.7022)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "越南胡志明国家独立博物馆",
+      "coord": "(10.7780, 106.6962)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "War Remnants Museum",
+      "coord": "(10.7792, 106.6923)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Diamond Plaza",
+      "coord": "(10.7807, 106.6984)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "L’Usine Le Loi",
+      "coord": "(10.7731, 106.6996)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Satra Food - lê lợi",
+      "coord": "(10.7730, 106.6996)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "McDonalds",
+      "coord": "(10.7698, 106.6967)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Tous Les Jours",
+      "coord": "(10.7693, 106.6966)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Lotteria Trần Hưng Đạo",
+      "coord": "(10.7678, 106.6953)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Handicapped Handicraft",
+      "coord": "(10.8806, 106.5649)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cao Dai Temple",
+      "coord": "(11.3039, 106.1331)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cu chi tunnel",
+      "coord": "(11.1424, 106.4605)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "射擊場",
+      "coord": "(11.1365, 106.4575)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Trạm thu phí cao tốc trung lương HCM",
+      "coord": "(10.6824, 106.5572)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "交流道收費站",
+      "coord": "(10.4310, 106.3158)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Mekong Rest Stop",
+      "coord": "(10.4148, 106.3400)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Trạm thu phí cầu Rạch Miễu",
+      "coord": "(10.3148, 106.3483)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-紅磚工廠",
+      "coord": "(10.2313, 106.4113)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-湄公河小船上船",
+      "coord": "(10.2307, 106.4103)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-湄公河小船-椰子工廠",
+      "coord": "(10.2218, 106.4155)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-湄公河小船上岸",
+      "coord": "(10.2104, 106.3969)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-涼蓆家庭手工",
+      "coord": "(10.2099, 106.3950)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-搭上大船",
+      "coord": "(10.2287, 106.3635)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "湄公河之旅-離開大船",
+      "coord": "(10.2342, 106.3735)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "全家便利商店",
+      "coord": "(10.7794, 106.7044)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "22 Nguyễn Thái Bình",
+      "coord": "(10.7701, 106.7005)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Nhà Hàng Lan Phương",
+      "coord": "(11.3055, 106.1363)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "SGN國際航廈T2",
+      "coord": "(10.8160, 106.6642)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "SGN國內航廈T1",
+      "coord": "(10.8137, 106.6626)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Bánh Mì Phượng 法國麵包",
+      "coord": "(15.8785, 108.3320)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Mỹ Nghệ Phương Anh 2",
+      "coord": "(20.4104, 105.9183)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Shop Thời Trang bin bún",
+      "coord": "(20.2853, 105.8622)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "SHOP ĐỒ SƠ SINH HỒNG LẬP",
+      "coord": "(20.2832, 105.8611)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "長安生態保護區-陸龍灣",
+      "coord": "(20.2527, 105.9182)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "西都城",
+      "coord": "(20.0760, 105.5999)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Dũng Phố Núi",
+      "coord": "(20.2528, 105.9262)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "電瓶車回程上車點 Bãi xe điện",
+      "coord": "(20.2810, 105.8707)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "電瓶車去程下車點 空門三",
+      "coord": "(20.2818, 105.8689)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Chùa Bái Đính",
+      "coord": "(20.2810, 105.8685)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "五百羅漢雕像(百定寺 / 白頂寺)",
+      "coord": "(20.2801, 105.8672)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Bell Tower",
+      "coord": "(20.2790, 105.8674)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Tòa Quan Thế Âm",
+      "coord": "(20.2780, 105.8667)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "The Buddhas of The Three Times Hall",
+      "coord": "(20.2738, 105.8647)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "拜頂寺門票 Khu du lịch tâm linh chùa Bái Đính",
+      "coord": "(20.2715, 105.8568)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Xôi Gà Number One (Chính Gốc)",
+      "coord": "(10.7738, 106.6992)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cocotte法式料理",
+      "coord": "(10.7738, 106.6980)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Sài Gòn Square",
+      "coord": "(10.7727, 106.7002)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "The Cafe Apartment",
+      "coord": "(10.7741, 106.7042)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "GS25 Hai Bà Trưng",
+      "coord": "(10.7773, 106.7044)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "CHÀO SHOW",
+      "coord": "(10.7792, 106.7057)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "天橋咖啡街",
+      "coord": "(10.7812, 106.7069)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "玉皇殿",
+      "coord": "(10.7920, 106.6982)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Vincom Mega Mall - Thao Dien",
+      "coord": "(10.8024, 106.7410)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "越南古傳醫學博物館",
+      "coord": "(10.7762, 106.6719)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "孟叔零食 Ăn Vặt Chú Mạnh- Thế Giới Ăn Vặt 1000-2200",
+      "coord": "(10.7711, 106.6803)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "鴻發粿條",
+      "coord": "(10.7705, 106.6848)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Aeon Citimart",
+      "coord": "(10.7715, 106.6807)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "平西市場",
+      "coord": "(10.7494, 106.6511)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "聖方濟各沙勿略教堂",
+      "coord": "(10.7520, 106.6543)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "樂天瑪特（十一郡店）",
+      "coord": "(10.7635, 106.6568)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "義安會館關帝廟",
+      "coord": "(10.7537, 106.6621)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "穗城會館天后宮",
+      "coord": "(10.7533, 106.6612)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "三山會館（天后宮）",
+      "coord": "(10.7526, 106.6615)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Ha Ky Sweet Soup Restaurant",
+      "coord": "(10.7541, 106.6586)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "馮興市場",
+      "coord": "(10.7532, 106.6575)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Café Ba Lù",
+      "coord": "(10.7536, 106.6573)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Mixue LOTTE Mart Quận 11",
+      "coord": "(10.7630, 106.6568)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Cộng Cà Phê",
+      "coord": "(10.7681, 106.6968)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Ministop Nguyễn Thái Bình",
+      "coord": "(10.7680, 106.6985)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Lacàph Coffee Experiences Space",
+      "coord": "(10.7680, 106.7004)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "越南河粉🍜 Phở Việt Nam",
+      "coord": "(10.7714, 106.6961)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Nguyễn Huệ 阮惠步行街",
+      "coord": "(10.7738, 106.7037)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "貧民窟導覽1",
+      "coord": "(10.7591, 106.6977)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Chỗ để xe công viên Rạch Ông 貧民窟導覽2",
+      "coord": "(10.7514, 106.6911)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "胡氏紀鮮花集散市場 貧民窟經過",
+      "coord": "(10.7654, 106.6770)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Coffee - Trà sữa Thiên Sinh 貧民窟咖啡",
+      "coord": "(10.7679, 106.6781)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Bún Bò Xưa 貧民窟午餐",
+      "coord": "(10.7742, 106.6886)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Thieu Ky Noodle Restaurant 紹記",
+      "coord": "(10.7596, 106.6592)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Bánh Mì Phượng 法國麵包",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\Bánh Mì Phượng 法國麵包.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "山腰軌道車 13-12",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\山腰軌道車 13-12.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿安登山纜車 11-30",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\巴拿安登山纜車 11-30.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿山登山纜車 5-18",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\巴拿山登山纜車 5-18.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿山纜車 30-9",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\巴拿山纜車 30-9.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "HAN-TPE",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Hanoi\\HAN-TPE.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Nguyễn Huệ 阮惠步行街",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Ho Chi Minh City\\Nguyễn Huệ 阮惠步行街.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Surprise Cave",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Quang Ninh\\POI\\Surprise Cave.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Titov Island",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Quang Ninh\\POI\\Titov Island.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Bánh Mì Phượng 法國麵包",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Quang Nam\\POI\\Bánh Mì Phượng 法國麵包.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "五百羅漢雕像(百定寺 _ 白頂寺)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Nam Dinh\\POI\\五百羅漢雕像(百定寺 _ 白頂寺).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "貝克海灘 Back Beach_ 在 垂雲海灘(Thuy Van Beach) （後海灘）",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Ho Chi Minh City\\POI\\貝克海灘 Back Beach_ 在 垂雲海灘(Thuy Van Beach) （後海灘）.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "紅河縣",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Ha Giang\\POI\\紅河縣.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "DAD-HAN",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\POI\\DAD-HAN.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "山腰軌道車 13-_12",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\POI\\山腰軌道車 13-_12.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿安登山纜車 11-_30",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\POI\\巴拿安登山纜車 11-_30.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿山登山纜車 5-_18",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\POI\\巴拿山登山纜車 5-_18.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "巴拿山纜車 30-_9",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\越南\\Da Nang\\POI\\巴拿山纜車 30-_9.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Da Nang/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Dong Nai/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Ha Giang/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Ho Chi Minh City/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Nam Dinh/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Quang Nam/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Quang Ninh/POI/"
+    }
+  ]
+}
