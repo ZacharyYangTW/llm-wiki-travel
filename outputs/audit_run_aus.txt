@@ -1,0 +1,49 @@
+﻿
+============================================================
+  wikiAudit — 澳洲
+============================================================
+
+[數量 agent] 載入 KML …
+[數量 agent] KML=184  Wiki=210  → 差異 -26
+[資料夾 agent] 發現 4 個結構問題：
+  !  多餘的第二層目錄: New South Wales/POI/
+  !  多餘的第二層目錄: Tasmania/POI/
+  !  多餘的第二層目錄: Victoria/POI/
+  !  多餘的第二層目錄: Western Australia/POI/
+[整合 Other] 澳洲 KML POI 數: 184
+[整合 Other] 正確: 183  缺少: 1  多餘: 35
+
+[報告 Other] 澳洲 各城市統計
+-------------------------
+城市                   Wiki
+-------------------------
+New South Wales        89
+Tasmania               61
+Victoria                3
+Western Australia      57
+-------------------------
+合計                    210
+
+KML 總數: 184  Wiki 總數: 210  差異: -26
+
+缺少（wiki 找不到）: 1 個
+  - 聖母主教座堂（wiki 中找不到）
+
+多餘（KML 無對應）: 35 個
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\7-ELEVEN.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Amberjacks.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\B Shed.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Chemist Warehouse.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Cicerello's.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Coles.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Cottesloe Beach.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Dosukoi.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Esplanade Youth Plaza.md
+  - E:\llm_wiki_travel\Allfiles\wiki\澳洲\Western Australia\POI\Fremantle Markets.md
+  … 另外 25 個（省略）
+
+[報告 Other] 已輸出 CSV → E:\llm_wiki_travel\Allfiles\outputs\audit_澳洲_2026-05-15.csv
+[詳細報告] 澳洲 → detail_澳洲_2026-05-15.json  (共 40 個問題)
+  missing: 1
+  extra: 35
+  folder: 4
