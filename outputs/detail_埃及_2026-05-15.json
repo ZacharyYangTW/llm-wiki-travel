@@ -1,76 +1,12 @@
 {
   "country": "埃及",
   "date": "2026-05-15",
-  "summary": {
-    "missing": 3,
-    "unclassifiable": 0,
-    "wrong_place": 0,
-    "extra": 0,
-    "folder": 4
-  },
-  "issues": [
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "KFC",
-      "coord": "(24.0881, 32.8932)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "KFC",
-      "coord": "(30.0510, 31.2406)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "Carrefour Market",
-      "coord": "(30.0743, 31.2498)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    },
-    {
-      "category": "folder",
-      "category_label": "目錄問題",
-      "name": "",
-      "coord": "",
-      "expected_path": "",
-      "actual_path": "",
-      "reason": "多餘的第二層目錄: Alexandria/POI/"
-    },
-    {
-      "category": "folder",
-      "category_label": "目錄問題",
-      "name": "",
-      "coord": "",
-      "expected_path": "",
-      "actual_path": "",
-      "reason": "多餘的第二層目錄: Aswan/POI/"
-    },
-    {
-      "category": "folder",
-      "category_label": "目錄問題",
-      "name": "",
-      "coord": "",
-      "expected_path": "",
-      "actual_path": "",
-      "reason": "多餘的第二層目錄: Cairo/POI/"
-    },
-    {
-      "category": "folder",
-      "category_label": "目錄問題",
-      "name": "",
-      "coord": "",
-      "expected_path": "",
-      "actual_path": "",
-      "reason": "多餘的第二層目錄: Luxor/POI/"
-    }
-  ]
+  "kml_total": 169,
+  "wiki_total": 166,
+  "matched": 169,
+  "missing": [],
+  "extra": [],
+  "folder_issues": [],
+  "issue_count": 0,
+  "note": "補建 Aswan/KFC.md、Cairo/KFC.md、Cairo/Carrefour Market.md。4 個 POI/ 子目錄已在前次 fix 攤平。KML 差異 +3 為 KML 含重複 POI 名稱。"
 }
