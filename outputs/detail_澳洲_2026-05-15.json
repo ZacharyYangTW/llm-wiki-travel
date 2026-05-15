@@ -1,22 +1,12 @@
 {
   "country": "澳洲",
   "date": "2026-05-15",
-  "summary": {
-    "missing": 1,
-    "unclassifiable": 0,
-    "wrong_place": 0,
-    "extra": 0,
-    "folder": 0
-  },
-  "issues": [
-    {
-      "category": "missing",
-      "category_label": "KML有/wiki無",
-      "name": "聖母主教座堂",
-      "coord": "(-33.8712, 151.2133)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "wiki 中找不到"
-    }
-  ]
+  "kml_total": 175,
+  "wiki_total": 176,
+  "matched": 175,
+  "missing": [],
+  "extra": [],
+  "folder_issues": [],
+  "issue_count": 0,
+  "note": "補建 New South Wales/聖母主教座堂.md（Sydney St Mary's Cathedral）後完全對應。"
 }
