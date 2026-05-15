@@ -1,0 +1,14 @@
+{
+  "country": "比利時",
+  "date": "2026-05-16",
+  "issue_count": 0,
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 0,
+    "folder": 0
+  },
+  "issues": [],
+  "note": "fix 完成：手動新增 63 個 POI（Brussels 27、Maastricht 13、Ghent 11、Antwerp 6、Bruges 5、Liège 1），含荷蘭城市 Maastricht（KML 歸類至比利時行程）。70/70 全部正確。"
+}
