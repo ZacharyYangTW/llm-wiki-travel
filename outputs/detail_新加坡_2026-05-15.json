@@ -1,0 +1,913 @@
+{
+  "country": "新加坡",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 99,
+    "folder": 1
+  },
+  "issues": [
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "9-Pound Cannon",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\9-Pound Cannon.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Alliance Seafood",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Alliance Seafood.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Blk 649A",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Blk 649A.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Bugis Junction",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Bugis Junction.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Bussorah Street",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Bussorah Street.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Changi Airport Skytrain",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Changi Airport Skytrain.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Circular House",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Circular House.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cloud Forest",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Cloud Forest.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cold Storage HarbourFront Centre",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Cold Storage HarbourFront Centre.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cold Storage Takashimaya",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Cold Storage Takashimaya.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "DON DON DONKI HarbourFront Centre",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\DON DON DONKI HarbourFront Centre.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "FairPrice Finest Funan Mall",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\FairPrice Finest Funan Mall.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "FairPrice",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\FairPrice.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Flower Dome",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Flower Dome.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Fort Gate",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Fort Gate.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Fun Toast",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Fun Toast.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Gardens Shops at Singapore Botanic Gardens",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Gardens Shops at Singapore Botanic Gardens.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Gelang Patah - Tuas",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Gelang Patah - Tuas.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Gogreen @ St John's Island",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Gogreen @ St John's Island.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Haji Lane",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Haji Lane.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Harbourfront Stn Exit A",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Harbourfront Stn Exit A.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Helix Bridge",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Helix Bridge.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Jewel Changi Airport",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Jewel Changi Airport.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Kusu Island Pier",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Kusu Island Pier.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Lazarus Island Beach",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Lazarus Island Beach.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Lucky Plaza",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Lucky Plaza.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Majestic Fast Ferry Pte Ltd",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Majestic Fast Ferry Pte Ltd.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Malaysian Food Street",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Malaysian Food Street.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Marina Bay Sands",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Marina Bay Sands.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Marina Square",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Marina Square.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Maxwell Food Centre",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Maxwell Food Centre.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Mayflower MRT Station (TE6)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Mayflower MRT Station (TE6).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Mellben Seafood",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Mellben Seafood.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Napier Stn Exit 2",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Napier Stn Exit 2.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "National Orchid Garden",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\National Orchid Garden.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ngee Ann City",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Ngee Ann City.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Night Safari",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Night Safari.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Old Married Soldiers Quarters",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Old Married Soldiers Quarters.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Orchard mrt",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Orchard mrt.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Pokémon Center Singapore",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Pokémon Center Singapore.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Read Bridge (Malacca Bridge)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Read Bridge (Malacca Bridge).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "S.E.A Aquarium",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\S.E.A Aquarium.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Sands SkyPark Infinity Pool",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Sands SkyPark Infinity Pool.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "SATS Premier Lounge T1",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\SATS Premier Lounge T1.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Seringat Island Beach",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Seringat Island Beach.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Seringat Island Pier and Toilets",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Seringat Island Pier and Toilets.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Singapore Island Cruise & Ferry Services _ St John’s_Lazarus & Kusu",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Singapore Island Cruise & Ferry Services _ St John’s_Lazarus & Kusu.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Singapore Post - Chinatown Branch",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Singapore Post - Chinatown Branch.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Skyline Travel and Consulting Pte Ltd",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Skyline Travel and Consulting Pte Ltd.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Southernmost Point of Continental Asia",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Southernmost Point of Continental Asia.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "St John - Lazarus Bridge",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\St John - Lazarus Bridge.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "St John's Island 1st toilet",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\St John's Island 1st toilet.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "St John's Island Pier",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\St John's Island Pier.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Supertree Grove",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Supertree Grove.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Takashimaya Shopping Centre",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Takashimaya Shopping Centre.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "TANGS at Tang Plaza",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\TANGS at Tang Plaza.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Telok Ayer Market",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Telok Ayer Market.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Tiger Sky Tower",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Tiger Sky Tower.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Toast Box - Marina Bay Sands",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Toast Box - Marina Bay Sands.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Toast Box",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Toast Box.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Tua Pek Kong temple 大伯公庙",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Tua Pek Kong temple 大伯公庙.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Tuas Checkpoint",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Tuas Checkpoint.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Urban Hostel LLP (Backpackers)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Urban Hostel LLP (Backpackers).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Village Hotel Bugis by Far East Hospitality",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Village Hotel Bugis by Far East Hospitality.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "VivoCity",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\VivoCity.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Wonder Full - Light & Water Show",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\Wonder Full - Light & Water Show.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "亚拉街",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\亚拉街.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "亞坤咖椰吐司",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\亞坤咖椰吐司.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "克拉碼頭",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\克拉碼頭.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "克拉碼頭夜店區",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\克拉碼頭夜店區.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "南洋理工大學",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\南洋理工大學.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "友記家傳@美食街",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\友記家傳@美食街.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "大巴窑",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\大巴窑.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "岸邊喝啤酒",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\岸邊喝啤酒.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "政府大廈",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\政府大廈.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "新加坡佛牙寺龍華院",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\新加坡佛牙寺龍華院.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "新加坡摩天观景轮",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\新加坡摩天观景轮.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "新加坡植物園",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\新加坡植物園.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "新加坡樟宜机场",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\新加坡樟宜机场.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "松發肉骨茶",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\松發肉骨茶.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "林志源",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\林志源.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "樟宜機場",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\樟宜機場.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "武吉士",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\武吉士.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "港灣",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\港灣.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "濱海南碼頭",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\濱海南碼頭.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "牛車水",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\牛車水.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "牛車水大廈",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\牛車水大廈.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "百利宮",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\百利宮.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "碧山",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\碧山.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "福康寧",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\福康寧.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "紐頓",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\紐頓.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "聖淘沙魚尾獅塔",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\聖淘沙魚尾獅塔.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "英軍地下指揮部",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\英軍地下指揮部.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "萊佛士坊",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\萊佛士坊.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "蘇丹回教堂",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\蘇丹回教堂.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "貢茶 Gong Cha Classic",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\貢茶 Gong Cha Classic.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "金色不如歸 Konjiki Hototogisu Singapore",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\金色不如歸 Konjiki Hototogisu Singapore.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "馬里安曼廟",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\馬里安曼廟.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "黃亞細肉骨茶Ng Ah Sio Buk Kut Teh",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\新加坡\\Singapore\\POI\\黃亞細肉骨茶Ng Ah Sio Buk Kut Teh.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Singapore/POI/"
+    }
+  ]
+}

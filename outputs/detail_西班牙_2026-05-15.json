@@ -1,0 +1,94 @@
+{
+  "country": "西班牙",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 4,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 3,
+    "folder": 2
+  },
+  "issues": [
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Carrefour Express",
+      "coord": "(40.4144, -3.7019)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Carrefour Express",
+      "coord": "(40.4160, -3.7091)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Burger King",
+      "coord": "(40.4157, -3.7033)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Carrefour Market",
+      "coord": "(41.3840, 2.1708)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "CDG-MAD",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\西班牙\\Madrid\\POI\\CDG-MAD.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "The Sepulvedana, S.A",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\西班牙\\Madrid\\POI\\The Sepulvedana, S.A.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "BCN-CDG",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\西班牙\\Catalonia\\POI\\BCN-CDG.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Catalonia/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Madrid/POI/"
+    }
+  ]
+}

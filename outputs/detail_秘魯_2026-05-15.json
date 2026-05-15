@@ -1,0 +1,229 @@
+{
+  "country": "秘魯",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 19,
+    "folder": 5
+  },
+  "issues": [
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "阿雷基帕",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Arequipa\\阿雷基帕.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Huayllabamba",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\Huayllabamba.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Inca Trail",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\Inca Trail.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "La Fortaleza",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\La Fortaleza.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Pacaymayo",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\Pacaymayo.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Piscacucho",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\Piscacucho.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Wiñaywayna",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\Wiñaywayna.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "庫斯科",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\庫斯科.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Chan Chan",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Trujillo\\POI\\Chan Chan.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Chavin de Huantar",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Trujillo\\POI\\Chavin de Huantar.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "瓦斯卡蘭國家公園",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Trujillo\\POI\\瓦斯卡蘭國家公園.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Casa de Aliaga",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Lima\\POI\\Casa de Aliaga.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "LIM-CUZ",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Lima\\POI\\LIM-CUZ.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "LIM-SCL",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Lima\\POI\\LIM-SCL.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "卡拉爾",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Lima\\POI\\卡拉爾.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Islas Ballestas",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Ica\\POI\\Islas Ballestas.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Nazca Lines",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Ica\\POI\\Nazca Lines.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "PeruRail - Ollantaytambo Station _ Estación Ollantaytambo",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cusco\\POI\\PeruRail - Ollantaytambo Station _ Estación Ollantaytambo.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "阿比賽歐河國家公園",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\秘魯\\Cajamarca\\POI\\阿比賽歐河國家公園.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Cajamarca/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Cusco/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Ica/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Lima/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Trujillo/POI/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "country": "巴西",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 1,
+    "folder": 1
+  },
+  "issues": [
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Manu National Park",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\巴西\\Pará\\POI\\Manu National Park.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Pará/POI/"
+    }
+  ]
+}

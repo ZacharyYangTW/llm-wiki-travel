@@ -1,0 +1,346 @@
+{
+  "country": "智利",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 1,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 33,
+    "folder": 3
+  },
+  "issues": [
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "Starbucks Coffee",
+      "coord": "(-33.3965, -70.7908)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ahu Akivi",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ahu Akivi.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ahu Tahai",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ahu Tahai.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ahu Te Pito Kura Easter Island",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ahu Te Pito Kura Easter Island.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ahu Tongariki",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ahu Tongariki.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ana Kai Tangata",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ana Kai Tangata.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Ana Kakenga",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Ana Kakenga.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Arote Supermercado Y Multitienda",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Arote Supermercado Y Multitienda.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Banco Estado",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Banco Estado.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Bomba de Bencina",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Bomba de Bencina.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cabañas Ngahu",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Cabañas Ngahu.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Club Sandwich",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Club Sandwich.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Correos de Chile",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Correos de Chile.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Easter Island 海邊玩水",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Easter Island 海邊玩水.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Insular Rent a Car",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Insular Rent a Car.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "LAN Office",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\LAN Office.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Mataveri Airport",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Mataveri Airport.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "MIRADOR RANO KAU",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\MIRADOR RANO KAU.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Moai",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Moai.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Moe Roa",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Moe Roa.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Orongo",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Orongo.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Petroglifos Papa Vaka",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Petroglifos Papa Vaka.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Playa de Anakena",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Playa de Anakena.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Pu o Hiro",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Pu o Hiro.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Rano Raraku",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Rano Raraku.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Rapa Nui National Park",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Rapa Nui National Park.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Supermercado Hinova",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Supermercado Hinova.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Te Moana",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Te Moana.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Te Peu",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\Te Peu.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "眺望城鎮點 (面北)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Easter Island\\眺望城鎮點 (面北).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Humberstone and Santa Laura Saltpeter Works",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\San Pedro de Atacama\\Humberstone and Santa Laura Saltpeter Works.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "瓦爾帕萊索",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Valparaíso\\POI\\瓦爾帕萊索.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "SCL-IPC",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Santiago\\POI\\SCL-IPC.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "奇洛埃島",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\智利\\Puerto Montt\\POI\\奇洛埃島.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Puerto Montt/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Santiago/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Valparaíso/POI/"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "country": "菲律賓",
+  "date": "2026-05-15",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 9,
+    "folder": 2
+  },
+  "issues": [
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Boracay Garden Resort",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Boracay Garden Resort.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Boracay Regency Beach Resort and Spa",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Boracay Regency Beach Resort and Spa.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Boracay's Grotto (Willy's Rock)",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Boracay's Grotto (Willy's Rock).md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cagban Port Jetty",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Cagban Port Jetty.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Caticlan Jetty Port",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Caticlan Jetty Port.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Cyma - D Mall",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Cyma - D Mall.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Kalibo International Airport",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\Kalibo International Airport.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "KLO-MNL",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\KLO-MNL.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "葛多菲多落莫斯機場",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\菲律賓\\Visayas\\POI\\葛多菲多落莫斯機場.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Luzon/POI/"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "多餘的第二層目錄: Visayas/POI/"
+    }
+  ]
+}
