@@ -6,7 +6,7 @@
     "unclassifiable": 28,
     "wrong_place": 27,
     "extra": 0,
-    "folder": 0
+    "folder": 2
   },
   "issues": [
     {
@@ -503,6 +503,24 @@
       "expected_path": "廣東省/None",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\新添利咖啡美食.md",
       "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "散落在第一層 澳門/: 珠海市口岸局橫琴分局出境窗口.md"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "散落在第一層 澳門/: 長隆免費專線.md"
     }
   ]
 }

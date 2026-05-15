@@ -1,0 +1,14 @@
+{
+  "country": "中國",
+  "date": "2026-05-16",
+  "issue_count": 51,
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 28,
+    "wrong_place": 23,
+    "extra": 0,
+    "folder": 0
+  },
+  "issues": [],
+  "note": "28 unclassifiable = 東引島（馬祖列島）KML POI，WGII 中國邊界不包含此區域。23 wrong_place = 澳門地點被 WGII 誤分類為廣東省（邊界資料限制），及 WGII 簡化字區名（圣方濟各堂區）與目錄繁體字（聖方濟各堂區）不符。已修正：東來順→海淀區、添好運→油尖旺區、新增肯德基東城區、蘭州拉麵韶關/中山、7-Eleven珠海。"
+}
