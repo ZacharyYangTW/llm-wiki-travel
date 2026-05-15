@@ -1,0 +1,15 @@
+{
+  "country": "越南",
+  "date": "2026-05-16",
+  "issue_count": 0,
+  "summary": {
+    "kml_total": 195,
+    "wiki_total": 196,
+    "correct": 195,
+    "missing": 0,
+    "extra": 0,
+    "folder": 0
+  },
+  "note": "已修正：刪除 15 個多餘 wiki 檔案（含舊命名變體），攤平 7 個城市的 POI/ 子目錄（59 個檔案），新增 110 個缺少的 POI（91 個至 Ho Chi Minh City，19 個至 Ninh Binh）。Wiki 共 196 個檔案（含 1 個非 KML 條目），KML 195 個，全部正確。",
+  "issues": []
+}
