@@ -1,0 +1,456 @@
+{
+  "country": "日本",
+  "date": "2026-05-16",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 47,
+    "wrong_place": 1,
+    "extra": 0,
+    "folder": 1
+  },
+  "issues": [
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Enoshima Post Office",
+      "coord": "(35.3015, 139.4809)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "中部國際機場",
+      "coord": "(34.8591, 136.8146)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "ホテル浦島",
+      "coord": "(33.6254, 135.9510)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "浦島酒店接駁船",
+      "coord": "(33.6250, 135.9506)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "ホテル浦島桟橋",
+      "coord": "(33.6276, 135.9458)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "JR紀伊勝浦",
+      "coord": "(33.6282, 135.9414)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "日航關西機場酒店 Hotel Nikko Kansai Airport",
+      "coord": "(34.4366, 135.2429)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "螃蟹館前",
+      "coord": "(35.5357, 134.1790)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "JR 西日本宮島渡輪 棧橋事務所",
+      "coord": "(34.3112, 132.3049)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大町",
+      "coord": "(41.7697, 140.7095)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "オシンコシンの滝(雙美瀑布)駐車場",
+      "coord": "(44.0372, 144.9338)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "道の駅 知床・羅臼駐車場",
+      "coord": "(44.0169, 145.1918)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "オロンコ岩散策路駐車場",
+      "coord": "(44.0730, 144.9904)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "熊本港",
+      "coord": "(32.7635, 130.5901)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "熊本港バス",
+      "coord": "(32.7641, 130.5899)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "桜島フェリーターミナル",
+      "coord": "(31.5921, 130.5998)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "01 櫻島港",
+      "coord": "(31.5927, 130.6000)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大阪文化館・天保山",
+      "coord": "(34.6538, 135.4295)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東京迪士尼海洋",
+      "coord": "(35.6267, 139.8851)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東京迪士尼樂園",
+      "coord": "(35.6329, 139.8804)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "江の島岩屋",
+      "coord": "(35.2983, 139.4758)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Enoshima Sea Candle",
+      "coord": "(35.2997, 139.4787)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Enoshima Shrine",
+      "coord": "(35.3002, 139.4800)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "あさひ本店",
+      "coord": "(35.3011, 139.4806)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "しらす問屋 とびっちょ 弁財天仲見世通り店",
+      "coord": "(35.3019, 139.4808)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "えびせんべいの里",
+      "coord": "(34.8595, 136.8146)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大洗磯前神社 神磯鳥居",
+      "coord": "(36.3149, 140.5895)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "磯山水",
+      "coord": "(36.3155, 140.5890)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Home Stock 大型超市",
+      "coord": "(33.6271, 135.9415)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "LAWSON 那智勝浦築地店",
+      "coord": "(33.6260, 135.9425)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Foot bath",
+      "coord": "(33.6269, 135.9439)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "勝浦海産物センター",
+      "coord": "(33.6282, 135.9422)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "福助堂 小時候西點",
+      "coord": "(33.6283, 135.9428)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "Lawson Hotel Urashima Shop",
+      "coord": "(33.6255, 135.9511)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "豐洲市場-岩佐壽司 Iwasa sushi",
+      "coord": "(35.6446, 139.7824)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "五大堂",
+      "coord": "(38.3697, 141.0642)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "松島中央廣場",
+      "coord": "(38.3699, 141.0631)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "藍翼橋",
+      "coord": "(33.9477, 130.9627)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "歐龍寇岩",
+      "coord": "(44.0735, 144.9903)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "日本本土最西端之地",
+      "coord": "(33.2176, 129.5528)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "鹿兒島水族館",
+      "coord": "(31.5961, 130.5647)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "厳島神社",
+      "coord": "(31.5918, 130.5976)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "櫻島旅客中心",
+      "coord": "(31.5908, 130.5941)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "桜島熔岩足湯",
+      "coord": "(31.5913, 130.5939)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "月讀神社",
+      "coord": "(31.5910, 130.6003)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東尋坊",
+      "coord": "(36.2377, 136.1255)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "青函連絡船紀念船 八甲田丸",
+      "coord": "(40.8315, 140.7363)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "7-Eleven",
+      "coord": "",
+      "expected_path": "福島県/喜多方市",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\高知県\\高知市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\香川県\\丸亀市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\青森県\\五所川原市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\茨城県\\水戸市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\群馬県\\沼田市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\福島県\\須賀川市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\福岡県\\柳川市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\沖縄県\\那覇市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\栃木県\\日光市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\東京都\\墨田区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\愛媛県\\松山市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\徳島県\\三好市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\広島県\\廿日市市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\島根県\\出雲市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\島根県\\飯南町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\岩手県\\釜石市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\岐阜県\\大垣市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮崎県\\日南市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\蔵王町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\青葉区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\大阪府\\生野区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\大分県\\佐伯市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\千葉県\\船橋市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\倶知安町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\別海町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\紋別市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\遠軽町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\兵庫県\\姫路市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\三重県\\津市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\三重県\\熊野市\\7-Eleven.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "folder",
+      "category_label": "目錄問題",
+      "name": "",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "",
+      "reason": "禁止的佔位目錄名稱: 未分類/（不是真實行政區）"
+    }
+  ],
+  "issue_count": 49,
+  "note": "修正完成：刪除3166個多餘檔案，新建41個缺少POI。剩餘49個問題：47個GeoJSON無法定位（海港、機場、離島邊緣等）+ 1個wrong_place + 1個資料夾問題（未分類/佔位目錄）。"
+}

@@ -1,0 +1,573 @@
+{
+  "country": "台灣",
+  "date": "2026-05-16",
+  "summary": {
+    "missing": 1,
+    "unclassifiable": 61,
+    "wrong_place": 0,
+    "extra": 0,
+    "folder": 0
+  },
+  "issues": [
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "水頭碼頭",
+      "coord": "(24.4163, 118.2864)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "馬祖郵局",
+      "coord": "(26.1573, 119.9423)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "馬祖白日夢花園海景民宿",
+      "coord": "(26.1581, 119.9443)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "福澳港",
+      "coord": "(26.1606, 119.9432)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "北竿白沙港",
+      "coord": "(26.2053, 119.9688)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "白沙站",
+      "coord": "(26.2057, 119.9694)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "藍映海岸景觀民宿",
+      "coord": "(26.2335, 119.9926)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "橋仔港口(去大坵) 船老大 大坵一號大坵二號",
+      "coord": "(26.2359, 119.9934)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大坵舊港口",
+      "coord": "(26.2427, 119.9954)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大坵島廁所",
+      "coord": "(26.2439, 119.9963)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "蓮園民宿壹館",
+      "coord": "(26.1579, 119.9442)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "天后宮廁所",
+      "coord": "(26.1588, 119.9179)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "中屯風力園區",
+      "coord": "(23.6200, 119.6110)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "觀音亭",
+      "coord": "(23.5676, 119.5621)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "",
+      "coord": "(24.4412, 118.3625)",
+      "expected_path": "金門縣/金寧鄉",
+      "actual_path": "",
+      "reason": "wiki 中找不到，預期 金門縣/金寧鄉"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "高美溼地",
+      "coord": "(24.3133, 120.5452)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "金龜頭砲臺",
+      "coord": "(23.5628, 119.5579)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "鯨魚洞",
+      "coord": "(23.6552, 119.5198)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "小門地質館",
+      "coord": "(23.6539, 119.5173)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "秀鳳姐的店",
+      "coord": "(23.6535, 119.5177)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "海上牧場",
+      "coord": "(23.5425, 119.5888)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "奎壁山摩西分海",
+      "coord": "(23.5979, 119.6726)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "枕戈待旦紀念公園",
+      "coord": "(26.1564, 119.9402)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "星巴克",
+      "coord": "(26.1580, 119.9432)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "7-ELEVEN",
+      "coord": "(26.1603, 119.9435)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "馬祖旅遊服務中心",
+      "coord": "(26.1607, 119.9439)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "津沙聚落",
+      "coord": "(26.1461, 119.9132)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "津沙小館",
+      "coord": "(26.1456, 119.9129)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "活力早餐 ",
+      "coord": "(26.1578, 119.9439)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "媽祖巨神像",
+      "coord": "(26.1609, 119.9169)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "7-ELEVEN",
+      "coord": "(26.1597, 119.9188)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大眾飲食店",
+      "coord": "(26.1600, 119.9190)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "刺鳥咖啡書店",
+      "coord": "(26.1682, 119.9516)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "福澳運動場",
+      "coord": "(26.1594, 119.9441)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "芹壁聚落",
+      "coord": "(26.2248, 119.9837)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "鏡沃小吃",
+      "coord": "(26.2241, 119.9819)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "龜島",
+      "coord": "(26.2268, 119.9831)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "百分幸福",
+      "coord": "(26.2211, 120.0083)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "戰爭和平紀念公園主題館",
+      "coord": "(26.2206, 120.0085)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "08據點",
+      "coord": "(26.2274, 120.0142)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "橋仔聚落",
+      "coord": "(26.2349, 119.9938)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "建功嶼",
+      "coord": "(24.4274, 118.3001)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "三仙台跨海步橋",
+      "coord": "(23.1237, 121.4128)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東石漁港",
+      "coord": "(23.4515, 120.1373)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "東石村環保公園",
+      "coord": "(23.5891, 119.6247)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "澎湖後寮天堂路",
+      "coord": "(23.6739, 119.5776)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "小琉球杉福潮間帶",
+      "coord": "(22.3421, 120.3626)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "花瓶石",
+      "coord": "(22.3556, 120.3808)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大福亭天然游泳池",
+      "coord": "(22.3308, 120.3706)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "小野柳",
+      "coord": "(22.7948, 121.1982)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "夾竹桃龍貓隧道",
+      "coord": "(26.1950, 119.9675)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "7-Eleven",
+      "coord": "(26.2164, 119.9742)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "坂里大宅",
+      "coord": "(26.2160, 119.9742)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "坂里天后宮",
+      "coord": "(26.2135, 119.9727)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "螺山自然步道",
+      "coord": "(26.2204, 120.0084)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "芹沃咖啡烘焙館 Qinwo Bakery",
+      "coord": "(26.2242, 119.9824)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大坵島新港口",
+      "coord": "(26.2446, 119.9959)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "大坵島涼亭",
+      "coord": "(26.2489, 119.9985)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "小坵",
+      "coord": "(26.2488, 120.0029)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "全家便利商店",
+      "coord": "(26.1578, 119.9439)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "藍眼淚生態館",
+      "coord": "(26.1677, 119.9190)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    },
+    {
+      "category": "unclassifiable",
+      "category_label": "GeoJson無法分類",
+      "name": "獵鯛手創料理/無菜單料理-$600/人",
+      "coord": "(26.1616, 119.9181)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "無法定位到行政區"
+    }
+  ],
+  "issue_count": 62,
+  "note": "修正完成：刪除1326個多餘檔案，新建28個缺少POI，修正45個wrong_place（移動＋補建）。剩餘62個問題：61個GeoJSON無法分類（馬祖北竿南竿、澎湖外島、小琉球等離島）+ 1個KML名稱為空的POI，均為結構限制無法自動修正。"
+}

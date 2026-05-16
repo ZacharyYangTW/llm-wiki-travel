@@ -1,0 +1,14 @@
+{
+  "country": "奧地利",
+  "date": "2026-05-16",
+  "summary": {
+    "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 0,
+    "folder": 0
+  },
+  "issues": [],
+  "issue_count": 0,
+  "note": "審查完成，KML=72, Wiki=69，全部正確。差異+3為同名多點（wiki共用）。"
+}
