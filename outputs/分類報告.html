@@ -125,8 +125,8 @@
 
 <nav id="sidebar">
   <h2>國家</h2>
-    <button onclick="showPage('overview')">📊 全覽</button>
-  <button onclick="showPage('canada')" class="active">🇨🇦 加拿大</button>
+    <button onclick="showPage('overview')" class="active">📊 全覽</button>
+  <button onclick="showPage('canada')">🇨🇦 加拿大</button>
   <button onclick="showPage('hungary')">🇭🇺 匈牙利</button>
   <button onclick="showPage('indonesia')">🇮🇩 印尼</button>
   <button onclick="showPage('india')">🇮🇳 印度</button>
@@ -1314,6 +1314,8 @@ function showPage(id, btn) {
   var target = btn || (event && event.currentTarget);
   if (target) target.classList.add('active');
 }
+
+showPage('overview');
 
 document.addEventListener('keydown', function(e) {
   if (e.key !== 'ArrowUp' && e.key !== 'ArrowDown') return;
