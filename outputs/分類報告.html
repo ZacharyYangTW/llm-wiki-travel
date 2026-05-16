@@ -527,6 +527,7 @@
       <h2>說明</h2>
       <p>已完成修正：刪除 15 個多餘 wiki 檔案（含舊命名變體），攤平 7 個城市的 POI/ 子目錄（59 個檔案），新增 110 個缺少的 POI（91 個至 Ho Chi Minh City，19 個至 Ninh Binh）。Wiki 共 196 個檔案（含 1 個非 KML 條目），KML 195 個，全部正確。</p>
     </div>
+</div>
 
 <div class="page" id="page-australia">
     <div class="page-header"><h1>澳洲</h1><div class="date">整理日期：2026-05-15</div></div>
@@ -904,6 +905,7 @@
       <h2>說明</h2>
       <p>已完成修正：刪除 460 個多餘 wiki 檔案（主要是阿拉斯加公車站），攤平 17 個州的 POI/ 子目錄（233 個檔案），新增 11 個缺少的 POI（Washington 3、California 1、Texas 6、Massachusetts 1）。Wiki 共 263 個檔案，KML 290 個（部分 wiki 檔案共用於多個同名 KML 條目），全部正確。</p>
     </div>
+</div>
 
 <div class="page" id="page-cambodia">
     <div class="page-header"><h1>柬埔寨</h1><div class="date">整理日期：2026-05-15</div></div>
@@ -1065,13 +1067,30 @@
 
 </div>
 <script>
-function showPage(id) {
+function showPage(id, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('#sidebar button').forEach(b => b.classList.remove('active'));
   document.getElementById('page-' + id).classList.add('active');
   document.getElementById('content-area').scrollTop = 0;
-  event.currentTarget.classList.add('active');
+  var target = btn || (event && event.currentTarget);
+  if (target) target.classList.add('active');
 }
+
+document.addEventListener('keydown', function(e) {
+  if (e.key !== 'ArrowUp' && e.key !== 'ArrowDown') return;
+  e.preventDefault();
+  var btns = Array.from(document.querySelectorAll('#sidebar button'));
+  var active = document.querySelector('#sidebar button.active');
+  var idx = active ? btns.indexOf(active) : -1;
+  var next = e.key === 'ArrowDown'
+    ? btns[Math.min(idx + 1, btns.length - 1)]
+    : btns[Math.max(idx - 1, 0)];
+  if (next && next !== active) {
+    var id = next.getAttribute('onclick').match(/showPage\('(\w+)'\)/)[1];
+    showPage(id, next);
+    next.scrollIntoView({ block: 'nearest' });
+  }
+});
 </script>
 </body>
 </html>
