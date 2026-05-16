@@ -15,7 +15,7 @@
       "name": "五通码头",
       "coord": "(24.5315, 118.1913)",
       "expected_path": "(待查)",
-      "actual_path": "",
+      "actual_path": "中國\\福建省\\廈門市\\五通码头.md",
       "reason": "無法定位到行政區"
     },
     {
@@ -24,7 +24,7 @@
       "name": "廈門鼓浪嶼碼頭",
       "coord": "(24.4463, 118.0733)",
       "expected_path": "(待查)",
-      "actual_path": "",
+      "actual_path": "中國\\福建省\\廈門市\\廈門鼓浪嶼碼頭.md",
       "reason": "無法定位到行政區"
     },
     {
@@ -33,7 +33,7 @@
       "name": "曾厝垵元翔專車回機場大巴售票處",
       "coord": "(24.4253, 118.1244)",
       "expected_path": "(待查)",
-      "actual_path": "",
+      "actual_path": "中國\\福建省\\廈門市\\曾厝垵元翔專車回機場大巴售票處.md",
       "reason": "無法定位到行政區"
     },
     {
@@ -87,7 +87,7 @@
       "name": "菽莊花園",
       "coord": "(24.4394, 118.0701)",
       "expected_path": "(待查)",
-      "actual_path": "",
+      "actual_path": "中國\\福建省\\廈門市\\菽莊花園.md",
       "reason": "無法定位到行政區"
     },
     {
@@ -96,7 +96,7 @@
       "name": "黄荣远堂别墅",
       "coord": "(24.4433, 118.0733)",
       "expected_path": "(待查)",
-      "actual_path": "",
+      "actual_path": "中國\\福建省\\廈門市\\黄荣远堂别墅.md",
       "reason": "無法定位到行政區"
     },
     {
@@ -468,7 +468,5 @@
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\新添利咖啡美食.md",
       "reason": "正確位置與 wiki 路徑不符"
     }
-  ],
-  "issue_count": 51,
-  "note": "修正後剩餘51個問題：28個GeoJSON無法分類（廈門鼓浪嶼、連江東引等跨界/離島地區）+ 23個wrong_place（澳門各堂區邊界問題、廣東省城市GeoJSON返回None、香港分區問題）。"
+  ]
 }
