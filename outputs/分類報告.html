@@ -112,6 +112,7 @@
 
 <nav id="sidebar">
   <h2>國家</h2>
+    <button onclick="showPage('overview')">📊 全覽</button>
   <button onclick="showPage('canada')" class="active">🇨🇦 加拿大</button>
   <button onclick="showPage('hungary')">🇭🇺 匈牙利</button>
   <button onclick="showPage('indonesia')">🇮🇩 印尼</button>
@@ -144,7 +145,251 @@
 <div id="content-area">
 
   <!-- ── 加拿大 ── -->
-  <div class="page active" id="page-canada">
+  <div class="page" id="page-overview">
+    <div class="page-header"><h1>全覽</h1><div class="date">更新：2026-05-16</div></div>
+    <div class="stats">
+      <div class="stat-box info"><div class="num">26</div><div class="label">國家</div></div>
+      <div class="stat-box ok"><div class="num">7,662</div><div class="label">Wiki 總檔案</div></div>
+    </div>
+    <div class="section" style="padding:0">
+    <div style="overflow-x:auto">
+    <table class="detail-table" style="width:100%">
+      <thead>
+        <tr>
+          <th>國家</th>
+          <th>城市 / 行政區</th>
+          <th style="text-align:right">KML</th>
+          <th style="text-align:right">Wiki</th>
+          <th style="text-align:right">差異</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr><td rowspan="4" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('canada');return false;" style="color:inherit;text-decoration:none">🇨🇦 加拿大</a></td><td>Alberta</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Northwest Territories</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">15</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Surrey</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Vancouver</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">35</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('hungary');return false;" style="color:inherit;text-decoration:none">🇭🇺 匈牙利</a></td><td>Budapest</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">53</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Szentendre</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">4</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="1" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('indonesia');return false;" style="color:inherit;text-decoration:none">🇮🇩 印尼</a></td><td>Batam</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">9</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="5" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('india');return false;" style="color:inherit;text-decoration:none">🇮🇳 印度</a></td><td>Delhi</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">43</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Maharashtra</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">8</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Tamil Nadu</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">37</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Uttar Pradesh</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">31</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>West Bengal</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">26</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="29" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('china');return false;" style="color:inherit;text-decoration:none">🇨🇳 中國</a></td><td>上海市</td><td style="text-align:right">36</td><td style="text-align:right">38</td><td style="text-align:right;color:#e17055">-2</td></tr>
+      <tr style="background:#f8f9fa"><td>內蒙古自治區</td><td style="text-align:right">20</td><td style="text-align:right">20</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>北京市</td><td style="text-align:right">178</td><td style="text-align:right">170</td><td style="text-align:right;color:#e17055">+8</td></tr>
+      <tr style="background:#f8f9fa"><td>吉林省</td><td style="text-align:right">0</td><td style="text-align:right">1</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr><td>四川省</td><td style="text-align:right">31</td><td style="text-align:right">31</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>天津市</td><td style="text-align:right">16</td><td style="text-align:right">16</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>安徽省</td><td style="text-align:right">52</td><td style="text-align:right">50</td><td style="text-align:right;color:#e17055">+2</td></tr>
+      <tr style="background:#f8f9fa"><td>山東省</td><td style="text-align:right">14</td><td style="text-align:right">14</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>山西省</td><td style="text-align:right">44</td><td style="text-align:right">44</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>廣東省</td><td style="text-align:right">79</td><td style="text-align:right">80</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr><td>廣西壯族自治區</td><td style="text-align:right">0</td><td style="text-align:right">1</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr style="background:#f8f9fa"><td>未知</td><td style="text-align:right">28</td><td style="text-align:right">0</td><td style="text-align:right;color:#e17055">+28</td></tr>
+      <tr><td>江蘇省</td><td style="text-align:right">34</td><td style="text-align:right">34</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>河北省</td><td style="text-align:right">17</td><td style="text-align:right">16</td><td style="text-align:right;color:#e17055">+1</td></tr>
+      <tr><td>河南省</td><td style="text-align:right">38</td><td style="text-align:right">38</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>浙江省</td><td style="text-align:right">13</td><td style="text-align:right">13</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>湖北省</td><td style="text-align:right">12</td><td style="text-align:right">12</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>湖南省</td><td style="text-align:right">47</td><td style="text-align:right">47</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>澳門</td><td style="text-align:right">65</td><td style="text-align:right">76</td><td style="text-align:right;color:#e17055">-11</td></tr>
+      <tr style="background:#f8f9fa"><td>甘肅省</td><td style="text-align:right">15</td><td style="text-align:right">15</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>福建省</td><td style="text-align:right">31</td><td style="text-align:right">37</td><td style="text-align:right;color:#e17055">-6</td></tr>
+      <tr style="background:#f8f9fa"><td>西藏自治區</td><td style="text-align:right">30</td><td style="text-align:right">31</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr><td>遼寧省</td><td style="text-align:right">7</td><td style="text-align:right">8</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr style="background:#f8f9fa"><td>重慶市</td><td style="text-align:right">15</td><td style="text-align:right">15</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>陝西省</td><td style="text-align:right">24</td><td style="text-align:right">24</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>雲南省</td><td style="text-align:right">47</td><td style="text-align:right">47</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>青海省</td><td style="text-align:right">12</td><td style="text-align:right">12</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>香港</td><td style="text-align:right">46</td><td style="text-align:right">44</td><td style="text-align:right;color:#e17055">+2</td></tr>
+      <tr><td>黑龍江省</td><td style="text-align:right">14</td><td style="text-align:right">14</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td rowspan="49" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('japan');return false;" style="color:inherit;text-decoration:none">🇯🇵 日本</a></td><td>三重県</td><td style="text-align:right">20</td><td style="text-align:right">43</td><td style="text-align:right;color:#e17055">-23</td></tr>
+      <tr style="background:#f8f9fa"><td>京都府</td><td style="text-align:right">40</td><td style="text-align:right">56</td><td style="text-align:right;color:#e17055">-16</td></tr>
+      <tr><td>佐賀県</td><td style="text-align:right">34</td><td style="text-align:right">40</td><td style="text-align:right;color:#e17055">-6</td></tr>
+      <tr style="background:#f8f9fa"><td>兵庫県</td><td style="text-align:right">22</td><td style="text-align:right">46</td><td style="text-align:right;color:#e17055">-24</td></tr>
+      <tr><td>北海道</td><td style="text-align:right">242</td><td style="text-align:right">556</td><td style="text-align:right;color:#e17055">-314</td></tr>
+      <tr style="background:#f8f9fa"><td>千葉県</td><td style="text-align:right">29</td><td style="text-align:right">63</td><td style="text-align:right;color:#e17055">-34</td></tr>
+      <tr><td>和歌山県</td><td style="text-align:right">49</td><td style="text-align:right">53</td><td style="text-align:right;color:#e17055">-4</td></tr>
+      <tr style="background:#f8f9fa"><td>埼玉県</td><td style="text-align:right">2</td><td style="text-align:right">61</td><td style="text-align:right;color:#e17055">-59</td></tr>
+      <tr><td>大分県</td><td style="text-align:right">28</td><td style="text-align:right">35</td><td style="text-align:right;color:#e17055">-7</td></tr>
+      <tr style="background:#f8f9fa"><td>大阪府</td><td style="text-align:right">52</td><td style="text-align:right">87</td><td style="text-align:right;color:#e17055">-35</td></tr>
+      <tr><td>奈良県</td><td style="text-align:right">17</td><td style="text-align:right">32</td><td style="text-align:right;color:#e17055">-15</td></tr>
+      <tr style="background:#f8f9fa"><td>宮城県</td><td style="text-align:right">68</td><td style="text-align:right">123</td><td style="text-align:right;color:#e17055">-55</td></tr>
+      <tr><td>宮崎県</td><td style="text-align:right">33</td><td style="text-align:right">33</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>富山県</td><td style="text-align:right">32</td><td style="text-align:right">42</td><td style="text-align:right;color:#e17055">-10</td></tr>
+      <tr><td>山口県</td><td style="text-align:right">27</td><td style="text-align:right">39</td><td style="text-align:right;color:#e17055">-12</td></tr>
+      <tr style="background:#f8f9fa"><td>山形県</td><td style="text-align:right">17</td><td style="text-align:right">55</td><td style="text-align:right;color:#e17055">-38</td></tr>
+      <tr><td>山梨県</td><td style="text-align:right">3</td><td style="text-align:right">20</td><td style="text-align:right;color:#e17055">-17</td></tr>
+      <tr style="background:#f8f9fa"><td>岐阜県</td><td style="text-align:right">28</td><td style="text-align:right">50</td><td style="text-align:right;color:#e17055">-22</td></tr>
+      <tr><td>岡山県</td><td style="text-align:right">44</td><td style="text-align:right">47</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr style="background:#f8f9fa"><td>岩手県</td><td style="text-align:right">24</td><td style="text-align:right">109</td><td style="text-align:right;color:#e17055">-85</td></tr>
+      <tr><td>島根県</td><td style="text-align:right">54</td><td style="text-align:right">68</td><td style="text-align:right;color:#e17055">-14</td></tr>
+      <tr style="background:#f8f9fa"><td>広島県</td><td style="text-align:right">38</td><td style="text-align:right">53</td><td style="text-align:right;color:#e17055">-15</td></tr>
+      <tr><td>徳島県</td><td style="text-align:right">21</td><td style="text-align:right">30</td><td style="text-align:right;color:#e17055">-9</td></tr>
+      <tr style="background:#f8f9fa"><td>愛媛県</td><td style="text-align:right">39</td><td style="text-align:right">43</td><td style="text-align:right;color:#e17055">-4</td></tr>
+      <tr><td>愛知県</td><td style="text-align:right">40</td><td style="text-align:right">50</td><td style="text-align:right;color:#e17055">-10</td></tr>
+      <tr style="background:#f8f9fa"><td>新潟県</td><td style="text-align:right">0</td><td style="text-align:right">36</td><td style="text-align:right;color:#e17055">-36</td></tr>
+      <tr><td>未分類</td><td style="text-align:right">0</td><td style="text-align:right">0</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>未知</td><td style="text-align:right">47</td><td style="text-align:right">0</td><td style="text-align:right;color:#e17055">+47</td></tr>
+      <tr><td>東京都</td><td style="text-align:right">143</td><td style="text-align:right">173</td><td style="text-align:right;color:#e17055">-30</td></tr>
+      <tr style="background:#f8f9fa"><td>栃木県</td><td style="text-align:right">12</td><td style="text-align:right">46</td><td style="text-align:right;color:#e17055">-34</td></tr>
+      <tr><td>沖縄県</td><td style="text-align:right">0</td><td style="text-align:right">9</td><td style="text-align:right;color:#e17055">-9</td></tr>
+      <tr style="background:#f8f9fa"><td>滋賀県</td><td style="text-align:right">0</td><td style="text-align:right">17</td><td style="text-align:right;color:#e17055">-17</td></tr>
+      <tr><td>熊本県</td><td style="text-align:right">55</td><td style="text-align:right">58</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr style="background:#f8f9fa"><td>石川県</td><td style="text-align:right">35</td><td style="text-align:right">50</td><td style="text-align:right;color:#e17055">-15</td></tr>
+      <tr><td>神奈川県</td><td style="text-align:right">45</td><td style="text-align:right">74</td><td style="text-align:right;color:#e17055">-29</td></tr>
+      <tr style="background:#f8f9fa"><td>福井県</td><td style="text-align:right">29</td><td style="text-align:right">67</td><td style="text-align:right;color:#e17055">-38</td></tr>
+      <tr><td>福岡県</td><td style="text-align:right">83</td><td style="text-align:right">102</td><td style="text-align:right;color:#e17055">-19</td></tr>
+      <tr style="background:#f8f9fa"><td>福島県</td><td style="text-align:right">31</td><td style="text-align:right">94</td><td style="text-align:right;color:#e17055">-63</td></tr>
+      <tr><td>秋田県</td><td style="text-align:right">16</td><td style="text-align:right">45</td><td style="text-align:right;color:#e17055">-29</td></tr>
+      <tr style="background:#f8f9fa"><td>群馬県</td><td style="text-align:right">0</td><td style="text-align:right">46</td><td style="text-align:right;color:#e17055">-46</td></tr>
+      <tr><td>茨城県</td><td style="text-align:right">45</td><td style="text-align:right">134</td><td style="text-align:right;color:#e17055">-89</td></tr>
+      <tr style="background:#f8f9fa"><td>長崎県</td><td style="text-align:right">41</td><td style="text-align:right">44</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr><td>長野県</td><td style="text-align:right">22</td><td style="text-align:right">54</td><td style="text-align:right;color:#e17055">-32</td></tr>
+      <tr style="background:#f8f9fa"><td>青森県</td><td style="text-align:right">45</td><td style="text-align:right">93</td><td style="text-align:right;color:#e17055">-48</td></tr>
+      <tr><td>静岡県</td><td style="text-align:right">28</td><td style="text-align:right">43</td><td style="text-align:right;color:#e17055">-15</td></tr>
+      <tr style="background:#f8f9fa"><td>香川県</td><td style="text-align:right">10</td><td style="text-align:right">24</td><td style="text-align:right;color:#e17055">-14</td></tr>
+      <tr><td>高知県</td><td style="text-align:right">35</td><td style="text-align:right">42</td><td style="text-align:right;color:#e17055">-7</td></tr>
+      <tr style="background:#f8f9fa"><td>鳥取県</td><td style="text-align:right">53</td><td style="text-align:right">69</td><td style="text-align:right;color:#e17055">-16</td></tr>
+      <tr><td>鹿児島県</td><td style="text-align:right">72</td><td style="text-align:right">80</td><td style="text-align:right;color:#e17055">-8</td></tr>
+      <tr><td rowspan="27" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('taiwan');return false;" style="color:inherit;text-decoration:none">🇹🇼 台灣</a></td><td>南投縣</td><td style="text-align:right">38</td><td style="text-align:right">38</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>台中市</td><td style="text-align:right">0</td><td style="text-align:right">1</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr><td>台北市</td><td style="text-align:right">0</td><td style="text-align:right">0</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>台南市</td><td style="text-align:right">0</td><td style="text-align:right">0</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>台東縣</td><td style="text-align:right">0</td><td style="text-align:right">2</td><td style="text-align:right;color:#e17055">-2</td></tr>
+      <tr style="background:#f8f9fa"><td>嘉義市</td><td style="text-align:right">33</td><td style="text-align:right">33</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>嘉義縣</td><td style="text-align:right">87</td><td style="text-align:right">87</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>基隆市</td><td style="text-align:right">0</td><td style="text-align:right">0</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>宜蘭縣</td><td style="text-align:right">0</td><td style="text-align:right">1</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr style="background:#f8f9fa"><td>屏東縣</td><td style="text-align:right">67</td><td style="text-align:right">70</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr><td>彰化縣</td><td style="text-align:right">24</td><td style="text-align:right">24</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>新北市</td><td style="text-align:right">0</td><td style="text-align:right">8</td><td style="text-align:right;color:#e17055">-8</td></tr>
+      <tr><td>新竹市</td><td style="text-align:right">16</td><td style="text-align:right">17</td><td style="text-align:right;color:#e17055">-1</td></tr>
+      <tr style="background:#f8f9fa"><td>新竹縣</td><td style="text-align:right">38</td><td style="text-align:right">38</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>未知</td><td style="text-align:right">61</td><td style="text-align:right">0</td><td style="text-align:right;color:#e17055">+61</td></tr>
+      <tr style="background:#f8f9fa"><td>桃園市</td><td style="text-align:right">1</td><td style="text-align:right">4</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr><td>澎湖縣</td><td style="text-align:right">69</td><td style="text-align:right">75</td><td style="text-align:right;color:#e17055">-6</td></tr>
+      <tr style="background:#f8f9fa"><td>臺中市</td><td style="text-align:right">66</td><td style="text-align:right">65</td><td style="text-align:right;color:#e17055">+1</td></tr>
+      <tr><td>臺北市</td><td style="text-align:right">0</td><td style="text-align:right">5</td><td style="text-align:right;color:#e17055">-5</td></tr>
+      <tr style="background:#f8f9fa"><td>臺南市</td><td style="text-align:right">254</td><td style="text-align:right">252</td><td style="text-align:right;color:#e17055">+2</td></tr>
+      <tr><td>臺東縣</td><td style="text-align:right">137</td><td style="text-align:right">133</td><td style="text-align:right;color:#e17055">+4</td></tr>
+      <tr style="background:#f8f9fa"><td>花蓮縣</td><td style="text-align:right">27</td><td style="text-align:right">30</td><td style="text-align:right;color:#e17055">-3</td></tr>
+      <tr><td>苗栗縣</td><td style="text-align:right">54</td><td style="text-align:right">54</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr style="background:#f8f9fa"><td>連江縣</td><td style="text-align:right">46</td><td style="text-align:right">83</td><td style="text-align:right;color:#e17055">-37</td></tr>
+      <tr><td>金門縣</td><td style="text-align:right">103</td><td style="text-align:right">102</td><td style="text-align:right;color:#e17055">+1</td></tr>
+      <tr style="background:#f8f9fa"><td>雲林縣</td><td style="text-align:right">26</td><td style="text-align:right">26</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td>高雄市</td><td style="text-align:right">47</td><td style="text-align:right">47</td><td style="text-align:right;color:#00b894">0</td></tr>
+      <tr><td rowspan="12" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('korea');return false;" style="color:inherit;text-decoration:none">🇰🇷 韓國</a></td><td>Busan</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">52</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Daegu</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">48</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Gangwon</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">12</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Gwangju</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">32</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Gyeonggi</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">7</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Incheon</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">4</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Jeju</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>North Gyeongsang</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">8</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Seoul</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">86</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>South Chungcheong</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">14</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>South Gyeongsang</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">18</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Ulsan</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">57</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="13" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('thailand');return false;" style="color:inherit;text-decoration:none">🇹🇭 泰國</a></td><td>Bangkok</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">80</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Bangkok Noi</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">38</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Chiang Mai</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">13</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Chiang Rai</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">8</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Chon Buri</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">4</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Lopburi</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">8</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Nakhon Phanom</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Phang Nga</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Phuket</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">5</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Rayong</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">4</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Samut Prakan</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">30</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Samut Sakhon</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Samut Songkhram</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">13</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="9" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('vietnam');return false;" style="color:inherit;text-decoration:none">🇻🇳 越南</a></td><td>Da Nang</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">43</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Dong Nai</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Ha Giang</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Hanoi</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">23</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Ho Chi Minh City</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">100</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Nam Dinh</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Ninh Binh</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">19</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Quang Nam</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">7</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Quang Ninh</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">3</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="4" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('australia');return false;" style="color:inherit;text-decoration:none">🇦🇺 澳洲</a></td><td>New South Wales</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">86</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Tasmania</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">57</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Victoria</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Western Australia</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">31</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('singapore');return false;" style="color:inherit;text-decoration:none">🇸🇬 新加坡</a></td><td>Singapore</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">89</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>West</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('philippines');return false;" style="color:inherit;text-decoration:none">🇵🇭 菲律賓</a></td><td>Luzon</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Visayas</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">9</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('france');return false;" style="color:inherit;text-decoration:none">🇫🇷 法國</a></td><td>Hauts-de-France</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Île-de-France</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">37</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="4" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('egypt');return false;" style="color:inherit;text-decoration:none">🇪🇬 埃及</a></td><td>Alexandria</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">6</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Aswan</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">40</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Cairo</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">73</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Luxor</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">47</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('austria');return false;" style="color:inherit;text-decoration:none">🇦🇹 奧地利</a></td><td>Salzburg</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">34</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Vienna</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">35</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="3" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('belgium');return false;" style="color:inherit;text-decoration:none">🇧🇪 比利時</a></td><td>Antwerp</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Bruges</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">3</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Brussels</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('spain');return false;" style="color:inherit;text-decoration:none">🇪🇸 西班牙</a></td><td>Catalonia</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">57</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Madrid</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">33</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="7" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('netherlands');return false;" style="color:inherit;text-decoration:none">🇳🇱 荷蘭</a></td><td>Amsterdam</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">6</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Giethoorn</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">8</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Limburg</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>North Brabant</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">3</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Rotterdam</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>South Holland</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">27</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Utrecht</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">37</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="5" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('newzealand');return false;" style="color:inherit;text-decoration:none">🇳🇿 紐西蘭</a></td><td>Auckland</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">26</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Christchurch</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Dunedin</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">3</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Greymouth</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">5</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Invercargill</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">41</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="5" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('chile');return false;" style="color:inherit;text-decoration:none">🇨🇱 智利</a></td><td>Easter Island</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">29</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Puerto Montt</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>San Pedro de Atacama</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Santiago</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">4</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Valparaíso</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">1</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('luxembourg');return false;" style="color:inherit;text-decoration:none">🇱🇺 盧森堡</a></td><td>Differdange</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">2</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Luxembourg</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">28</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="17" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('usa');return false;" style="color:inherit;text-decoration:none">🇺🇸 美國</a></td><td>Alaska</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">19</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Arizona</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">5</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>California</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">64</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Florida</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Hawaii</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Illinois</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Kentucky</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Louisiana</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">11</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Massachusetts</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">16</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Montana</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Nevada</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">9</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>New Jersey</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>New Mexico</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Oregon</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Texas</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">117</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Virginia</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Washington</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">22</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="5" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('cambodia');return false;" style="color:inherit;text-decoration:none">🇰🇭 柬埔寨</a></td><td>Battambang</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">33</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Kratie</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Mondulkiri</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Phnom Penh</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Siem Reap</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">5</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="2" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('czechia');return false;" style="color:inherit;text-decoration:none">🇨🇿 捷克</a></td><td>Prague</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">65</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>South Moravia</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td rowspan="5" style="font-weight:600;vertical-align:top;white-space:nowrap;border-right:2px solid #dee2e6"><a href="#" onclick="showPage('peru');return false;" style="color:inherit;text-decoration:none">🇵🇪 秘魯</a></td><td>Cajamarca</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Cusco</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">25</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Ica</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">10</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr style="background:#f8f9fa"><td>Lima</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">11</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      <tr><td>Trujillo</td><td style="color:#b2bec3;text-align:center">—</td><td style="text-align:right">0</td><td style="color:#b2bec3;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+</div>
+<div class="page active" id="page-canada">
     <div class="page-header">
       <h1>加拿大</h1>
       <div class="date">整理日期：2026-05-14</div>
