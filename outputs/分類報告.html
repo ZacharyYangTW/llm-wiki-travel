@@ -12,7 +12,20 @@
   #sidebar {
     width: 180px; min-width: 180px; background: #2d3436; color: #dfe6e9;
     display: flex; flex-direction: column; padding: 20px 0;
+    transition: width .25s ease, min-width .25s ease;
   }
+  #sidebar.collapsed {
+    width: 0; min-width: 0; overflow: hidden; padding: 0;
+  }
+  .sidebar-toggle {
+    width: 16px; flex-shrink: 0;
+    background: #3d4852; border: none; border-right: 1px solid #4d5a66;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    font-size: 11px; color: #b2bec3;
+    transition: background .15s, color .15s;
+    padding: 0; user-select: none; outline: none;
+  }
+  .sidebar-toggle:hover { background: #0984e3; color: #fff; }
   #sidebar h2 {
     font-size: 12px; text-transform: uppercase; letter-spacing: 1px;
     color: #636e72; padding: 0 20px 12px;
@@ -141,6 +154,7 @@
   <button onclick="showPage('czechia')">🇨🇿 捷克</button>
   <button onclick="showPage('peru')">🇵🇪 秘魯</button>
 </nav>
+<button class="sidebar-toggle" id="sidebarToggle" title="收起／展開側邊欄">&#9664;</button>
 
 <div id="content-area">
 
@@ -1282,6 +1296,16 @@
 
 </div>
 <script>
+(function(){
+  var btn = document.getElementById('sidebarToggle');
+  var sb  = document.getElementById('sidebar');
+  btn.addEventListener('click', function(){
+    var collapsed = sb.classList.toggle('collapsed');
+    btn.innerHTML = collapsed ? '&#9654;' : '&#9664;';
+    btn.title     = collapsed ? '展開側邊欄' : '收起側邊欄';
+  });
+})();
+
 function showPage(id, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('#sidebar button').forEach(b => b.classList.remove('active'));
