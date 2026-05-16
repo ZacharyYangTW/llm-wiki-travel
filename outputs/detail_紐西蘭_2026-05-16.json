@@ -1,0 +1,40 @@
+{
+  "country": "紐西蘭",
+  "date": "2026-05-16",
+  "summary": {
+    "missing": 1,
+    "unclassifiable": 0,
+    "wrong_place": 0,
+    "extra": 2,
+    "folder": 0
+  },
+  "issues": [
+    {
+      "category": "missing",
+      "category_label": "KML有/wiki無",
+      "name": "McDonald's",
+      "coord": "(-36.8502, 174.7650)",
+      "expected_path": "(待查)",
+      "actual_path": "",
+      "reason": "wiki 中找不到"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "Aoraki _ Mount Cook",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\紐西蘭\\Christchurch\\POI\\Aoraki _ Mount Cook.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    },
+    {
+      "category": "extra",
+      "category_label": "KML無/wiki有",
+      "name": "AKL-ZQN",
+      "coord": "",
+      "expected_path": "",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\紐西蘭\\Auckland\\POI\\AKL-ZQN.md",
+      "reason": "wiki 有此檔案但 KML 無對應 POI"
+    }
+  ]
+}
