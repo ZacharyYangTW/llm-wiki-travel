@@ -445,6 +445,7 @@
 
 
 
+
     <div class="alert success"><strong>結論：</strong>目錄整理為標準兩層結構（城市/POI.md）。最終城市目錄：Alberta、Northwest Territories、Surrey、Vancouver。</div>
   </div>
 
@@ -474,6 +475,7 @@
       <div class="issue-item"><span class="tag del">刪除</span><span>Pest/ 目錄（拆分完畢後確認為空，刪除）</span></div>
     </div>
 <div class="alert success" id="detail-hungary"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -548,6 +550,8 @@
     </div>
 <div class="alert success" id="detail-indonesia"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
 <div class="alert success" id="detail-india"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
+
 
 
 
@@ -695,7 +699,7 @@
       <p>日本 KML 共 1,850 筆，fix 後 Wiki 共 3,234 筆，正確率 97.4%（1,802/1,850）。已刪除 3,166 個多餘 wiki 檔，補建 41 個缺少 POI。剩餘 49 個問題：47 筆 GeoJSON 無法定位（海港、機場、離島邊緣等區域 GeoJSON 缺失）、1 筆位置錯誤、1 個佔位目錄「未分類」。</p>
     </div>
 
-  <details class="detail-section" id="detail-china">
+  <details class="detail-section" id="detail-china" open>
     <summary>詳細問題清單（51 筆，更新：2026-05-16）&ensp;<span class="tag warn">GeoJson無法分類 28</span> <span class="tag fix">位置錯誤 23</span></summary>
     <div style="overflow-x:auto">
     <table class="detail-table">
@@ -762,7 +766,7 @@
     </div>
   </details>
 
-  <details class="detail-section" id="detail-japan">
+  <details class="detail-section" id="detail-japan" open>
     <summary>詳細問題清單（48 筆，更新：2026-05-16）&ensp;<span class="tag warn">GeoJson無法分類 47</span> <span class="tag fix">位置錯誤 1</span></summary>
     <div style="overflow-x:auto">
     <table class="detail-table">
@@ -831,6 +835,8 @@
 
 
 
+
+
   <div class="alert success">✅ 日本 fix 完成，1,802/1,850 正確（97.4%），剩 49 個 GeoJSON 結構限制問題</div>
 </div>
 
@@ -856,6 +862,7 @@
 
 
 
+
   <div class="alert success">✅ 韓國 fix 完成，342/342 全部正確，無待處理問題</div>
 </div>
 
@@ -876,6 +883,7 @@
       <p>泰國 KML 共 214 筆，fix 後 Wiki 共 205 筆，正確 214/214（100%）。33 個多餘 wiki 檔（Nakhon Phanom 下越南 POI 等）已刪除；11 個 POI/ 子目錄（178 個檔案）已攤平；新建 Chiang Mai（13 個）及 Chiang Rai（8 個）目錄，曼谷補建 7-ELEVEN。KML 差異 +9 為 KML 含重複 POI 名稱。</p>
     </div>
 <div class="alert success" id="detail-thailand"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -921,6 +929,8 @@
 
 
 
+
+
   <div class="alert success">✅ 澳洲 fix 完成，175/175 全部正確，無待處理問題</div>
 </div>
 
@@ -933,6 +943,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>新加坡 KML 共 90 筆，fix 後 Wiki 共 89 筆，正確 90/90（100%）。原因：MYS wgii 邊界涵蓋新加坡主島，導致誤判；已修正 geojson_utils.py（新加坡優先判斷 + 南部外島 fallback）。13 個多餘 wiki 刪除，86 個 Singapore/POI/ 子目錄攤平，3 個缺少 POI（Skyline Luge、Abercrombie &amp; Fitch、7-Eleven）手動補建。</p></div>
 <div class="alert success" id="detail-singapore"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -955,6 +966,7 @@
 
 
 
+
   <div class="alert success">✅ 菲律賓 fix 完成，1/1 全部正確，無待處理問題</div>
 </div>
 
@@ -967,6 +979,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>法國 KML 共 37 筆，fix 後 Wiki 共 37 筆，正確 37/37（100%）。多餘 26 筆（Hauts-de-France/POI/ 下的布魯塞爾 POI）已全部刪除，37 個 Île-de-France/POI/ 子目錄檔案已攤平，KML=Wiki=37，完全一致。</p></div>
 <div class="alert success" id="detail-france"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -990,6 +1003,7 @@
 
 
 
+
   <div class="alert success">✅ 埃及 fix 完成，169/169 全部正確，無待處理問題</div>
 </div>
 
@@ -1003,6 +1017,7 @@
       <div class="stat-box add"><div class="num">0</div><div class="label">多餘</div></div>
     </div>
 <div class="alert success" id="detail-austria"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -1024,6 +1039,7 @@
 
 
 
+
   <div class="alert success">✅ 比利時 fix 完成，70/70 全部正確（新增 Brussels 27、Maastricht 13、Ghent 11、Antwerp 6、Bruges 5、Liège 1 共 63 個 POI）</div>
 </div>
 <div class="page" id="page-spain">
@@ -1036,6 +1052,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>西班牙 KML 共 92 筆，fix 後 Wiki 共 87 筆，正確 88/92（95.6%）。多餘 3 筆（CDG-MAD、BCN-CDG 等航班記錄）已刪除，86 個 POI/ 子目錄檔案已攤平，目錄結構已修正。剩 4 個缺少：Carrefour Express×2、Burger King、Carrefour Market（需手動建立）。</p></div>
 <div class="alert success" id="detail-spain"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -1056,6 +1073,7 @@
 
 
 
+
   <div class="alert success">✅ 荷蘭 fix 完成，86/86 全部正確，無待處理問題</div>
 </div>
 
@@ -1069,7 +1087,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>紐西蘭 KML 與 Wiki 完全一致（77/77），無需任何修正。</p></div>
 
-  <details class="detail-section" id="detail-newzealand">
+  <details class="detail-section" id="detail-newzealand" open>
     <summary>詳細問題清單（3 筆，更新：2026-05-16）&ensp;<span class="tag del">KML有/wiki無 1</span> <span class="tag add">KML無/wiki有 2</span></summary>
     <div style="overflow-x:auto">
     <table class="detail-table">
@@ -1087,6 +1105,7 @@
     </table>
     </div>
   </details>
+
 
 
   <div class="alert success">✅ 紐西蘭 KML = Wiki，完全正確，無需 fix</div>
@@ -1107,6 +1126,7 @@
 
 
 
+
   <div class="alert success">✅ 智利 fix 完成，4/4 全部正確，無待處理問題</div>
 </div>
 
@@ -1120,6 +1140,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>巴西 KML POI 數為 0。唯一的 wiki 檔案 Manu National Park 實為秘魯景點，放在 Pará/POI/ 下。</p></div>
 <div class="alert success" id="detail-brazil"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -1137,6 +1158,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>盧森堡 15 筆全部正確。多餘 15 筆含 Maastricht 相關 POI（荷蘭城市），可能是 WGII 邊界問題。</p></div>
 <div class="alert success" id="detail-luxembourg"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -1177,6 +1199,8 @@
 
 
 
+
+
   <div class="alert success">✅ 柬埔寨 fix 完成，KML=Wiki=38，完全一致，無待處理問題</div>
 </div>
 
@@ -1193,6 +1217,7 @@
 
 
 
+
   <div class="alert success">✅ 捷克 fix 完成，68/68 全部正確，無待處理問題</div>
 </div>
 
@@ -1205,6 +1230,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>秘魯 KML 共 47 筆，fix 後 Wiki 共 46 筆，正確 47/47（100%）。多餘 19 筆（Inca Trail 沿線、城市介紹、航班記錄）已全部刪除，21 個 POI/ 子目錄檔案已攤平，目錄結構已修正。</p></div>
 <div class="alert success" id="detail-peru"><strong>詳細問題清單：</strong>目前無待處理問題。</div>
+
 
 
 
@@ -1251,7 +1277,7 @@
     </div>
     <div class="section"><h2>說明</h2><p>台灣 KML 共 1,194 筆，fix 後 Wiki 共 1,195 筆，正確 1,129/1,194（94.6%）。已刪除 1,326 個多餘 wiki、新建 28 個缺少 POI、修正 45 個 wrong_place（移動或補建）。剩餘 62 個問題：61 筆 GeoJSON 無法定位（馬祖北竿南竿大坵、澎湖外島、小琉球等離島座標超出 twtown2010.json 範圍）、1 筆 KML 名稱為空（無法建檔）。均為結構性限制，無法自動修正。</p></div>
 
-  <details class="detail-section" id="detail-taiwan">
+  <details class="detail-section" id="detail-taiwan" open>
     <summary>詳細問題清單（62 筆，更新：2026-05-16）&ensp;<span class="tag del">KML有/wiki無 1</span> <span class="tag warn">GeoJson無法分類 61</span></summary>
     <div style="overflow-x:auto">
     <table class="detail-table">
@@ -1328,6 +1354,7 @@
     </table>
     </div>
   </details>
+
 
   <div class="alert success">✅ 台灣 fix 完成：1,129/1,194 正確，剩餘 62 個 GeoJSON 結構性限制（離島無法分類 61 + 空名 KML 1）</div>
 </div>
