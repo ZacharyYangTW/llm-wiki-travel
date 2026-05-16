@@ -28,8 +28,8 @@ except ImportError:
 from progress_reporter import ProgressReporter
 
 # 導入共通函數庫
-_SCRIPT_DIR = Path(__file__).resolve().parent  # Allfiles/scripts
-_PROJECT_ROOT = _SCRIPT_DIR.parent.parent  # e:\llm_wiki_travel
+_SCRIPT_DIR = Path(__file__).resolve().parent
+_PROJECT_ROOT = _SCRIPT_DIR.parent.parent
 sys.path.insert(0, str(_PROJECT_ROOT / ".claude" / "skills" / "COMMON"))
 from geojson_utils import (
     point_in_polygon,
