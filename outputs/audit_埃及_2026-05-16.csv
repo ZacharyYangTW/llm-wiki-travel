@@ -1,5 +1,5 @@
-﻿城市,Wiki
-Alexandria,6
-Aswan,40
-Cairo,73
-Luxor,47
+﻿城市,KML,Wiki,差異
+Alexandria,6,6,0
+Aswan,41,40,1
+Cairo,72,73,-1
+Luxor,50,47,3

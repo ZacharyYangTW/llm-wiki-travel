@@ -1,18 +1,18 @@
-﻿城市,Wiki
-Alaska,19
-Arizona,5
-California,64
-Florida,0
-Hawaii,0
-Illinois,0
-Kentucky,0
-Louisiana,11
-Massachusetts,16
-Montana,0
-Nevada,9
-New Jersey,0
-New Mexico,0
-Oregon,0
-Texas,117
-Virginia,0
-Washington,22
+﻿城市,KML,Wiki,差異
+Alaska,19,19,0
+Arizona,5,5,0
+California,68,64,4
+Florida,0,0,0
+Hawaii,0,0,0
+Illinois,0,0,0
+Kentucky,0,0,0
+Louisiana,11,11,0
+Massachusetts,16,16,0
+Montana,0,0,0
+Nevada,9,9,0
+New Jersey,0,0,0
+New Mexico,0,0,0
+Oregon,0,0,0
+Texas,139,117,22
+Virginia,0,0,0
+Washington,23,22,1

@@ -1,6 +1,6 @@
-﻿城市,Wiki
-Auckland,26
-Christchurch,2
-Dunedin,3
-Greymouth,5
-Invercargill,41
+﻿城市,KML,Wiki,差異
+Auckland,25,26,-1
+Christchurch,1,2,-1
+Dunedin,3,3,0
+Greymouth,5,5,0
+Invercargill,42,41,1

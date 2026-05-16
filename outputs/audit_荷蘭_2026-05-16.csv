@@ -1,8 +1,8 @@
-﻿城市,Wiki
-Amsterdam,6
-Giethoorn,8
-Limburg,0
-North Brabant,3
-Rotterdam,2
-South Holland,27
-Utrecht,37
+﻿城市,KML,Wiki,差異
+Amsterdam,6,6,0
+Giethoorn,8,8,0
+Limburg,0,0,0
+North Brabant,3,3,0
+Rotterdam,2,2,0
+South Holland,27,27,0
+Utrecht,40,37,3

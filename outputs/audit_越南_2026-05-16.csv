@@ -1,10 +1,10 @@
-﻿城市,Wiki
-Da Nang,43
-Dong Nai,1
-Ha Giang,0
-Hanoi,23
-Ho Chi Minh City,100
-Nam Dinh,0
-Ninh Binh,19
-Quang Nam,7
-Quang Ninh,3
+﻿城市,KML,Wiki,差異
+Da Nang,43,43,0
+Dong Nai,1,1,0
+Ha Giang,0,0,0
+Hanoi,23,23,0
+Ho Chi Minh City,100,100,0
+Nam Dinh,0,0,0
+Ninh Binh,19,19,0
+Quang Nam,6,7,-1
+Quang Ninh,3,3,0

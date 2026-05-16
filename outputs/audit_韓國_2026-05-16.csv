@@ -1,13 +1,13 @@
-﻿城市,Wiki
-Busan,52
-Daegu,48
-Gangwon,12
-Gwangju,32
-Gyeonggi,7
-Incheon,4
-Jeju,1
-North Gyeongsang,8
-Seoul,86
-South Chungcheong,14
-South Gyeongsang,18
-Ulsan,57
+﻿城市,KML,Wiki,差異
+Busan,55,52,3
+Daegu,52,48,4
+Gangwon,11,12,-1
+Gwangju,31,32,-1
+Gyeonggi,7,7,0
+Incheon,4,4,0
+Jeju,1,1,0
+North Gyeongsang,8,8,0
+Seoul,85,86,-1
+South Chungcheong,13,14,-1
+South Gyeongsang,19,18,1
+Ulsan,56,57,-1
