@@ -1,15 +1,12 @@
 {
   "country": "美國",
   "date": "2026-05-16",
-  "issue_count": 0,
   "summary": {
-    "kml_total": 290,
-    "wiki_total": 263,
-    "correct": 290,
     "missing": 0,
+    "unclassifiable": 0,
+    "wrong_place": 0,
     "extra": 0,
     "folder": 0
   },
-  "note": "已完成修正：刪除 460 個多餘 wiki 檔案（主要是阿拉斯加公車站），攤平 17 個州的 POI/ 子目錄（233 個檔案），新增 11 個缺少的 POI。Wiki 263 個檔案，KML 290 個（部分 wiki 檔案共用於多個同名 KML 條目），全部正確。",
   "issues": []
 }
