@@ -4,10 +4,10 @@
   "summary": {
     "missing": 1,
     "unclassifiable": 61,
-    "wrong_place": 0,
+    "wrong_place": 4,
     "extra": 0,
     "folder": 0,
-    "coord_mismatch": 5
+    "coord_mismatch": 1
   },
   "issues": [
     {
@@ -569,6 +569,42 @@
       "reason": "無法定位到行政區"
     },
     {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "劉家肉粽菜粽專賣",
+      "coord": "",
+      "expected_path": "臺南市/東區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\中西區\\劉家肉粽菜粽專賣.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "銀波布丁",
+      "coord": "",
+      "expected_path": "臺南市/安平區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\中西區\\銀波布丁.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "劉家肉粽菜粽專賣",
+      "coord": "",
+      "expected_path": "臺南市/北區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\中西區\\劉家肉粽菜粽專賣.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
+      "name": "毋忘在莒",
+      "coord": "",
+      "expected_path": "金門縣/金湖鎮",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\澎湖縣\\馬公市\\毋忘在莒.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
       "category": "coord_mismatch",
       "category_label": "座標/目錄不符",
       "name": "全聯",
@@ -576,42 +612,6 @@
       "expected_path": "新北市/淡水區",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\金門縣\\金湖鎮\\全聯.md",
       "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "毋忘在莒",
-      "coord": "(23.5641, 119.5609)",
-      "expected_path": "澎湖縣/馬公市",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\金門縣\\金湖鎮\\毋忘在莒.md",
-      "reason": "重複錯置·座標微異（需人工確認）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "劉家肉粽菜粽專賣",
-      "coord": "(22.9996, 120.2010)",
-      "expected_path": "臺南市/中西區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\北區\\劉家肉粽菜粽專賣.md",
-      "reason": "重複錯置·座標微異（需人工確認）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "銀波布丁",
-      "coord": "(22.9913, 120.1967)",
-      "expected_path": "臺南市/中西區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\安平區\\銀波布丁.md",
-      "reason": "重複錯置·座標微異（需人工確認）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "劉家肉粽菜粽專賣",
-      "coord": "(22.9996, 120.2010)",
-      "expected_path": "臺南市/中西區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\臺南市\\東區\\劉家肉粽菜粽專賣.md",
-      "reason": "重複錯置·座標微異（需人工確認）"
     }
   ]
 }
