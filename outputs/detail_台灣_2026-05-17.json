@@ -4,10 +4,10 @@
   "summary": {
     "missing": 1,
     "unclassifiable": 61,
-    "wrong_place": 4,
+    "wrong_place": 5,
     "extra": 0,
     "folder": 0,
-    "coord_mismatch": 1
+    "coord_mismatch": 0
   },
   "issues": [
     {
@@ -571,6 +571,15 @@
     {
       "category": "wrong_place",
       "category_label": "位置錯誤",
+      "name": "全聯",
+      "coord": "",
+      "expected_path": "金門縣/金湖鎮",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\新北市\\淡水區\\全聯.md",
+      "reason": "正確位置與 wiki 路徑不符"
+    },
+    {
+      "category": "wrong_place",
+      "category_label": "位置錯誤",
       "name": "劉家肉粽菜粽專賣",
       "coord": "",
       "expected_path": "臺南市/東區",
@@ -603,15 +612,6 @@
       "expected_path": "金門縣/金湖鎮",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\澎湖縣\\馬公市\\毋忘在莒.md",
       "reason": "正確位置與 wiki 路徑不符"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "全聯",
-      "coord": "(25.1845, 121.4445)",
-      "expected_path": "新北市/淡水區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\台灣\\金門縣\\金湖鎮\\全聯.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
     }
   ]
 }

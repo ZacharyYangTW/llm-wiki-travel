@@ -7,7 +7,7 @@
     "wrong_place": 2,
     "extra": 0,
     "folder": 0,
-    "coord_mismatch": 1
+    "coord_mismatch": 0
   },
   "issues": [
     {
@@ -439,7 +439,7 @@
       "name": "7-Eleven",
       "coord": "",
       "expected_path": "福島県/喜多方市",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\高知県\\高知市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\香川県\\丸亀市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\茨城県\\水戸市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\福岡県\\柳川市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\沖縄県\\那覇市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\栃木県\\日光市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\東京都\\墨田区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\愛媛県\\松山市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\徳島県\\三好市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\広島県\\廿日市市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\島根県\\出雲市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\岩手県\\釜石市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮崎県\\日南市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\蔵王町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\青葉区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\大分県\\佐伯市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\別海町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\紋別市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\兵庫県\\姫路市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\三重県\\熊野市\\7-Eleven.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\高知県\\高知市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\香川県\\丸亀市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\茨城県\\水戸市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\福岡県\\柳川市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\沖縄県\\那覇市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\栃木県\\日光市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\東京都\\墨田区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\愛媛県\\松山市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\徳島県\\三好市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\広島県\\廿日市市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\島根県\\出雲市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\岩手県\\釜石市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮崎県\\日南市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\蔵王町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\宮城県\\青葉区\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\大分県\\佐伯市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\別海町\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\兵庫県\\姫路市\\7-Eleven.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\三重県\\熊野市\\7-Eleven.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -450,15 +450,6 @@
       "expected_path": "北海道/網走市",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\茨城県\\小美玉市\\Seicomart.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\弟子屈町\\Seicomart.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\斜里町\\Seicomart.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\根室市\\Seicomart.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\洞爺湖町\\Seicomart.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\浜頓別町\\Seicomart.md",
       "reason": "正確位置與 wiki 路徑不符"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "7-Eleven",
-      "coord": "(37.6509, 139.8694)",
-      "expected_path": "福島県/喜多方市",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\日本\\北海道\\紋別市\\7-Eleven.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
     }
   ]
 }

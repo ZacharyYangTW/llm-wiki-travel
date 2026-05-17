@@ -7,7 +7,7 @@
     "wrong_place": 23,
     "extra": 0,
     "folder": 0,
-    "coord_mismatch": 38
+    "coord_mismatch": 24
   },
   "issues": [
     {
@@ -286,7 +286,7 @@
       "name": "長隆免費專線",
       "coord": "",
       "expected_path": "澳門/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\嘉模堂區\\長隆免費專線.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\長隆免費專線.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\嘉模堂區\\長隆免費專線.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -295,7 +295,7 @@
       "name": "媽閣站",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣站.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣站.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣站.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -304,7 +304,7 @@
       "name": "關閘總站",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\關閘總站.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\關閘總站.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\關閘總站.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -322,7 +322,7 @@
       "name": "大三巴牌坊",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\大三巴牌坊.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\大三巴牌坊.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\大三巴牌坊.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -331,7 +331,7 @@
       "name": "南屏雅敘",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\南屏雅敘.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\南屏雅敘.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\南屏雅敘.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -340,7 +340,7 @@
       "name": "媽閣廟",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣廟.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣廟.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\媽閣廟.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -358,7 +358,7 @@
       "name": "議事亭前地",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -367,7 +367,7 @@
       "name": "聖若瑟修院及聖堂",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\聖若瑟修院及聖堂.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\聖若瑟修院及聖堂.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\聖若瑟修院及聖堂.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -376,7 +376,7 @@
       "name": "議事亭前地17號",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地17號.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地17號.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\議事亭前地17號.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -430,7 +430,7 @@
       "name": "勝利茶餐室",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\勝利茶餐室.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\勝利茶餐室.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\大堂區\\勝利茶餐室.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -439,7 +439,7 @@
       "name": "澳門戀愛巷",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\澳門戀愛巷.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門戀愛巷.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花王堂區\\澳門戀愛巷.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -448,7 +448,7 @@
       "name": "珠海市口岸局橫琴分局出境窗口",
       "coord": "",
       "expected_path": "澳門/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\嘉模堂區\\珠海市口岸局橫琴分局出境窗口.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\珠海市口岸局橫琴分局出境窗口.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\嘉模堂區\\珠海市口岸局橫琴分局出境窗口.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -457,7 +457,7 @@
       "name": "澳門關閘",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\澳門關閘.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門關閘.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\花地瑪堂區\\澳門關閘.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -466,7 +466,7 @@
       "name": "新添利咖啡美食",
       "coord": "",
       "expected_path": "廣東省/None",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md, E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\新添利咖啡美食.md",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -665,132 +665,6 @@
       "coord": "(22.1917, 113.5372)",
       "expected_path": "廣東省",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\聖若瑟修院及聖堂.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "勝利茶餐室",
-      "coord": "(22.1944, 113.5390)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\勝利茶餐室.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "南屏雅敘",
-      "coord": "(22.1981, 113.5379)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\南屏雅敘.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "大三巴牌坊",
-      "coord": "(22.1974, 113.5409)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\大三巴牌坊.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "媽閣廟",
-      "coord": "(22.1862, 113.5312)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣廟.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "媽閣站",
-      "coord": "(22.1835, 113.5297)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\媽閣站.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "新添利咖啡美食",
-      "coord": "(22.1881, 113.5315)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\新添利咖啡美食.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "澳門戀愛巷",
-      "coord": "(22.1973, 113.5406)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門戀愛巷.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "澳門關閘",
-      "coord": "(22.2157, 113.5493)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\澳門關閘.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "珠海市口岸局橫琴分局出境窗口",
-      "coord": "(22.1381, 113.5480)",
-      "expected_path": "澳門",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\珠海市口岸局橫琴分局出境窗口.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "聖若瑟修院及聖堂",
-      "coord": "(22.1917, 113.5372)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\聖若瑟修院及聖堂.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "議事亭前地",
-      "coord": "(22.1935, 113.5398)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "議事亭前地17號",
-      "coord": "(22.1941, 113.5402)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\議事亭前地17號.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "長隆免費專線",
-      "coord": "(22.1377, 113.5475)",
-      "expected_path": "澳門",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\長隆免費專線.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "關閘總站",
-      "coord": "(22.2151, 113.5493)",
-      "expected_path": "廣東省",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\廣東省\\其他\\關閘總站.md",
       "reason": "純錯位（無正確副本，建議搬移）"
     },
     {
