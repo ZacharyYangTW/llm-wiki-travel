@@ -3,11 +3,11 @@
   "date": "2026-05-17",
   "summary": {
     "missing": 0,
-    "unclassifiable": 28,
+    "unclassifiable": 5,
     "wrong_place": 23,
     "extra": 0,
     "folder": 0,
-    "coord_mismatch": 24
+    "coord_mismatch": 23
   },
   "issues": [
     {
@@ -40,51 +40,6 @@
     {
       "category": "unclassifiable",
       "category_label": "GeoJson無法分類",
-      "name": "東引欣欣麵包店 123民宿",
-      "coord": "(26.3672, 120.4886)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "台馬之星輪東引服務處",
-      "coord": "(26.3669, 120.4875)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "忠誠門公廁",
-      "coord": "(26.3671, 120.4865)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "燈塔附近廁所",
-      "coord": "(26.3671, 120.5077)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "55據點 背包客棧",
-      "coord": "(26.1427, 119.9128)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
       "name": "菽莊花園",
       "coord": "(24.4394, 118.0701)",
       "expected_path": "(待查)",
@@ -98,168 +53,6 @@
       "coord": "(24.4433, 118.0733)",
       "expected_path": "(待查)",
       "actual_path": "中國\\福建省\\廈門市\\黄荣远堂别墅.md",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "好列豆漿",
-      "coord": "(26.3675, 120.4881)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "東引亨裕超市",
-      "coord": "(26.3673, 120.4879)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "東湧超級市場",
-      "coord": "(26.3676, 120.4880)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "劉家麵館",
-      "coord": "(26.3671, 120.4877)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "忠誠門",
-      "coord": "(26.3670, 120.4867)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "東引中柳天后宮",
-      "coord": "(26.3671, 120.4867)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "東湧公園 (東湧運動場)",
-      "coord": "(26.3672, 120.4921)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "燕秀潮音",
-      "coord": "(26.3580, 120.4890)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "中柱感恩亭",
-      "coord": "(26.3703, 120.4841)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "西引東澳海灘",
-      "coord": "(26.3762, 120.4822)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "靜伏鱷魚",
-      "coord": "(26.3756, 120.4779)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "朝山觀音拍照點",
-      "coord": "(26.3689, 120.4974)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "一線天",
-      "coord": "(26.3662, 120.5054)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "擂鼓石",
-      "coord": "(26.3658, 120.5089)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "太白天聲",
-      "coord": "(26.3658, 120.5094)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "東引島燈塔",
-      "coord": "(26.3654, 120.5105)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "烈女義坑",
-      "coord": "(26.3683, 120.5073)",
-      "expected_path": "(待查)",
-      "actual_path": "",
-      "reason": "無法定位到行政區"
-    },
-    {
-      "category": "unclassifiable",
-      "category_label": "GeoJson無法分類",
-      "name": "安東坑道",
-      "coord": "(26.3650, 120.4963)",
-      "expected_path": "(待查)",
-      "actual_path": "",
       "reason": "無法定位到行政區"
     },
     {
@@ -348,8 +141,8 @@
       "category_label": "位置錯誤",
       "name": "添好運點心專門店",
       "coord": "",
-      "expected_path": "香港/深水埗區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\香港\\油尖旺區\\添好運點心專門店.md",
+      "expected_path": "香港/油尖旺區",
+      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\香港\\深水埗區\\添好運點心專門店.md",
       "reason": "正確位置與 wiki 路徑不符"
     },
     {
@@ -468,15 +261,6 @@
       "expected_path": "廣東省/None",
       "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\澳門\\風順堂區\\新添利咖啡美食.md",
       "reason": "正確位置與 wiki 路徑不符"
-    },
-    {
-      "category": "coord_mismatch",
-      "category_label": "座標/目錄不符",
-      "name": "添好運點心專門店",
-      "coord": "(22.3289, 114.1663)",
-      "expected_path": "香港/深水埗區",
-      "actual_path": "E:\\llm_wiki_travel\\Allfiles\\wiki\\中國\\香港\\油尖旺區\\添好運點心專門店.md",
-      "reason": "純錯位（無正確副本，建議搬移）"
     },
     {
       "category": "coord_mismatch",
